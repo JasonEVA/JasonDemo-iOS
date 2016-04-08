@@ -21,6 +21,16 @@
 		D43ACE0F1C8EA2D600C2BD84 /* JasonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACE0E1C8EA2D600C2BD84 /* JasonDemoUITests.m */; };
 		D43ACE1E1C8EABED00C2BD84 /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACE1D1C8EABED00C2BD84 /* CABasicAnimationViewController.m */; };
 		D45612D31CA3C7EE0023E099 /* VolumeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D45612D21CA3C7EE0023E099 /* VolumeProgressView.m */; };
+		D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AEBDE1CB638C000B6A4EB /* RMAudioHud.m */; };
+		D45AEBEA1CB638C000B6A4EB /* RMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AEBE01CB638C000B6A4EB /* RMAudioManager.m */; };
+		D45AEBEB1CB638C000B6A4EB /* voice_record_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE11CB638C000B6A4EB /* voice_record_0@2x.png */; };
+		D45AEBEC1CB638C000B6A4EB /* voice_record_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE21CB638C000B6A4EB /* voice_record_0@3x.png */; };
+		D45AEBED1CB638C000B6A4EB /* voice_record_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE31CB638C000B6A4EB /* voice_record_1@2x.png */; };
+		D45AEBEE1CB638C000B6A4EB /* voice_record_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE41CB638C000B6A4EB /* voice_record_1@3x.png */; };
+		D45AEBEF1CB638C000B6A4EB /* voice_record_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE51CB638C000B6A4EB /* voice_record_2@2x.png */; };
+		D45AEBF01CB638C000B6A4EB /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */; };
+		D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */; };
+		D45AEBF21CB638C000B6A4EB /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
 		D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
 		D4A89C1A1CA2928C00E10D22 /* NSString+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0A1CA2928C00E10D22 /* NSString+Manager.m */; };
@@ -33,6 +43,11 @@
 		D4A89C2B1CA292D200E10D22 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C241CA292D200E10D22 /* DateUtil.m */; };
 		D4A89C2C1CA292D200E10D22 /* MyToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C261CA292D200E10D22 /* MyToolBar.m */; };
 		D4A89C2D1CA292D200E10D22 /* RowButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C281CA292D200E10D22 /* RowButtonGroup.m */; };
+		D4BF086B1CB4EC230055D152 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086A1CB4EC230055D152 /* libc++.tbd */; };
+		D4BF086D1CB4EC310055D152 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086C1CB4EC310055D152 /* libz.tbd */; };
+		D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */; };
+		D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF08741CB4EF5A0055D152 /* IMDemoViewController.m */; };
+		D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +97,18 @@
 		D43ACE1D1C8EABED00C2BD84 /* CABasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationViewController.m; sourceTree = "<group>"; };
 		D45612D11CA3C7EE0023E099 /* VolumeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeProgressView.h; sourceTree = "<group>"; };
 		D45612D21CA3C7EE0023E099 /* VolumeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeProgressView.m; sourceTree = "<group>"; };
+		D45AEBDD1CB638C000B6A4EB /* RMAudioHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAudioHud.h; sourceTree = "<group>"; };
+		D45AEBDE1CB638C000B6A4EB /* RMAudioHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAudioHud.m; sourceTree = "<group>"; };
+		D45AEBDF1CB638C000B6A4EB /* RMAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAudioManager.h; sourceTree = "<group>"; };
+		D45AEBE01CB638C000B6A4EB /* RMAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAudioManager.m; sourceTree = "<group>"; };
+		D45AEBE11CB638C000B6A4EB /* voice_record_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_0@2x.png"; sourceTree = "<group>"; };
+		D45AEBE21CB638C000B6A4EB /* voice_record_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_0@3x.png"; sourceTree = "<group>"; };
+		D45AEBE31CB638C000B6A4EB /* voice_record_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_1@2x.png"; sourceTree = "<group>"; };
+		D45AEBE41CB638C000B6A4EB /* voice_record_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_1@3x.png"; sourceTree = "<group>"; };
+		D45AEBE51CB638C000B6A4EB /* voice_record_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@2x.png"; sourceTree = "<group>"; };
+		D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@3x.png"; sourceTree = "<group>"; };
+		D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@2x.png"; sourceTree = "<group>"; };
+		D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@3x.png"; sourceTree = "<group>"; };
 		D4A89C031CA291FA00E10D22 /* VideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
 		D4A89C041CA291FA00E10D22 /* VideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoProgressView.m; sourceTree = "<group>"; };
 		D4A89C071CA2928C00E10D22 /* NSDictionary+SafeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeManager.h"; sourceTree = "<group>"; };
@@ -106,6 +133,13 @@
 		D4A89C261CA292D200E10D22 /* MyToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyToolBar.m; sourceTree = "<group>"; };
 		D4A89C271CA292D200E10D22 /* RowButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowButtonGroup.h; sourceTree = "<group>"; };
 		D4A89C281CA292D200E10D22 /* RowButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowButtonGroup.m; sourceTree = "<group>"; };
+		D4BF086A1CB4EC230055D152 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D4BF086C1CB4EC310055D152 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintcodeIM.framework; sourceTree = "<group>"; };
+		D4BF08731CB4EF5A0055D152 /* IMDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMDemoViewController.h; sourceTree = "<group>"; };
+		D4BF08741CB4EF5A0055D152 /* IMDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMDemoViewController.m; sourceTree = "<group>"; };
+		D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageListViewController.h; sourceTree = "<group>"; };
+		D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +147,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BF086B1CB4EC230055D152 /* libc++.tbd in Frameworks */,
+				D4BF086D1CB4EC310055D152 /* libz.tbd in Frameworks */,
+				D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */,
 				B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +174,9 @@
 		3759ABA0DA2AB12516BCC972 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */,
+				D4BF086C1CB4EC310055D152 /* libz.tbd */,
+				D4BF086A1CB4EC230055D152 /* libc++.tbd */,
 				62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */,
 			);
 			name = Frameworks;
@@ -211,6 +251,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4BF08721CB4EF300055D152 /* IM Demo */,
 				D43ACDEC1C8EA2D500C2BD84 /* AppDelegate.h */,
 				D43ACDED1C8EA2D500C2BD84 /* AppDelegate.m */,
 				D43ACDEF1C8EA2D500C2BD84 /* ViewController.h */,
@@ -252,6 +293,25 @@
 			path = JasonDemoUITests;
 			sourceTree = "<group>";
 		};
+		D45AEBDC1CB638C000B6A4EB /* RMAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				D45AEBDD1CB638C000B6A4EB /* RMAudioHud.h */,
+				D45AEBDE1CB638C000B6A4EB /* RMAudioHud.m */,
+				D45AEBDF1CB638C000B6A4EB /* RMAudioManager.h */,
+				D45AEBE01CB638C000B6A4EB /* RMAudioManager.m */,
+				D45AEBE11CB638C000B6A4EB /* voice_record_0@2x.png */,
+				D45AEBE21CB638C000B6A4EB /* voice_record_0@3x.png */,
+				D45AEBE31CB638C000B6A4EB /* voice_record_1@2x.png */,
+				D45AEBE41CB638C000B6A4EB /* voice_record_1@3x.png */,
+				D45AEBE51CB638C000B6A4EB /* voice_record_2@2x.png */,
+				D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */,
+				D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */,
+				D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */,
+			);
+			path = RMAudioManager;
+			sourceTree = "<group>";
+		};
 		D4A89C061CA2928C00E10D22 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +348,18 @@
 			);
 			name = Utility;
 			path = JasonDemo/Utility;
+			sourceTree = "<group>";
+		};
+		D4BF08721CB4EF300055D152 /* IM Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D4BF08731CB4EF5A0055D152 /* IMDemoViewController.h */,
+				D4BF08741CB4EF5A0055D152 /* IMDemoViewController.m */,
+				D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */,
+				D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */,
+				D45AEBDC1CB638C000B6A4EB /* RMAudioManager */,
+			);
+			name = "IM Demo";
 			sourceTree = "<group>";
 		};
 		DF3C00511D6714DCDF6D1588 /* Pods */ = {
@@ -405,9 +477,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45AEBED1CB638C000B6A4EB /* voice_record_1@2x.png in Resources */,
+				D45AEBF21CB638C000B6A4EB /* voice_record_3@3x.png in Resources */,
+				D45AEBF01CB638C000B6A4EB /* voice_record_2@3x.png in Resources */,
+				D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */,
 				D43ACDF91C8EA2D500C2BD84 /* LaunchScreen.storyboard in Resources */,
+				D45AEBEE1CB638C000B6A4EB /* voice_record_1@3x.png in Resources */,
+				D45AEBEB1CB638C000B6A4EB /* voice_record_0@2x.png in Resources */,
 				D43ACDF61C8EA2D500C2BD84 /* Assets.xcassets in Resources */,
+				D45AEBEC1CB638C000B6A4EB /* voice_record_0@3x.png in Resources */,
 				D43ACDF41C8EA2D500C2BD84 /* Main.storyboard in Resources */,
+				D45AEBEF1CB638C000B6A4EB /* voice_record_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +564,8 @@
 				D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */,
 				D4A89C2D1CA292D200E10D22 /* RowButtonGroup.m in Sources */,
 				D4A89C201CA2928C00E10D22 /* UITextField+EX.m in Sources */,
+				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
+				D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */,
 				D4A89C1F1CA2928C00E10D22 /* UILabel+EX.m in Sources */,
 				D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */,
 				D43ACE1E1C8EABED00C2BD84 /* CABasicAnimationViewController.m in Sources */,
@@ -491,6 +573,8 @@
 				D4A89C1A1CA2928C00E10D22 /* NSString+Manager.m in Sources */,
 				D43ACDEE1C8EA2D500C2BD84 /* AppDelegate.m in Sources */,
 				D43ACDEB1C8EA2D500C2BD84 /* main.m in Sources */,
+				D45AEBEA1CB638C000B6A4EB /* RMAudioManager.m in Sources */,
+				D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */,
 				D42798EF1CA2642300840090 /* PlayView.m in Sources */,
 				D45612D31CA3C7EE0023E099 /* VolumeProgressView.m in Sources */,
 				D4A89C1E1CA2928C00E10D22 /* UIImage+EX.m in Sources */,
@@ -641,6 +725,11 @@
 			baseConfigurationReference = A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JasonDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -654,6 +743,11 @@
 			baseConfigurationReference = 55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JasonDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

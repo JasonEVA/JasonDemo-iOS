@@ -1,0 +1,6 @@
+framework module MintcodeIM {
+  umbrella header "MintcodeIM.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -44,7 +49,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SocketRocket.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,12 +67,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2327AD9A68A2AC55882F23E6B69B8CD5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<key>31FF44B5E2FF8CF00090950A8B67AFF6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5D2574C567DE658105F6748EAC156F82</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DDFD928892FDACB548ECB346701DC7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8F74D9EA91F4C43190670066BAC37D44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DEDB5C60E139FCB4FA9489BECDF34D4</key>
+		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -88,6 +108,16 @@
 			<true/>
 		</dict>
 		<key>D54AB3ECEB9A8FBA15D4F73CBE326692</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF23F72D7444B15FF6EE31B4AC62101B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE17D6B9A105865C024B08A2B7AEBF17</key>
 		<dict>
 			<key>primary</key>
 			<true/>

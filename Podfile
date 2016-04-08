@@ -3,15 +3,17 @@
 
 target 'JasonDemo' do
 
-platform :ios,'8.0'
-pod 'AFNetworking', '~>2.6.3'
-pod 'MJExtension'
 pod 'SDWebImage'
 pod 'Masonry'
 pod 'MBProgressHUD'
 pod 'MJRefresh'
-pod 'FMDB', '~> 2.5'
 pod 'MagicalRecord', '~> 2.3.0'
+pod 'AFNetworking', '~> 3.0.4'
+pod 'MJExtension', '~> 3.0.10'
+pod 'FMDB', '~> 2.6'
+pod 'SocketRocket', '~> 0.4.2'
+pod 'DateTools', '~> 1.7.0'
+pod 'Reachability', '~> 3.2'
 end
 
 target 'JasonDemoTests' do

@@ -8,7 +8,17 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <MintcodeIM/MintcodeIM.h>
 
+NSString *const im_task_uid     = @"PWP16jQLLjFEZXLe@APP";
+NSString *const im_approval_uid = @"ADWpPoQw85ULjnQk@APP";
+NSString *const im_schedule_uid = @"l6b3YdE9LzTnmrl7@APP";
+// 数值在10001-19999之间
+typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
+    IM_Applicaion_task = 10001,
+    IM_Applicaion_approval,
+    IM_Applicaion_schedule,
+};
 @interface AppDelegate ()
 
 @end
@@ -22,6 +32,7 @@
     UINavigationController *navVC  =[[UINavigationController alloc] initWithRootViewController:VC];
     
     [self.window setRootViewController:navVC];
+    [self IMDemoNeedMethod];
     return YES;
 }
 
@@ -45,6 +56,26 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)IMDemoNeedMethod
+{
+    [MessageManager setApplicationConfig:@{im_task_uid:@(IM_Applicaion_task),
+                                           im_approval_uid:@(IM_Applicaion_approval),                                                              im_schedule_uid:@(IM_Applicaion_schedule)
+                                           }];
+    [MessageManager setAppName:@"launchr" appToken:@"verify-code" wsIP:@"ws://192.168.1.251:20000" httpIP:@"http://192.168.1.251:20001/launchr" testIP:@"192.168.1.249" loginType:nil];
+    // loginType 可以使用bundle id来作为区分，用于给服务器绑定推送证书，无填nil
+    // 消息推送注册
+    if([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound|UIUserNotificationTypeAlert|UIUserNotificationTypeBadge) categories:nil]];
+        
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
+    }
+    else {
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeSound|UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeBadge];
+    }
+
+
 }
 
 @end

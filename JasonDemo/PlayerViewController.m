@@ -154,7 +154,7 @@ static NSString *const videoName = @"video.mp4";
 - (void)downloadVideo
 {
     BreakpointResumeRequest *request = [[BreakpointResumeRequest alloc] init];
-    [request requestOperationDownloadFileDataWithDelegate:self URL:onlineVideoURL savePath:[self getAllPathWithRelativePath:videoName]];
+//    [request requestOperationDownloadFileDataWithDelegate:self URL:onlineVideoURL savePath:[self getAllPathWithRelativePath:videoName]];
 }
 
 /** 拼接沙盒全路径 拼接Documents以后的相对路径

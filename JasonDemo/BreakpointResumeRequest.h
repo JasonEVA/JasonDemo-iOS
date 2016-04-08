@@ -33,5 +33,5 @@
 // 文件下载
 - (NSURLSessionDownloadTask *)requestSessionDownloadFileDataWithDelegate:(id<BreakpointResumeRequestDelegate>)delegate URL:(NSString *)urlString savePath:(NSString *)savePath;
 
-- (AFHTTPRequestOperation *)requestOperationDownloadFileDataWithDelegate:(id<BreakpointResumeRequestDelegate>)delegate URL:(NSString *)urlString savePath:(NSString *)savePath;
+//- (AFHTTPRequestOperation *)requestOperationDownloadFileDataWithDelegate:(id<BreakpointResumeRequestDelegate>)delegate URL:(NSString *)urlString savePath:(NSString *)savePath;
 @end

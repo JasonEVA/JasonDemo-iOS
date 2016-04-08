@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CABasicAnimationViewController.h"
 #import "PlayerViewController.h"
+#import "IMMessageListViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -21,7 +22,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -59,7 +60,10 @@
         
     } else if (indexPath.row == 1) {
         VC = [[PlayerViewController alloc]init];
+    } else if (indexPath.row == 2) {
+        VC = [[IMMessageListViewController alloc] init];
     }
+    
     [self.navigationController pushViewController:VC animated:YES];
 }
 
