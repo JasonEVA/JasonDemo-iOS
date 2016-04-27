@@ -39,7 +39,7 @@ typedef NS_ENUM(NSInteger, buttonTag) {
                                      target:self
                                      
                                      action:@selector(action:)];
-    [cancelButton setTintColor:[UIColor themeOrange_ff5d2b]];
+    //[cancelButton setTintColor:[UIColor themeOrange_ff5d2b]];
     [cancelButton setTag:cancelTag];
     
     UIBarButtonItem *confirmButton = [[UIBarButtonItem alloc]
@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger, buttonTag) {
                                       target:self
                                       
                                       action:@selector(action:)];
-    [confirmButton setTintColor:[UIColor themeOrange_ff5d2b]];
+    //[confirmButton setTintColor:[UIColor themeOrange_ff5d2b]];
     [confirmButton setTag:confirmTag];
     UIBarButtonItem *titelButton = [[UIBarButtonItem alloc]
                                     

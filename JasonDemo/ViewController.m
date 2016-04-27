@@ -10,6 +10,7 @@
 #import "CABasicAnimationViewController.h"
 #import "PlayerViewController.h"
 #import "IMMessageListViewController.h"
+#import "ImagePickerVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -22,7 +23,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -62,6 +63,8 @@
         VC = [[PlayerViewController alloc]init];
     } else if (indexPath.row == 2) {
         VC = [[IMMessageListViewController alloc] init];
+    } else if (indexPath.row == 3) {
+        VC = [[ImagePickerVC alloc] init];
     }
     
     [self.navigationController pushViewController:VC animated:YES];
