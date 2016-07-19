@@ -12,13 +12,14 @@
 #import <Masonry/Masonry.h>
 //#import "AttachmentUtil.h"
 #import "UIFont+Util.h"
+#import "JWView.h"
 
 static CGFloat const maxTitleWidth = 50;
 
 @interface ApplicationAttachmentTableViewCell ()
 
 @property (nonatomic, strong) UILabel *innerTitleLabel;
-@property (nonatomic, strong) UIView  *imageContentView;
+@property (nonatomic, strong) JWView  *imageContentView;
 
 @property (nonatomic, copy) void (^clickBlock)(NSUInteger);
 
@@ -160,9 +161,9 @@ static CGFloat const maxTitleWidth = 50;
     return _innerTitleLabel;
 }
 
-- (UIView *)imageContentView {
+- (JWView *)imageContentView {
     if (!_imageContentView) {
-        _imageContentView = [UIView new];
+        _imageContentView = [JWView new];
     }
     return _imageContentView;
 }

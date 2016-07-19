@@ -11,6 +11,7 @@
 		D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
 		D42798EF1CA2642300840090 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
 		D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
+		D437EE741D3DBA63001F5C5B /* JWView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE731D3DBA63001F5C5B /* JWView.m */; };
 		D43ACDEB1C8EA2D500C2BD84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDEA1C8EA2D500C2BD84 /* main.m */; };
 		D43ACDEE1C8EA2D500C2BD84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDED1C8EA2D500C2BD84 /* AppDelegate.m */; };
 		D43ACDF11C8EA2D500C2BD84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDF01C8EA2D500C2BD84 /* ViewController.m */; };
@@ -102,6 +103,8 @@
 		D42798EE1CA2642300840090 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		D42818051CA8CC5600E98027 /* BreakpointResumeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakpointResumeRequest.h; path = JasonDemo/BreakpointResumeRequest.h; sourceTree = "<group>"; };
 		D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakpointResumeRequest.m; path = JasonDemo/BreakpointResumeRequest.m; sourceTree = "<group>"; };
+		D437EE721D3DBA63001F5C5B /* JWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWView.h; sourceTree = "<group>"; };
+		D437EE731D3DBA63001F5C5B /* JWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWView.m; sourceTree = "<group>"; };
 		D43ACDE61C8EA2D500C2BD84 /* JasonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43ACDEA1C8EA2D500C2BD84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D43ACDEC1C8EA2D500C2BD84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -424,6 +427,8 @@
 				D4A89C261CA292D200E10D22 /* MyToolBar.m */,
 				D4A89C271CA292D200E10D22 /* RowButtonGroup.h */,
 				D4A89C281CA292D200E10D22 /* RowButtonGroup.m */,
+				D437EE721D3DBA63001F5C5B /* JWView.h */,
+				D437EE731D3DBA63001F5C5B /* JWView.m */,
 			);
 			name = Utility;
 			path = JasonDemo/Utility;
@@ -783,6 +788,7 @@
 				D4A89C2C1CA292D200E10D22 /* MyToolBar.m in Sources */,
 				D4A89C2B1CA292D200E10D22 /* DateUtil.m in Sources */,
 				D4A89C1C1CA2928C00E10D22 /* UIColor+Hex.m in Sources */,
+				D437EE741D3DBA63001F5C5B /* JWView.m in Sources */,
 				D4A89C1B1CA2928C00E10D22 /* UIButton+EX.m in Sources */,
 				D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */,
 				D4CA5CEC1CD0A49D00E8856B /* UnifiedUserInfoManager.m in Sources */,

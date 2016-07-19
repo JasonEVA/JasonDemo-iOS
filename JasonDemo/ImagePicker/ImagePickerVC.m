@@ -28,7 +28,6 @@
         make.edges.equalTo(self.view);
     }];
 
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/ImagePicker/WZPhotoPickerController/ApplicationAttachmentTableViewCell.m"
-            timestampString = "483438319.40059"
+            timestampString = "490585511.669292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "-setImages:"
             landmarkType = "5">
          </BreakpointContent>
