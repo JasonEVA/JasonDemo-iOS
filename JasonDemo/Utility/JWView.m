@@ -8,13 +8,13 @@
 
 #import "JWView.h"
 #import <objc/runtime.h>
-@implementation JWView
-+ (void)load {//load方法是所有继承NSObject类都拥有的类方法，可以直接理解为这个方法加载的灰常早灰常的早！！
+@implementation JWView //继承自UIView
++ (void)load { //load方法是所有继承NSObject类都拥有的类方法，可以直接理解为这个方法加载的灰常早灰常的早！！
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         Class class = [self class];
         
-        SEL originalSelector = @selector(willMoveToSuperview:);//View被加到父View的时候的回调
+        SEL originalSelector = @selector(willMoveToSuperview:); //View被加到父View的时候的回调
         SEL swizzledSelector = @selector(JWwillMoveToSuperview:);
         
         Method originalMethod = class_getInstanceMethod(class, originalSelector);

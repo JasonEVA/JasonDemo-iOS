@@ -12,6 +12,7 @@
 		D42798EF1CA2642300840090 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
 		D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
 		D437EE741D3DBA63001F5C5B /* JWView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE731D3DBA63001F5C5B /* JWView.m */; };
+		D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */; };
 		D43ACDEB1C8EA2D500C2BD84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDEA1C8EA2D500C2BD84 /* main.m */; };
 		D43ACDEE1C8EA2D500C2BD84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDED1C8EA2D500C2BD84 /* AppDelegate.m */; };
 		D43ACDF11C8EA2D500C2BD84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDF01C8EA2D500C2BD84 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 		D45AEBF01CB638C000B6A4EB /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */; };
 		D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */; };
 		D45AEBF21CB638C000B6A4EB /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */; };
+		D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
 		D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
 		D4A89C1A1CA2928C00E10D22 /* NSString+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0A1CA2928C00E10D22 /* NSString+Manager.m */; };
@@ -105,6 +107,8 @@
 		D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakpointResumeRequest.m; path = JasonDemo/BreakpointResumeRequest.m; sourceTree = "<group>"; };
 		D437EE721D3DBA63001F5C5B /* JWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWView.h; sourceTree = "<group>"; };
 		D437EE731D3DBA63001F5C5B /* JWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWView.m; sourceTree = "<group>"; };
+		D437EE7C1D3E222E001F5C5B /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 		D43ACDE61C8EA2D500C2BD84 /* JasonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43ACDEA1C8EA2D500C2BD84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D43ACDEC1C8EA2D500C2BD84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 		D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@3x.png"; sourceTree = "<group>"; };
 		D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@2x.png"; sourceTree = "<group>"; };
 		D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@3x.png"; sourceTree = "<group>"; };
+		D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWVisualEffectViewVC.h; sourceTree = "<group>"; };
+		D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWVisualEffectViewVC.m; sourceTree = "<group>"; };
 		D4A89C031CA291FA00E10D22 /* VideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
 		D4A89C041CA291FA00E10D22 /* VideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoProgressView.m; sourceTree = "<group>"; };
 		D4A89C071CA2928C00E10D22 /* NSDictionary+SafeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeManager.h"; sourceTree = "<group>"; };
@@ -331,6 +337,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D48F8B441D45E59D00ADB12C /* VisualEffectView */,
 				D4CA5C841CD0A1AE00E8856B /* Public */,
 				D4CA5C721CD0A0BB00E8856B /* ImagePicker */,
 				D4BF08721CB4EF300055D152 /* IM Demo */,
@@ -394,6 +401,15 @@
 			path = RMAudioManager;
 			sourceTree = "<group>";
 		};
+		D48F8B441D45E59D00ADB12C /* VisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */,
+				D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */,
+			);
+			name = VisualEffectView;
+			sourceTree = "<group>";
+		};
 		D4A89C061CA2928C00E10D22 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +429,8 @@
 				D4A89C141CA2928C00E10D22 /* UILabel+EX.m */,
 				D4A89C151CA2928C00E10D22 /* UITextField+EX.h */,
 				D4A89C161CA2928C00E10D22 /* UITextField+EX.m */,
+				D437EE7C1D3E222E001F5C5B /* UIViewController+BackButtonHandler.h */,
+				D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */,
 			);
 			name = Category;
 			path = JasonDemo/Category;
@@ -762,6 +780,7 @@
 				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
 				D4CA5C831CD0A0BB00E8856B /* WZPhotosViewController.m in Sources */,
 				D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */,
+				D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */,
 				D4A89C1F1CA2928C00E10D22 /* UILabel+EX.m in Sources */,
 				D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */,
 				D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */,
@@ -779,6 +798,7 @@
 				D45AEBEA1CB638C000B6A4EB /* RMAudioManager.m in Sources */,
 				D4CA5C801CD0A0BB00E8856B /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
 				D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */,
+				D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
 				D4CA5CE11CD0A49D00E8856B /* NSDictionary+SafeManager.m in Sources */,
 				D4CA5CE41CD0A49D00E8856B /* UIFont+Util.m in Sources */,

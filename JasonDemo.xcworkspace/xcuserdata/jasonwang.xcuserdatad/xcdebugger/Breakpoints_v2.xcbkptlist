@@ -90,12 +90,12 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "483439593.567668"
+                  timestampString = "490611399.558291"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
                   endingLineNumber = "314"
-                  offsetFromSymbolStart = "196">
+                  offsetFromSymbolStart = "164">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -105,12 +105,12 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "483439593.567831"
+                  timestampString = "490611399.558629"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
                   endingLineNumber = "314"
-                  offsetFromSymbolStart = "416">
+                  offsetFromSymbolStart = "481">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -128,6 +128,22 @@
             startingLineNumber = "75"
             endingLineNumber = "75"
             landmarkName = "-setImages:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JasonDemo/ImagePicker/ImagePickerVC.m"
+            timestampString = "490611334.538773"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-navigationShouldPopOnBackButton"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

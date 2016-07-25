@@ -82,7 +82,11 @@
     }
 
 }
-
+- (BOOL)navigationShouldPopOnBackButton { //在这个方法里写返回按钮的事件处理
+    [self.navigationController popToRootViewControllerAnimated:YES];
+    NSLog(@"返回啦");
+    return YES; //返回NO 不会执行
+}
 - (UITableView *)tableView
 {
     if (!_tableView) {
