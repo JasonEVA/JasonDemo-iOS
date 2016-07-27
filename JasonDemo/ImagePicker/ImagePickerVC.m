@@ -11,10 +11,15 @@
 #import <Masonry/Masonry.h>
 #import "WZPhotoPickerController.h"
 #import "ApplicationAttachmentModel.h"
-
+#import "BottomLineButton.h"
+#define HEIGHTCOLOR  [UIColor blueColor]
+#define NORMALCOLOR  [UIColor lightGrayColor]
 @interface ImagePickerVC ()<UITableViewDelegate,UITableViewDataSource,WZPhotoPickerControllerDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *imageArr;
+@property (nonatomic, strong) BottomLineButton *westernMedicineBtn;    //西药
+@property (nonatomic, strong) BottomLineButton *chinesePatentMedicine; //中成药
+
 @end
 
 @implementation ImagePickerVC
@@ -22,12 +27,44 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+
+    [self.view addSubview:self.westernMedicineBtn];
+    [self.view addSubview:self.chinesePatentMedicine];
     [self.view addSubview:self.tableView];
     
+    [self.westernMedicineBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.top.equalTo(self.view);
+        make.right.equalTo(self.view.mas_centerX);
+        make.height.equalTo(@45);
+    }];
+    [self.chinesePatentMedicine mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.top.equalTo(self.view);
+        make.left.equalTo(self.view.mas_centerX);
+        make.height.equalTo(@45);
+    }];
+    
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.left.right.bottom.equalTo(self.view);
+        make.top.equalTo(self.westernMedicineBtn.mas_bottom);
     }];
 
+
+}
+- (void)buttonClick:(BottomLineButton *)btn {
+    [self.chinesePatentMedicine setSelected:btn.tag];
+    [self.westernMedicineBtn setSelected:!btn.tag];
+    if (btn.tag) {
+        //中成药
+        [self.chinesePatentMedicine.bottomLine setBackgroundColor:HEIGHTCOLOR];
+        [self.westernMedicineBtn.bottomLine setBackgroundColor:NORMALCOLOR];
+    }
+    else {
+        //西药
+        [self.chinesePatentMedicine.bottomLine setBackgroundColor:NORMALCOLOR];
+        [self.westernMedicineBtn.bottomLine setBackgroundColor:HEIGHTCOLOR];
+    }
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -107,4 +144,32 @@
     }
     return _imageArr;
 }
+
+- (BottomLineButton *)westernMedicineBtn {
+    if (!_westernMedicineBtn) {
+        _westernMedicineBtn = [BottomLineButton new];
+        [_westernMedicineBtn setTitle:@"西药" forState:UIControlStateNormal];
+        [_westernMedicineBtn setTitleColor:HEIGHTCOLOR forState:UIControlStateSelected];
+        [_westernMedicineBtn setTitleColor:NORMALCOLOR forState:UIControlStateNormal];
+        [_westernMedicineBtn addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
+        [_westernMedicineBtn setTag:0];
+        [_westernMedicineBtn setSelected:YES];
+        [_westernMedicineBtn.bottomLine setBackgroundColor:HEIGHTCOLOR];
+    }
+    return _westernMedicineBtn;
+}
+
+- (BottomLineButton *)chinesePatentMedicine {
+    if (!_chinesePatentMedicine) {
+        _chinesePatentMedicine = [BottomLineButton new];
+        [_chinesePatentMedicine setTitle:@"中成药" forState:UIControlStateNormal];
+        [_chinesePatentMedicine setTitleColor:HEIGHTCOLOR forState:UIControlStateSelected];
+        [_chinesePatentMedicine setTitleColor:NORMALCOLOR forState:UIControlStateNormal];
+        [_chinesePatentMedicine addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
+        [_chinesePatentMedicine setTag:1];
+        
+    }
+    return _chinesePatentMedicine;
+}
+
 @end

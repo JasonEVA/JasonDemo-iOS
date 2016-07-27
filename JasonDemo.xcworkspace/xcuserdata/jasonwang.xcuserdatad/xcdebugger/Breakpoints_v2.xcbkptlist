@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/ImagePicker/ImagePickerVC.m"
-            timestampString = "490611334.538773"
+            timestampString = "491279285.864627"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "-navigationShouldPopOnBackButton"
             landmarkType = "5">
          </BreakpointContent>
