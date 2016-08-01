@@ -33,6 +33,10 @@
 		D45AEBF01CB638C000B6A4EB /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */; };
 		D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */; };
 		D45AEBF21CB638C000B6A4EB /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */; };
+		D46B3F731D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */; };
+		D46B3F741D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */; };
+		D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
+		D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
 		D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
 		D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
@@ -76,8 +80,12 @@
 		D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF11CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m */; };
 		D4CA5CF51CD0AB0000E8856B /* ApplicationAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */; };
 		D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
-		D4F64A801D485327000FB112 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64A7F1D485327000FB112 /* BottomLineButton.m */; };
-		D4F64A811D485327000FB112 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64A7F1D485327000FB112 /* BottomLineButton.m */; };
+		D4EBEEDA1D4F223C00D64AB3 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
+		D4EBEEDB1D4F223C00D64AB3 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
+		D4EBEEE51D4F231800D64AB3 /* MDSImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */; };
+		D4EBEEE61D4F231800D64AB3 /* MDSImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */; };
+		D4EBEEFB1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
+		D4EBEEFC1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
 		D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
 		D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
 /* End PBXBuildFile section */
@@ -159,6 +167,9 @@
 		D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_2@3x.png"; sourceTree = "<group>"; };
 		D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@2x.png"; sourceTree = "<group>"; };
 		D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_record_3@3x.png"; sourceTree = "<group>"; };
+		D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDrugStore.framework; sourceTree = "<group>"; };
+		D46B3F751D4F4A7800D56D56 /* BottomLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomLineButton.h; sourceTree = "<group>"; };
+		D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomLineButton.m; sourceTree = "<group>"; };
 		D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWVisualEffectViewVC.h; sourceTree = "<group>"; };
 		D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWVisualEffectViewVC.m; sourceTree = "<group>"; };
 		D4A89C031CA291FA00E10D22 /* VideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
@@ -243,8 +254,9 @@
 		D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAttachmentModel.m; sourceTree = "<group>"; };
 		D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageListViewController.h; sourceTree = "<group>"; };
 		D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageListViewController.m; sourceTree = "<group>"; };
-		D4F64A7E1D485327000FB112 /* BottomLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomLineButton.h; sourceTree = "<group>"; };
-		D4F64A7F1D485327000FB112 /* BottomLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomLineButton.m; sourceTree = "<group>"; };
+		D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MDGImage.bundle; sourceTree = "<group>"; };
+		D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MDSImage.bundle; sourceTree = "<group>"; };
+		D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDiseaseGuidelinesKit.framework; sourceTree = "<group>"; };
 		D4F64AA11D488A52000FB112 /* CoordinationFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinationFilterView.h; sourceTree = "<group>"; };
 		D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinationFilterView.m; sourceTree = "<group>"; };
 		D4FCC6F31D472E2100D83118 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,6 +271,8 @@
 			files = (
 				D4BF086B1CB4EC230055D152 /* libc++.tbd in Frameworks */,
 				D4BF086D1CB4EC310055D152 /* libz.tbd in Frameworks */,
+				D46B3F731D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */,
+				D4EBEEFB1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */,
 				D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */,
 				B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */,
 			);
@@ -282,6 +296,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46B3F741D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */,
+				D4EBEEFC1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +402,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D47DD8301D4EEB9100303C36 /* SDKTest */,
 				D48F8B441D45E59D00ADB12C /* VisualEffectView */,
 				D4CA5C841CD0A1AE00E8856B /* Public */,
 				D4CA5C721CD0A0BB00E8856B /* ImagePicker */,
@@ -450,6 +467,15 @@
 			path = RMAudioManager;
 			sourceTree = "<group>";
 		};
+		D47DD8301D4EEB9100303C36 /* SDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				D4EBEEE21D4F231800D64AB3 /* MDS */,
+				D4EBEED41D4F223C00D64AB3 /* MDG */,
+			);
+			path = SDKTest;
+			sourceTree = "<group>";
+		};
 		D48F8B441D45E59D00ADB12C /* VisualEffectView */ = {
 			isa = PBXGroup;
 			children = (
@@ -494,10 +520,10 @@
 				D4A89C261CA292D200E10D22 /* MyToolBar.m */,
 				D4A89C271CA292D200E10D22 /* RowButtonGroup.h */,
 				D4A89C281CA292D200E10D22 /* RowButtonGroup.m */,
+				D46B3F751D4F4A7800D56D56 /* BottomLineButton.h */,
+				D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */,
 				D437EE721D3DBA63001F5C5B /* JWView.h */,
 				D437EE731D3DBA63001F5C5B /* JWView.m */,
-				D4F64A7E1D485327000FB112 /* BottomLineButton.h */,
-				D4F64A7F1D485327000FB112 /* BottomLineButton.m */,
 				D4F64AA11D488A52000FB112 /* CoordinationFilterView.h */,
 				D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */,
 			);
@@ -620,6 +646,24 @@
 				D4CA5CDB1CD0A49D00E8856B /* UnifiedUserInfoManager.m */,
 			);
 			path = Unified;
+			sourceTree = "<group>";
+		};
+		D4EBEED41D4F223C00D64AB3 /* MDG */ = {
+			isa = PBXGroup;
+			children = (
+				D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */,
+				D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */,
+			);
+			path = MDG;
+			sourceTree = "<group>";
+		};
+		D4EBEEE21D4F231800D64AB3 /* MDS */ = {
+			isa = PBXGroup;
+			children = (
+				D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */,
+				D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */,
+			);
+			path = MDS;
 			sourceTree = "<group>";
 		};
 		DF3C00511D6714DCDF6D1588 /* Pods */ = {
@@ -810,10 +854,12 @@
 				D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */,
 				D43ACDF91C8EA2D500C2BD84 /* LaunchScreen.storyboard in Resources */,
 				D45AEBEE1CB638C000B6A4EB /* voice_record_1@3x.png in Resources */,
+				D4EBEEE51D4F231800D64AB3 /* MDSImage.bundle in Resources */,
 				D45AEBEB1CB638C000B6A4EB /* voice_record_0@2x.png in Resources */,
 				D43ACDF61C8EA2D500C2BD84 /* Assets.xcassets in Resources */,
 				D45AEBEC1CB638C000B6A4EB /* voice_record_0@3x.png in Resources */,
 				D43ACDF41C8EA2D500C2BD84 /* Main.storyboard in Resources */,
+				D4EBEEDA1D4F223C00D64AB3 /* MDGImage.bundle in Resources */,
 				D45AEBEF1CB638C000B6A4EB /* voice_record_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -836,6 +882,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EBEEE61D4F231800D64AB3 /* MDSImage.bundle in Resources */,
+				D4EBEEDB1D4F223C00D64AB3 /* MDGImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -909,7 +957,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4CA5CDE1CD0A49D00E8856B /* NSData+AES256.m in Sources */,
-				D4F64A801D485327000FB112 /* BottomLineButton.m in Sources */,
 				D4CA5CE31CD0A49D00E8856B /* UIColor+Hex.m in Sources */,
 				D4CA5C871CD0A1AE00E8856B /* UIView+Util.m in Sources */,
 				D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */,
@@ -959,6 +1006,7 @@
 				D4CA5CDF1CD0A49D00E8856B /* NSDate+CalendarTool.m in Sources */,
 				D4CA5CDD1CD0A49D00E8856B /* MyLableWithAlignmentTop.m in Sources */,
 				D4A89C1D1CA2928C00E10D22 /* UIFont+EX.m in Sources */,
+				D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
 				D4CA5CE51CD0A49D00E8856B /* UIImage+Manager.m in Sources */,
 				D4CA5CE61CD0A49D00E8856B /* NSString+Unified.m in Sources */,
 				D4CA5CE21CD0A49D00E8856B /* NSMutableArray+Manager.m in Sources */,
@@ -985,7 +1033,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F64A811D485327000FB112 /* BottomLineButton.m in Sources */,
+				D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
 				D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1140,6 +1188,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
 				);
 				INFOPLIST_FILE = JasonDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -1158,6 +1209,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
 				);
 				INFOPLIST_FILE = JasonDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -1220,6 +1274,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1233,6 +1293,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

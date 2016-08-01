@@ -1,0 +1,6 @@
+framework module MintmedicalDiseaseGuidelinesKit {
+  umbrella header "MintmedicalDiseaseGuidelinesKit.h"
+
+  export *
+  module * { export * }
+}

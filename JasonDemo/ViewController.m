@@ -12,7 +12,8 @@
 #import "IMMessageListViewController.h"
 #import "ImagePickerVC.h"
 #import "JWVisualEffectViewVC.h"
-
+#import <MintmedicalDiseaseGuidelinesKit/MintmedicalDiseaseGuidelinesKit.h>
+#import <MintmedicalDrugStore/MintmedicalDrugStore.h>
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *titelArr;
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -67,6 +68,10 @@
         VC = [[ImagePickerVC alloc] init];
     } else if (indexPath.row == 4) {
         VC = [[JWVisualEffectViewVC alloc] init];
+    } else if (indexPath.row == 5) {
+        VC = [[MDGDiseaseGuidelMainViewController alloc] init];
+    } else if (indexPath.row == 6) {
+        VC = [[MDSDrugStoreMainViewController alloc] init];
     }
 
     

@@ -1,6 +1,6 @@
 //
 //  BottomLineButton.h
-//  MintmedicalDrugStore
+//  
 //
 //  Created by jasonwang on 16/7/27.
 //  Copyright © 2016年 JasonWang. All rights reserved.
