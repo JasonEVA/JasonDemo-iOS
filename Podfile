@@ -14,6 +14,8 @@ pod 'FMDB', '~> 2.6'
 pod 'SocketRocket', '~> 0.4.2'
 pod 'DateTools', '~> 1.7.0'
 pod 'Reachability', '~> 3.2'
+pod 'TTTAttributedLabel', '~> 1.13.4'
+
 end
 
 target 'JasonDemoTests' do

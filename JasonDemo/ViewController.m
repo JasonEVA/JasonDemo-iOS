@@ -14,6 +14,8 @@
 #import "JWVisualEffectViewVC.h"
 #import <MintmedicalDiseaseGuidelinesKit/MintmedicalDiseaseGuidelinesKit.h>
 #import <MintmedicalDrugStore/MintmedicalDrugStore.h>
+#import "TTTDemoViewController.h"
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *titelArr;
@@ -25,7 +27,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -72,6 +74,9 @@
         VC = [[MDGDiseaseGuidelMainViewController alloc] init];
     } else if (indexPath.row == 6) {
         VC = [[MDSDrugStoreMainViewController alloc] init];
+    }
+    else if (indexPath.row == 7) {
+        VC = [[TTTDemoViewController alloc] init];
     }
 
     

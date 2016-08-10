@@ -50,6 +50,8 @@
 		D4A89C2B1CA292D200E10D22 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C241CA292D200E10D22 /* DateUtil.m */; };
 		D4A89C2C1CA292D200E10D22 /* MyToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C261CA292D200E10D22 /* MyToolBar.m */; };
 		D4A89C2D1CA292D200E10D22 /* RowButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C281CA292D200E10D22 /* RowButtonGroup.m */; };
+		D4AEEF7B1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
+		D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
 		D4BF086B1CB4EC230055D152 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086A1CB4EC230055D152 /* libc++.tbd */; };
 		D4BF086D1CB4EC310055D152 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086C1CB4EC310055D152 /* libz.tbd */; };
 		D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */; };
@@ -196,6 +198,8 @@
 		D4A89C261CA292D200E10D22 /* MyToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyToolBar.m; sourceTree = "<group>"; };
 		D4A89C271CA292D200E10D22 /* RowButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowButtonGroup.h; sourceTree = "<group>"; };
 		D4A89C281CA292D200E10D22 /* RowButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowButtonGroup.m; sourceTree = "<group>"; };
+		D4AEEF791D5B098200A4A7D4 /* TTTDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDemoViewController.h; sourceTree = "<group>"; };
+		D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDemoViewController.m; sourceTree = "<group>"; };
 		D4BF086A1CB4EC230055D152 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		D4BF086C1CB4EC310055D152 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintcodeIM.framework; sourceTree = "<group>"; };
@@ -402,6 +406,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4AEEF781D5ABE3F00A4A7D4 /* TTTAttributedDemo */,
 				D47DD8301D4EEB9100303C36 /* SDKTest */,
 				D48F8B441D45E59D00ADB12C /* VisualEffectView */,
 				D4CA5C841CD0A1AE00E8856B /* Public */,
@@ -529,6 +534,15 @@
 			);
 			name = Utility;
 			path = JasonDemo/Utility;
+			sourceTree = "<group>";
+		};
+		D4AEEF781D5ABE3F00A4A7D4 /* TTTAttributedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4AEEF791D5B098200A4A7D4 /* TTTDemoViewController.h */,
+				D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */,
+			);
+			path = TTTAttributedDemo;
 			sourceTree = "<group>";
 		};
 		D4BF08721CB4EF300055D152 /* IM Demo */ = {
@@ -958,6 +972,7 @@
 			files = (
 				D4CA5CDE1CD0A49D00E8856B /* NSData+AES256.m in Sources */,
 				D4CA5CE31CD0A49D00E8856B /* UIColor+Hex.m in Sources */,
+				D4AEEF7B1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
 				D4CA5C871CD0A1AE00E8856B /* UIView+Util.m in Sources */,
 				D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */,
 				D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */,
@@ -1034,6 +1049,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
+				D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
 				D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
