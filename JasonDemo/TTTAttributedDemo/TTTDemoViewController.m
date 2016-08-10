@@ -21,7 +21,7 @@
     TTTAttributedLabel *tttLb = [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(20, 100, 400, 80)];
     [tttLb setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:tttLb];
-    NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"萨克斯决定dddd，但是jkdsnks。" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
+    NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"梵蒂冈的风格1，萨克斯决定dddd，但是jkdsnks。" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
                                                                                                                          NSForegroundColorAttributeName:[UIColor whiteColor]}];
     [mutableAttributedString setAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
                                                                  NSForegroundColorAttributeName:(__bridge id)[UIColor yellowColor].CGColor,
