@@ -8,6 +8,8 @@
 
 #import "TTTDemoViewController.h"
 #import <TTTAttributedLabel/TTTAttributedLabel.h>
+#import "MyTTTLabel.h"
+
 @interface TTTDemoViewController ()
 
 @end
@@ -18,7 +20,7 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    TTTAttributedLabel *tttLb = [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(20, 100, 400, 80)];
+    MyTTTLabel *tttLb = [[MyTTTLabel alloc] initWithFrame:CGRectMake(20, 100, 400, 80)];
     [tttLb setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:tttLb];
     NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"梵蒂冈的风格1，萨克斯决定dddd，但是jkdsnks。" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],

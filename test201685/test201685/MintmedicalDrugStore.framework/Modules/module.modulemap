@@ -1,6 +1,0 @@
-framework module MintmedicalDrugStore {
-  umbrella header "MintmedicalDrugStore.h"
-
-  export *
-  module * { export * }
-}

@@ -90,7 +90,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "492512908.465841"
+                  timestampString = "492586210.24344"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -105,7 +105,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "492512908.466"
+                  timestampString = "492586210.243687"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -144,22 +144,6 @@
             startingLineNumber = "151"
             endingLineNumber = "151"
             landmarkName = "-navigationShouldPopOnBackButton"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/TTTAttributedLabel/TTTAttributedLabel/TTTAttributedLabel.m"
-            timestampString = "492514551.627803"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1007"
-            endingLineNumber = "1007"
-            landmarkName = "-drawBackground:inRect:context:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

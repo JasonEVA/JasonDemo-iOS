@@ -82,6 +82,8 @@
 		D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF11CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m */; };
 		D4CA5CF51CD0AB0000E8856B /* ApplicationAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */; };
 		D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
+		D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
+		D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
 		D4EBEEDA1D4F223C00D64AB3 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
 		D4EBEEDB1D4F223C00D64AB3 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
 		D4EBEEE51D4F231800D64AB3 /* MDSImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */; };
@@ -258,6 +260,8 @@
 		D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAttachmentModel.m; sourceTree = "<group>"; };
 		D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageListViewController.h; sourceTree = "<group>"; };
 		D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageListViewController.m; sourceTree = "<group>"; };
+		D4EA22521D5C2A9B006DD19C /* MyTTTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTTLabel.h; sourceTree = "<group>"; };
+		D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTTLabel.m; sourceTree = "<group>"; };
 		D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MDGImage.bundle; sourceTree = "<group>"; };
 		D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MDSImage.bundle; sourceTree = "<group>"; };
 		D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDiseaseGuidelinesKit.framework; sourceTree = "<group>"; };
@@ -541,6 +545,8 @@
 			children = (
 				D4AEEF791D5B098200A4A7D4 /* TTTDemoViewController.h */,
 				D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */,
+				D4EA22521D5C2A9B006DD19C /* MyTTTLabel.h */,
+				D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */,
 			);
 			path = TTTAttributedDemo;
 			sourceTree = "<group>";
@@ -1003,6 +1009,7 @@
 				D4CA5C801CD0A0BB00E8856B /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
 				D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */,
 				D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */,
+				D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
 				D4CA5CE11CD0A49D00E8856B /* NSDictionary+SafeManager.m in Sources */,
@@ -1049,6 +1056,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
+				D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
 				D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 			);
