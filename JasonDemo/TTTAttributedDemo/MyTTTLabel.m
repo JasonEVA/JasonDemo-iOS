@@ -11,33 +11,32 @@
 
 @implementation MyTTTLabel
 
-+ (void)load { //load方法是所有继承NSObject类都拥有的类方法，可以直接理解为这个方法加载的灰常早灰常的早！！
-    [super load];
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        Class class = [self class];
-        
-        SEL originalSelector = @selector(drawBackground:inRect:context:); //TTTAttributedLabel 对应的处理高亮背景方法
-        SEL swizzledSelector = @selector(JWdrawBackground:inRect:context:); //替换的方法
-        
-        Method originalMethod = class_getInstanceMethod(class, originalSelector);
-        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-        
-        BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-        if (didAddMethod) {
-            class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
-        }
-        else {
-            method_exchangeImplementations(originalMethod, swizzledMethod);
-        }
-    });
-}
+//+ (void)load { //load方法是所有继承NSObject类都拥有的类方法，可以直接理解为这个方法加载的灰常早灰常的早！！
+//    [super load];
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        Class class = [self class];
+//        
+//        SEL originalSelector = @selector(drawBackground:inRect:context:); //TTTAttributedLabel 对应的处理高亮背景方法
+//        SEL swizzledSelector = @selector(JWdrawBackground:inRect:context:); //替换的方法
+//        
+//        Method originalMethod = class_getInstanceMethod(class, originalSelector);
+//        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+//        
+//        BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+//        if (didAddMethod) {
+//            class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+//        }
+//        else {
+//            method_exchangeImplementations(originalMethod, swizzledMethod);
+//        }
+//    });
+//}
 
-- (void)JWdrawBackground:(CTFrameRef)frame
+- (void)drawBackground:(CTFrameRef)frame
                 inRect:(CGRect)rect
                context:(CGContextRef)c
 {
-    [self JWdrawBackground:frame inRect:rect context:c];
     
     NSArray *lines = (__bridge NSArray *)CTFrameGetLines(frame);
     CGPoint origins[[lines count]];

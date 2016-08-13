@@ -62,17 +62,23 @@
     id VC;
     if (indexPath.row == 0) {
         VC = [[CABasicAnimationViewController alloc]init];
-    } else if (indexPath.row == 1) {
+    }
+    else if (indexPath.row == 1) {
         VC = [[PlayerViewController alloc]init];
-    } else if (indexPath.row == 2) {
+    }
+    else if (indexPath.row == 2) {
         VC = [[IMMessageListViewController alloc] init];
-    } else if (indexPath.row == 3) {
+    }
+    else if (indexPath.row == 3) {
         VC = [[ImagePickerVC alloc] init];
-    } else if (indexPath.row == 4) {
+    }
+    else if (indexPath.row == 4) {
         VC = [[JWVisualEffectViewVC alloc] init];
-    } else if (indexPath.row == 5) {
+    }
+    else if (indexPath.row == 5) {
         VC = [[MDGDiseaseGuidelMainViewController alloc] init];
-    } else if (indexPath.row == 6) {
+    }
+    else if (indexPath.row == 6) {
         VC = [[MDSDrugStoreMainViewController alloc] init];
     }
     else if (indexPath.row == 7) {
