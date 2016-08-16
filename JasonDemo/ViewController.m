@@ -15,6 +15,7 @@
 #import <MintmedicalDiseaseGuidelinesKit/MintmedicalDiseaseGuidelinesKit.h>
 #import <MintmedicalDrugStore/MintmedicalDrugStore.h>
 #import "TTTDemoViewController.h"
+#import "WebViewDemoViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -27,7 +28,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -83,6 +84,9 @@
     }
     else if (indexPath.row == 7) {
         VC = [[TTTDemoViewController alloc] init];
+    }
+    else if (indexPath.row == 8) {
+        VC = [[WebViewDemoViewController alloc] init];
     }
 
     

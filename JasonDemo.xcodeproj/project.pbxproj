@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */; };
+		D41E32A41D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */; };
+		D41E32A51D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */; };
 		D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
 		D42798EF1CA2642300840090 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
 		D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
@@ -129,6 +131,8 @@
 		55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D41E32A21D61ABE10076EC51 /* WebViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDemoViewController.h; sourceTree = "<group>"; };
+		D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoViewController.m; sourceTree = "<group>"; };
 		D42798E81CA2318C00840090 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		D42798E91CA2318C00840090 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		D42798ED1CA2642300840090 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
@@ -337,6 +341,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D41E32A11D61ABA80076EC51 /* WebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D41E32A21D61ABE10076EC51 /* WebViewDemoViewController.h */,
+				D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */,
+			);
+			path = WebViewDemo;
+			sourceTree = "<group>";
+		};
 		D42798E61CA22F1C00840090 /* animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +423,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D41E32A11D61ABA80076EC51 /* WebViewDemo */,
 				D4AEEF781D5ABE3F00A4A7D4 /* TTTAttributedDemo */,
 				D47DD8301D4EEB9100303C36 /* SDKTest */,
 				D48F8B441D45E59D00ADB12C /* VisualEffectView */,
@@ -990,6 +1004,7 @@
 				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
 				D4CA5C831CD0A0BB00E8856B /* WZPhotosViewController.m in Sources */,
 				D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */,
+				D41E32A41D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */,
 				D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */,
 				D4A89C1F1CA2928C00E10D22 /* UILabel+EX.m in Sources */,
 				D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */,
@@ -1055,6 +1070,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41E32A51D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */,
 				D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
 				D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
