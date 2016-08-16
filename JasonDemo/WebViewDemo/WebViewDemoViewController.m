@@ -8,14 +8,19 @@
 
 #import "WebViewDemoViewController.h"
 #import <JavaScriptCore/JavaScriptCore.h>
-@interface WebViewDemoViewController ()<UIWebViewDelegate>
-@property (nonatomic, strong)UIWebView *webView;
+#import "MedicalFormulaJSModel.h"
+
+@interface WebViewDemoViewController ()<UIWebViewDelegate,MedicalFormulaJSModelDelegate>
+@property (nonatomic, strong) UIWebView *webView;
 @property (nonatomic, weak) JSContext *context;
+@property (nonatomic, strong) UIBarButtonItem *leftBtn;
 
 @end
 
 @implementation WebViewDemoViewController
-
+-(void)dealloc {
+    NSLog(@"销毁了webview");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -49,15 +54,20 @@
     }
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    self.context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    
+    self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    //通过模型注入
+    MedicalFormulaJSModel *model = [MedicalFormulaJSModel new];
+    self.context[@"NCClientJS"] = model;
+    model.jsContext = self.context;
+    model.webView = self.webView;
+    [model setDelegate:self];
     self.context.exceptionHandler =
     ^(JSContext *context, JSValue *exceptionValue)
     {
         context.exception = exceptionValue;
         NSLog(@"%@", exceptionValue);
     };
-    self.context[@"NCClientJS"] = self;
+
     
 //    NSString *jsStr = @"window.NCClientJS.getToolName(title)";
 //    [self.context evaluateScript:jsStr];
@@ -77,11 +87,8 @@
 }
 
 
-- (void)getToolName:(NSString *)title{
-    
-    self.navigationItem.title = title;
-
-    
+- (void)MedicalFormulaJSModelDelegateCallBack_titel:(NSString *)titel {
+    [self.navigationItem setTitle:titel];
 }
 
 

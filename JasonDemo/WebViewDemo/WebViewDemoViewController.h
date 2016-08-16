@@ -7,14 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <JavaScriptCore/JavaScriptCore.h>
 
-@protocol MintMedicalDocToolWebViewSExportProtocol <JSExport>
 
-- (void)getToolName:(NSString *)title;
-
-@end
-
-@interface WebViewDemoViewController : UIViewController <MintMedicalDocToolWebViewSExportProtocol>
+@interface WebViewDemoViewController : UIViewController 
 
 @end
