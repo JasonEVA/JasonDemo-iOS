@@ -58,9 +58,9 @@
         NSLog(@"%@", exceptionValue);
     };
     self.context[@"NCClientJS"] = self;
-    NSString *jsStr = @"window.NCClientJS.getToolName(title)";
     
-    [self.context evaluateScript:jsStr];
+//    NSString *jsStr = @"window.NCClientJS.getToolName(title)";
+//    [self.context evaluateScript:jsStr];
 
 }
 
