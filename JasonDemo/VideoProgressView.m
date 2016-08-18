@@ -27,6 +27,8 @@ static NSString *const kDateFormat = @"mm:ss";
     if (self) {
         [self setTranslatesAutoresizingMaskIntoConstraints:NO];
         [self configElements];
+        self.currentTime.JWName = @"用runtime在Category中添加了属性";
+        NSLog(@"%@",self.currentTime.JWName);
     }
     return self;
 }

@@ -13,7 +13,6 @@
 @interface WebViewDemoViewController ()<UIWebViewDelegate,MedicalFormulaJSModelDelegate>
 @property (nonatomic, strong) UIWebView *webView;
 @property (nonatomic, weak) JSContext *context;
-@property (nonatomic, strong) UIBarButtonItem *leftBtn;
 
 @end
 
@@ -55,7 +54,7 @@
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    //通过模型注入
+    //通过模型注入，防止内存泄漏
     MedicalFormulaJSModel *model = [MedicalFormulaJSModel new];
     self.context[@"NCClientJS"] = model;
     model.jsContext = self.context;
@@ -67,11 +66,6 @@
         context.exception = exceptionValue;
         NSLog(@"%@", exceptionValue);
     };
-
-    
-//    NSString *jsStr = @"window.NCClientJS.getToolName(title)";
-//    [self.context evaluateScript:jsStr];
-
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {

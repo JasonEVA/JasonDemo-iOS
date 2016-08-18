@@ -12,5 +12,5 @@
 @interface UILabel (EX)
 
 + (UILabel *)setLabel:(UILabel *)label text:(NSString *)text font:(UIFont *)font textColor:(UIColor *)color;
-
+@property (nonatomic, copy) NSString *JWName;
 @end
