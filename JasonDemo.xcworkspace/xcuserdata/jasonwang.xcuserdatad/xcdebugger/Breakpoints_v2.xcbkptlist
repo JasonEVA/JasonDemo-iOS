@@ -10,22 +10,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/PlayerViewController.m"
-            timestampString = "480837289.579175"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "328"
-            endingLineNumber = "328"
-            landmarkName = "-addObserverToPlayerItem:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JasonDemo/PlayerViewController.m"
             timestampString = "480836736.123043"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -90,7 +74,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "493006896.900943"
+                  timestampString = "493194392.924808"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -105,7 +89,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "493006896.901141"
+                  timestampString = "493194392.924965"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -202,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/WebViewDemo/WebViewDemoViewController.m"
-            timestampString = "493021500.883669"
+            timestampString = "493028874.238327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/WebViewDemo/WebViewDemoViewController.m"
-            timestampString = "493021500.883669"
+            timestampString = "493028874.238327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "-webViewDidStartLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -234,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/WebViewDemo/WebViewDemoViewController.m"
-            timestampString = "493021500.883669"
+            timestampString = "493028874.238327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "-webView:didFailLoadWithError:"
             landmarkType = "5">
          </BreakpointContent>
@@ -250,13 +234,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JasonDemo/WebViewDemo/WebViewDemoViewController.m"
-            timestampString = "493021500.883669"
+            timestampString = "493028874.238327"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "-webView:shouldStartLoadWithRequest:navigationType:"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
