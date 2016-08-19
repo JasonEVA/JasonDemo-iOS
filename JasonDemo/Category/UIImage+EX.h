@@ -32,5 +32,7 @@
  *  @return 添加好的图片
  */
 + (UIImage *)imageAddWatermarkToImage:(UIImage *)sourceImage maskImage:(UIImage *)maskImage;
+/** 设置圆形图片(放到分类中使用) */
 
+- (UIImage *)cutCircleImage;
 @end
