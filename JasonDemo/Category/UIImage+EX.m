@@ -75,4 +75,25 @@
     return image;
 }
 
+//设置默认字体图标
++ (UIImage *)imageWithDefaultIcon:(NSString *)iconCode size:(CGFloat)size color:(UIColor *)color {
+    //@"IconFont"为字体名，可在demo.html中找到，如<title>IconFont</title>
+    return [[self class] imageWithIcon:iconCode inFont:@"IconFont" size:size color:color];
+}
+
+//设置字体图标
++ (UIImage *)imageWithIcon:(NSString *)iconCode inFont:(NSString *)fontName size:(CGFloat)size color:(UIColor *)color {
+    CGSize imageSize = CGSizeMake(size, size);
+    UIGraphicsBeginImageContextWithOptions(imageSize, NO, [[UIScreen mainScreen] scale]);
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, size + 150, size)];
+    label.font = [UIFont fontWithName:fontName size:size];
+    label.text = iconCode;
+    if(color){
+        label.textColor = color;
+    }
+    [label.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *retImage = UIGraphicsGetImageFromCurrentImageContext();
+    return retImage;
+}
+
 @end
