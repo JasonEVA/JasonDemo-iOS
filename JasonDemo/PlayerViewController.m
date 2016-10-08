@@ -14,7 +14,7 @@
 #import "VolumeProgressView.h"
 #import "BreakpointResumeRequest.h"
 
-static NSString *const onlineVideoURL = @"http://ac-0soq8gy1.clouddn.com/8da100ae05bb988a.mp4";
+static NSString *const onlineVideoURL = @"https://dn-0soq8gy1.qbox.me/8da100ae05bb988a.mp4";
 static NSString *const videoName = @"video.mp4";
 
 @interface PlayerViewController ()<VideoProgressViewDelegate,VolumeProgressViewDelegate,BreakpointResumeRequestDelegate>
@@ -256,12 +256,12 @@ static NSString *const videoName = @"video.mp4";
         //NSString *urlStr= [[NSBundle mainBundle] pathForResource:@"4" ofType:@"mp4"];
        url =[NSURL fileURLWithPath:@"/Users/jasonwang/Desktop/4.mp4/"];
     } else {//在线，因为iOS9强制用https，所以改了Info.plist才能播放这资源
-        if ([self isCached]) {
-            url = [NSURL fileURLWithPath:[self getAllPathWithRelativePath:videoName]];
-        } else {
+//        if ([self isCached]) {
+//            url = [NSURL fileURLWithPath:[self getAllPathWithRelativePath:videoName]];
+//        } else {
             url=[NSURL URLWithString:onlineVideoURL];
             [self downloadVideo];
-        }
+//        }
     }
     AVPlayerItem *playerItem=[AVPlayerItem playerItemWithURL:url];
     return playerItem;

@@ -20,13 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    
     UIButton *but = [[UIButton alloc] initWithFrame:CGRectMake(50, 300, 100, 44)];
     [but setUserInteractionEnabled:NO];
     [but setBackgroundImage:[[UIImage imageWithColor:[UIColor redColor] size:CGSizeMake(1, 1)] cutCircleImage] forState:UIControlStateNormal];
     [self.view addSubview:but];
     
     MyTTTLabel *tttLb = [[MyTTTLabel alloc] initWithFrame:CGRectMake(20, 100, 300, 80)];
+    tttLb.nameBlock(@"Jason").ageBlock(@"18");
     [tttLb setNumberOfLines:0];
     [tttLb setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:tttLb];

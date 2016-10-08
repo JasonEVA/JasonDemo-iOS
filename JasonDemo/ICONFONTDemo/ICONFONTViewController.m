@@ -12,7 +12,7 @@
 #import "UIImage+EX.h"
 
 @interface ICONFONTViewController ()
-
+@property (nonatomic, strong) UIButton *yesBtn;
 @end
 
 @implementation ICONFONTViewController
@@ -27,12 +27,41 @@
     [label mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
     }];
+    
+    [self.view addSubview:self.yesBtn];
+    
+    [self.yesBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view);
+        make.centerY.equalTo(self.view).offset(50);
+    }];
+
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)testProtocol {
+    NSLog(@"调用我的protocolKit了");
+}
+
+- (UIButton *)yesBtn {
+    if (!_yesBtn) {
+        _yesBtn = [UIButton new];
+        [_yesBtn setImage:[UIImage imageNamed:@"im_choose"] forState:UIControlStateNormal];
+        [_yesBtn setImage:[UIImage imageNamed:@"im_choosed"] forState:UIControlStateSelected];
+        [_yesBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -20, 0, 0)];
+        UILabel *lb = [UILabel new];
+        [lb setText:@"是"];
+        [_yesBtn addSubview:lb];
+        [lb mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(_yesBtn.imageView.mas_right).offset(5);
+            make.centerY.equalTo(_yesBtn.imageView);
+        }];
+    }
+    return _yesBtn;
 }
 
 /*

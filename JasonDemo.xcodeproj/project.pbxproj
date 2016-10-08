@@ -74,6 +74,8 @@
 		D4AEC4161D6E96B800BF3094 /* JWIconImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEC4141D6E96B800BF3094 /* JWIconImageView.m */; };
 		D4AEEF7B1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
 		D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
+		D4B1FE451D717E4A0007302E /* TwoTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B1FE441D717E4A0007302E /* TwoTableViewViewController.m */; };
+		D4B1FE461D717E4A0007302E /* TwoTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B1FE441D717E4A0007302E /* TwoTableViewViewController.m */; };
 		D4BF086B1CB4EC230055D152 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086A1CB4EC230055D152 /* libc++.tbd */; };
 		D4BF086D1CB4EC310055D152 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086C1CB4EC310055D152 /* libz.tbd */; };
 		D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */; };
@@ -239,6 +241,8 @@
 		D4AEC4141D6E96B800BF3094 /* JWIconImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconImageView.m; sourceTree = "<group>"; };
 		D4AEEF791D5B098200A4A7D4 /* TTTDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDemoViewController.h; sourceTree = "<group>"; };
 		D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDemoViewController.m; sourceTree = "<group>"; };
+		D4B1FE431D717E4A0007302E /* TwoTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTableViewViewController.h; sourceTree = "<group>"; };
+		D4B1FE441D717E4A0007302E /* TwoTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewViewController.m; sourceTree = "<group>"; };
 		D4BF086A1CB4EC230055D152 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		D4BF086C1CB4EC310055D152 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintcodeIM.framework; sourceTree = "<group>"; };
@@ -458,6 +462,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4B1FE421D717E2B0007302E /* TwoTableViewDemo */,
 				D4AEC3F51D6E8AEB00BF3094 /* ICONFONTDemo */,
 				D41E32A11D61ABA80076EC51 /* WebViewDemo */,
 				D4AEEF781D5ABE3F00A4A7D4 /* TTTAttributedDemo */,
@@ -625,6 +630,15 @@
 				D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */,
 			);
 			path = TTTAttributedDemo;
+			sourceTree = "<group>";
+		};
+		D4B1FE421D717E2B0007302E /* TwoTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4B1FE431D717E4A0007302E /* TwoTableViewViewController.h */,
+				D4B1FE441D717E4A0007302E /* TwoTableViewViewController.m */,
+			);
+			path = TwoTableViewDemo;
 			sourceTree = "<group>";
 		};
 		D4BF08721CB4EF300055D152 /* IM Demo */ = {
@@ -894,6 +908,7 @@
 				TargetAttributes = {
 					D43ACDE51C8EA2D500C2BD84 = {
 						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Manual;
 					};
 					D43ACDFE1C8EA2D600C2BD84 = {
 						CreatedOnToolsVersion = 7.2;
@@ -1125,6 +1140,7 @@
 				D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
 				D4CA5CE51CD0A49D00E8856B /* UIImage+Manager.m in Sources */,
 				D4CA5CE61CD0A49D00E8856B /* NSString+Unified.m in Sources */,
+				D4B1FE451D717E4A0007302E /* TwoTableViewViewController.m in Sources */,
 				D4CA5CE21CD0A49D00E8856B /* NSMutableArray+Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1151,6 +1167,7 @@
 			files = (
 				D41E32A51D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */,
 				D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
+				D4B1FE461D717E4A0007302E /* TwoTableViewViewController.m in Sources */,
 				D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4AEEF7C1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
 				D4AEC4161D6E96B800BF3094 /* JWIconImageView.m in Sources */,
@@ -1255,7 +1272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1293,7 +1310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1306,6 +1323,7 @@
 			baseConfigurationReference = A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1327,6 +1345,7 @@
 			baseConfigurationReference = 55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

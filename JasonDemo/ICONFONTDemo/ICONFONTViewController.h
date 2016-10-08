@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol JWTeatProtocol <NSObject>
+
+- (void)testProtocol;
+
+@end
+
+
 @interface ICONFONTViewController : UIViewController
 
 @end

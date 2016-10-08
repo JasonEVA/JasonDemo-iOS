@@ -129,4 +129,31 @@
     }
 }
 
+- (CGSize)intrinsicContentSize {
+    CGSize originalSize = [super intrinsicContentSize];
+    return CGSizeMake(originalSize.width + 10, originalSize.height + 10);
+}
+
+- (MyTTTLabel *(^)(id))nameBlock {
+    return ^id(id name) {
+        NSLog(name);
+        return self;
+    };
+}
+
+- (MyTTTLabel *(^)(id))ageBlock {
+   return ^id(id age) {
+        NSLog(age);
+        return self;
+    };
+}
+
+- (void)name {
+    NSLog(@"JasonWang");
+}
+
+- (void)age {
+    NSLog(@"18");
+}
+
 @end

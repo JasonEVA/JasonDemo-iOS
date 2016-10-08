@@ -29,7 +29,7 @@
 
     self.webView = [[UIWebView alloc] initWithFrame:self.view.frame];
     self.webView.delegate = self;
-    NSURL *url = [NSURL URLWithString:@"http://59.63.163.44:8084/doctortoolslist"];
+    NSURL *url = [NSURL URLWithString:@"http://192.168.4.88:8080/jy/editUserHealthyPlanDets.htm?vType=YS&healthyPlanTempId=851E9312_CF7A_424F_A2C5_EB381ASC15F1&healthyPlanId=885&staffId=3023319&&id=10599"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:request];
@@ -56,7 +56,7 @@
     self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     //通过模型注入，防止内存泄漏
     MedicalFormulaJSModel *model = [MedicalFormulaJSModel new];
-    self.context[@"NCClientJS"] = model;
+    self.context[@"HMDoctorJS"] = model;
     model.jsContext = self.context;
     model.webView = self.webView;
     [model setDelegate:self];

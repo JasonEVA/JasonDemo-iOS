@@ -9,5 +9,6 @@
 #import <TTTAttributedLabel/TTTAttributedLabel.h>
 
 @interface MyTTTLabel : TTTAttributedLabel
-
+- (MyTTTLabel *(^)(id))nameBlock;
+- (MyTTTLabel *(^)(id))ageBlock;
 @end

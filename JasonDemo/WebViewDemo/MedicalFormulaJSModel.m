@@ -15,4 +15,9 @@
         [self.delegate MedicalFormulaJSModelDelegateCallBack_titel:title];
     }
 }
+
+- (void)goToPrescribeWithUserId:(NSString *)userId :(NSString *)healthyId {
+    NSLog(@"%@,%@",userId,healthyId);
+}
+
 @end
