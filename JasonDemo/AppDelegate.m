@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import <MintcodeIM/MintcodeIM.h>
-
+#import <UserNotifications/UserNotifications.h>
 NSString *const im_task_uid     = @"PWP16jQLLjFEZXLe@APP";
 NSString *const im_approval_uid = @"ADWpPoQw85ULjnQk@APP";
 NSString *const im_schedule_uid = @"l6b3YdE9LzTnmrl7@APP";
@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     IM_Applicaion_approval,
     IM_Applicaion_schedule,
 };
-@interface AppDelegate ()
+@interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
 
@@ -33,6 +33,16 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     
     [self.window setRootViewController:navVC];
     [self IMDemoNeedMethod];
+    
+    //注册本地通知
+    UNUserNotificationCenter *notificat = [UNUserNotificationCenter currentNotificationCenter];
+    notificat.delegate = self;
+    
+    [notificat requestAuthorizationWithOptions:UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert completionHandler:^(BOOL granted, NSError * _Nullable error) {
+        
+    }];
+    
+    
     return YES;
 }
 
@@ -78,4 +88,20 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
 
 }
 
+#pragma mark - UNUserNotificationCenterDelegate
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
+    
+    completionHandler(UNNotificationPresentationOptionAlert|UNNotificationPresentationOptionBadge|UNNotificationPresentationOptionSound);
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {
+    NSNotification *notification =[NSNotification notificationWithName:@"tongzhi" object:nil userInfo:nil];
+    
+    //通过通知中心发送通知
+    
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+    NSLog(@"点我干嘛");
+    
+}
 @end

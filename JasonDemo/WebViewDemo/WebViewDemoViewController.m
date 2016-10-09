@@ -29,7 +29,7 @@
 
     self.webView = [[UIWebView alloc] initWithFrame:self.view.frame];
     self.webView.delegate = self;
-    NSURL *url = [NSURL URLWithString:@"http://192.168.4.88:8080/jy/editUserHealthyPlanDets.htm?vType=YS&healthyPlanTempId=851E9312_CF7A_424F_A2C5_EB381ASC15F1&healthyPlanId=885&staffId=3023319&&id=10599"];
+    NSURL *url = [NSURL URLWithString:@"http://59.63.163.44:8084/doctortoolslist"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     self.webView.scalesPageToFit = YES;
     [self.webView loadRequest:request];
