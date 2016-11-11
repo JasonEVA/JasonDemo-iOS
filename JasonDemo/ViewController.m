@@ -19,6 +19,7 @@
 #import "ICONFONTViewController.h"
 #import "TwoTableViewViewController.h"
 #import "NotificationViewController.h"
+#import "FilpAnimationViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -31,7 +32,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -99,6 +100,9 @@
     }
     else if (indexPath.row == 11) {
         VC = [[NotificationViewController alloc] init];
+    }
+    else if (indexPath.row == 12) {
+        VC = [[FilpAnimationViewController alloc] init];
     }
 
     

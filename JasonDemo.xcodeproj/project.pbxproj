@@ -107,6 +107,7 @@
 		D4CA5CEF1CD0A7EF00E8856B /* ImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CEE1CD0A7EF00E8856B /* ImagePickerVC.m */; };
 		D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF11CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m */; };
 		D4CA5CF51CD0AB0000E8856B /* ApplicationAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */; };
+		D4CF64801DD569820003113B /* FilpAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF647F1DD569820003113B /* FilpAnimationViewController.m */; };
 		D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
 		D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
 		D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
@@ -304,6 +305,8 @@
 		D4CA5CF11CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationAttachmentTableViewCell.m; path = WZPhotoPickerController/ApplicationAttachmentTableViewCell.m; sourceTree = "<group>"; };
 		D4CA5CF31CD0AB0000E8856B /* ApplicationAttachmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationAttachmentModel.h; sourceTree = "<group>"; };
 		D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationAttachmentModel.m; sourceTree = "<group>"; };
+		D4CF647E1DD569820003113B /* FilpAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilpAnimationViewController.h; sourceTree = "<group>"; };
+		D4CF647F1DD569820003113B /* FilpAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilpAnimationViewController.m; sourceTree = "<group>"; };
 		D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageListViewController.h; sourceTree = "<group>"; };
 		D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageListViewController.m; sourceTree = "<group>"; };
 		D4EA22521D5C2A9B006DD19C /* MyTTTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTTLabel.h; sourceTree = "<group>"; };
@@ -467,6 +470,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF647D1DD569530003113B /* FlipAnimationDemo */,
 				D4B91C9C1DAA350400DC0570 /* NotificationDemo */,
 				D4B1FE421D717E2B0007302E /* TwoTableViewDemo */,
 				D4AEC3F51D6E8AEB00BF3094 /* ICONFONTDemo */,
@@ -772,6 +776,15 @@
 				D4CA5CDB1CD0A49D00E8856B /* UnifiedUserInfoManager.m */,
 			);
 			path = Unified;
+			sourceTree = "<group>";
+		};
+		D4CF647D1DD569530003113B /* FlipAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF647E1DD569820003113B /* FilpAnimationViewController.h */,
+				D4CF647F1DD569820003113B /* FilpAnimationViewController.m */,
+			);
+			path = FlipAnimationDemo;
 			sourceTree = "<group>";
 		};
 		D4EBEED41D4F223C00D64AB3 /* MDG */ = {
@@ -1140,6 +1153,7 @@
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
 				D4CA5CE11CD0A49D00E8856B /* NSDictionary+SafeManager.m in Sources */,
+				D4CF64801DD569820003113B /* FilpAnimationViewController.m in Sources */,
 				D4CA5CE41CD0A49D00E8856B /* UIFont+Util.m in Sources */,
 				D42798EF1CA2642300840090 /* PlayView.m in Sources */,
 				D45612D31CA3C7EE0023E099 /* VolumeProgressView.m in Sources */,
