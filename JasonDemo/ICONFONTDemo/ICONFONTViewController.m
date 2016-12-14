@@ -34,12 +34,20 @@
         make.centerX.equalTo(self.view);
         make.centerY.equalTo(self.view).offset(50);
     }];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(doSomething:) name:@"APPTerminate" object:nil];
 
     // Do any additional setup after loading the view.
 }
 
+#pragma mark -处理通知
+-(void)doSomething:(NSNotification*)notification{
+    NSLog(@"收到通知");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+
     // Dispose of any resources that can be recreated.
 }
 

@@ -30,7 +30,7 @@
     [tttLb setNumberOfLines:0];
     [tttLb setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:tttLb];
-    NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"梵蒂冈的风格1，萨克斯决定dddd，但是jkdsnks。的范德萨发电风扇的的发送到发大幅度水电费水电费水电费第三方水电费水电费第三方第三方是电风扇的法撒旦是安抚啊" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
+    NSMutableAttributedString *mutableAttributedString = [[NSMutableAttributedString alloc] initWithString:@"梵蒂冈的风格1\n，萨克斯决定dddd，但是jkdsnks。的范德萨发电风扇的的发送到发大幅度水电费水电费水电费第三方水电费水电费第三方第三方是电风扇的法撒旦是安抚啊" attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
                                                                                                                          NSForegroundColorAttributeName:[UIColor whiteColor]}];
     [mutableAttributedString setAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15],
                                                                  NSForegroundColorAttributeName:(__bridge id)[UIColor yellowColor].CGColor,

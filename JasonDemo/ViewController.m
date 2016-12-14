@@ -20,6 +20,10 @@
 #import "TwoTableViewViewController.h"
 #import "NotificationViewController.h"
 #import "FilpAnimationViewController.h"
+#import "DesignModeViewController.h"
+#import "JWIterator.h"
+#import "NSObject+CalculatorManager.h"
+#import "CaculatorMaker.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -32,7 +36,17 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo"];
+    
+    //递归
+    JWIterator *iteration = [JWIterator new];
+    NSLog(@"%@",[iteration JWAllobject:@[@1,@[@4,@3],@6,@[@5,@[@1,@0]]]]);
+    //计算器（链式编程）
+    
+    float result = [NSObject makCalulator:^(CaculatorMaker *make) {
+        make.add(1).add(5).sub(4).muilt(2).divide(3);
+    }];
+    NSLog(@"%f",result);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -103,6 +117,9 @@
     }
     else if (indexPath.row == 12) {
         VC = [[FilpAnimationViewController alloc] init];
+    }
+    else if (indexPath.row == 13) {
+        VC = [[DesignModeViewController alloc] init];
     }
 
     

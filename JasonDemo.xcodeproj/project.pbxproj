@@ -13,6 +13,7 @@
 		D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
 		D42798EF1CA2642300840090 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
 		D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
+		D430E4AC1DFF95AB00005394 /* JWIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D430E4AB1DFF95AB00005394 /* JWIterator.m */; };
 		D437EE741D3DBA63001F5C5B /* JWView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE731D3DBA63001F5C5B /* JWView.m */; };
 		D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */; };
 		D43AB3BB1D62E697001BCC8B /* MedicalFormulaJSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43AB3BA1D62E697001BCC8B /* MedicalFormulaJSModel.m */; };
@@ -109,6 +110,8 @@
 		D4CA5CF51CD0AB0000E8856B /* ApplicationAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */; };
 		D4CF64801DD569820003113B /* FilpAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF647F1DD569820003113B /* FilpAnimationViewController.m */; };
 		D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
+		D4E3186A1DF9302100CAA0CA /* DesignModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E318691DF9302100CAA0CA /* DesignModeViewController.m */; };
+		D4E3186D1DF9303700CAA0CA /* JWWatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3186C1DF9303700CAA0CA /* JWWatchModel.m */; };
 		D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
 		D4EA22551D5C2A9B006DD19C /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
 		D4EBEEDA1D4F223C00D64AB3 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
@@ -119,6 +122,8 @@
 		D4EBEEFC1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
 		D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
 		D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
+		D4FAA0AA1E01206100CB919D /* NSObject+CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */; };
+		D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +169,8 @@
 		D42798EE1CA2642300840090 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		D42818051CA8CC5600E98027 /* BreakpointResumeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakpointResumeRequest.h; path = JasonDemo/BreakpointResumeRequest.h; sourceTree = "<group>"; };
 		D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakpointResumeRequest.m; path = JasonDemo/BreakpointResumeRequest.m; sourceTree = "<group>"; };
+		D430E4AA1DFF95AB00005394 /* JWIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIterator.h; sourceTree = "<group>"; };
+		D430E4AB1DFF95AB00005394 /* JWIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIterator.m; sourceTree = "<group>"; };
 		D437EE721D3DBA63001F5C5B /* JWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWView.h; sourceTree = "<group>"; };
 		D437EE731D3DBA63001F5C5B /* JWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWView.m; sourceTree = "<group>"; };
 		D437EE7C1D3E222E001F5C5B /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
@@ -309,6 +316,10 @@
 		D4CF647F1DD569820003113B /* FilpAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilpAnimationViewController.m; sourceTree = "<group>"; };
 		D4CFFE611CB7810400F05E2F /* IMMessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageListViewController.h; sourceTree = "<group>"; };
 		D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageListViewController.m; sourceTree = "<group>"; };
+		D4E318681DF9302100CAA0CA /* DesignModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignModeViewController.h; sourceTree = "<group>"; };
+		D4E318691DF9302100CAA0CA /* DesignModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignModeViewController.m; sourceTree = "<group>"; };
+		D4E3186B1DF9303700CAA0CA /* JWWatchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWatchModel.h; sourceTree = "<group>"; };
+		D4E3186C1DF9303700CAA0CA /* JWWatchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWatchModel.m; sourceTree = "<group>"; };
 		D4EA22521D5C2A9B006DD19C /* MyTTTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTTTLabel.h; sourceTree = "<group>"; };
 		D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTTTLabel.m; sourceTree = "<group>"; };
 		D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MDGImage.bundle; sourceTree = "<group>"; };
@@ -316,6 +327,10 @@
 		D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDiseaseGuidelinesKit.framework; sourceTree = "<group>"; };
 		D4F64AA11D488A52000FB112 /* CoordinationFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinationFilterView.h; sourceTree = "<group>"; };
 		D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinationFilterView.m; sourceTree = "<group>"; };
+		D4FAA0A81E01206100CB919D /* NSObject+CalculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CalculatorManager.h"; sourceTree = "<group>"; };
+		D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CalculatorManager.m"; sourceTree = "<group>"; };
+		D4FAA0AB1E0121B300CB919D /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
 		D4FCC6F31D472E2100D83118 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCC70B1D472E2100D83118 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCC7161D472E2100D83118 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -437,6 +452,15 @@
 			name = BaseClass;
 			sourceTree = "<group>";
 		};
+		D430E4A91DFF958600005394 /* IteratorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D430E4AA1DFF95AB00005394 /* JWIterator.h */,
+				D430E4AB1DFF95AB00005394 /* JWIterator.m */,
+			);
+			path = IteratorDemo;
+			sourceTree = "<group>";
+		};
 		D43ACDDD1C8EA2D500C2BD84 = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +494,9 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4FAA0A41E011FA500CB919D /* CalculatorDemo */,
+				D430E4A91DFF958600005394 /* IteratorDemo */,
+				D4E318611DF92F2500CAA0CA /* DesignMode */,
 				D4CF647D1DD569530003113B /* FlipAnimationDemo */,
 				D4B91C9C1DAA350400DC0570 /* NotificationDemo */,
 				D4B1FE421D717E2B0007302E /* TwoTableViewDemo */,
@@ -787,6 +814,17 @@
 			path = FlipAnimationDemo;
 			sourceTree = "<group>";
 		};
+		D4E318611DF92F2500CAA0CA /* DesignMode */ = {
+			isa = PBXGroup;
+			children = (
+				D4E318681DF9302100CAA0CA /* DesignModeViewController.h */,
+				D4E318691DF9302100CAA0CA /* DesignModeViewController.m */,
+				D4E3186B1DF9303700CAA0CA /* JWWatchModel.h */,
+				D4E3186C1DF9303700CAA0CA /* JWWatchModel.m */,
+			);
+			path = DesignMode;
+			sourceTree = "<group>";
+		};
 		D4EBEED41D4F223C00D64AB3 /* MDG */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +841,17 @@
 				D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */,
 			);
 			path = MDS;
+			sourceTree = "<group>";
+		};
+		D4FAA0A41E011FA500CB919D /* CalculatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4FAA0A81E01206100CB919D /* NSObject+CalculatorManager.h */,
+				D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */,
+				D4FAA0AB1E0121B300CB919D /* CaculatorMaker.h */,
+				D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */,
+			);
+			path = CalculatorDemo;
 			sourceTree = "<group>";
 		};
 		DF3C00511D6714DCDF6D1588 /* Pods */ = {
@@ -1125,11 +1174,14 @@
 				D4CA5CEF1CD0A7EF00E8856B /* ImagePickerVC.m in Sources */,
 				D4CA5CE91CD0A49D00E8856B /* UnifiedFilePathManager.m in Sources */,
 				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
+				D430E4AC1DFF95AB00005394 /* JWIterator.m in Sources */,
 				D4CA5C831CD0A0BB00E8856B /* WZPhotosViewController.m in Sources */,
 				D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */,
+				D4FAA0AA1E01206100CB919D /* NSObject+CalculatorManager.m in Sources */,
 				D41E32A41D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */,
 				D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */,
 				D4A89C1F1CA2928C00E10D22 /* UILabel+EX.m in Sources */,
+				D4E3186A1DF9302100CAA0CA /* DesignModeViewController.m in Sources */,
 				D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */,
 				D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */,
 				D43ACE1E1C8EABED00C2BD84 /* CABasicAnimationViewController.m in Sources */,
@@ -1149,6 +1201,7 @@
 				D4CA5C801CD0A0BB00E8856B /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
 				D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */,
 				D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */,
+				D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */,
 				D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
@@ -1162,6 +1215,7 @@
 				D4A89C2B1CA292D200E10D22 /* DateUtil.m in Sources */,
 				D4A89C1C1CA2928C00E10D22 /* UIColor+Hex.m in Sources */,
 				D437EE741D3DBA63001F5C5B /* JWView.m in Sources */,
+				D4E3186D1DF9303700CAA0CA /* JWWatchModel.m in Sources */,
 				D4A89C1B1CA2928C00E10D22 /* UIButton+EX.m in Sources */,
 				D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */,
 				D4CA5CEC1CD0A49D00E8856B /* UnifiedUserInfoManager.m in Sources */,
