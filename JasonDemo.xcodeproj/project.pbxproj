@@ -42,6 +42,8 @@
 		D46B3F741D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */; };
 		D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
 		D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
+		D46BE7341E023FB400DE5FF2 /* JWWavesAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */; };
+		D46BE7371E02404C00DE5FF2 /* JWWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */; };
 		D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
 		D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
@@ -212,6 +214,10 @@
 		D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDrugStore.framework; sourceTree = "<group>"; };
 		D46B3F751D4F4A7800D56D56 /* BottomLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomLineButton.h; sourceTree = "<group>"; };
 		D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomLineButton.m; sourceTree = "<group>"; };
+		D46BE7321E023FB400DE5FF2 /* JWWavesAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWavesAnimationViewController.h; sourceTree = "<group>"; };
+		D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWavesAnimationViewController.m; sourceTree = "<group>"; };
+		D46BE7351E02404C00DE5FF2 /* JWWavesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWavesAnimationView.h; sourceTree = "<group>"; };
+		D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWavesAnimationView.m; sourceTree = "<group>"; };
 		D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWVisualEffectViewVC.h; sourceTree = "<group>"; };
 		D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWVisualEffectViewVC.m; sourceTree = "<group>"; };
 		D4A89C031CA291FA00E10D22 /* VideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
@@ -494,6 +500,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D46BE7311E023F3300DE5FF2 /* WavesAnimationDemo */,
 				D4FAA0A41E011FA500CB919D /* CalculatorDemo */,
 				D430E4A91DFF958600005394 /* IteratorDemo */,
 				D4E318611DF92F2500CAA0CA /* DesignMode */,
@@ -568,6 +575,17 @@
 				D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */,
 			);
 			path = RMAudioManager;
+			sourceTree = "<group>";
+		};
+		D46BE7311E023F3300DE5FF2 /* WavesAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D46BE7321E023FB400DE5FF2 /* JWWavesAnimationViewController.h */,
+				D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */,
+				D46BE7351E02404C00DE5FF2 /* JWWavesAnimationView.h */,
+				D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */,
+			);
+			path = WavesAnimationDemo;
 			sourceTree = "<group>";
 		};
 		D47DD8301D4EEB9100303C36 /* SDKTest */ = {
@@ -1183,7 +1201,9 @@
 				D4A89C1F1CA2928C00E10D22 /* UILabel+EX.m in Sources */,
 				D4E3186A1DF9302100CAA0CA /* DesignModeViewController.m in Sources */,
 				D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */,
+				D46BE7371E02404C00DE5FF2 /* JWWavesAnimationView.m in Sources */,
 				D4CA5CF21CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m in Sources */,
+				D46BE7341E023FB400DE5FF2 /* JWWavesAnimationViewController.m in Sources */,
 				D43ACE1E1C8EABED00C2BD84 /* CABasicAnimationViewController.m in Sources */,
 				D43ACDF11C8EA2D500C2BD84 /* ViewController.m in Sources */,
 				D4CA5CE81CD0A49D00E8856B /* UnifiedEggHuntManager.m in Sources */,

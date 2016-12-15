@@ -24,6 +24,7 @@
 #import "JWIterator.h"
 #import "NSObject+CalculatorManager.h"
 #import "CaculatorMaker.h"
+#import "JWWavesAnimationViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -36,7 +37,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:@"Jason Demo"];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo",@"波浪动画Demo"];
     
     //递归
     JWIterator *iteration = [JWIterator new];
@@ -121,7 +122,9 @@
     else if (indexPath.row == 13) {
         VC = [[DesignModeViewController alloc] init];
     }
-
+    else if (indexPath.row == 14) {
+        VC = [[JWWavesAnimationViewController alloc] init];
+    }
     
     [self.navigationController pushViewController:VC animated:YES];
 }
