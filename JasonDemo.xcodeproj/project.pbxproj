@@ -13,6 +13,7 @@
 		D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
 		D42798EF1CA2642300840090 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
 		D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
+		D42925AA1E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42925A91E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m */; };
 		D430E4AC1DFF95AB00005394 /* JWIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D430E4AB1DFF95AB00005394 /* JWIterator.m */; };
 		D437EE741D3DBA63001F5C5B /* JWView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE731D3DBA63001F5C5B /* JWView.m */; };
 		D437EE7E1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */; };
@@ -171,6 +172,8 @@
 		D42798EE1CA2642300840090 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		D42818051CA8CC5600E98027 /* BreakpointResumeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreakpointResumeRequest.h; path = JasonDemo/BreakpointResumeRequest.h; sourceTree = "<group>"; };
 		D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreakpointResumeRequest.m; path = JasonDemo/BreakpointResumeRequest.m; sourceTree = "<group>"; };
+		D42925A81E481C0E009C64DF /* JWSameDirectionWavesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWSameDirectionWavesAnimationView.h; sourceTree = "<group>"; };
+		D42925A91E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWSameDirectionWavesAnimationView.m; sourceTree = "<group>"; };
 		D430E4AA1DFF95AB00005394 /* JWIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIterator.h; sourceTree = "<group>"; };
 		D430E4AB1DFF95AB00005394 /* JWIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIterator.m; sourceTree = "<group>"; };
 		D437EE721D3DBA63001F5C5B /* JWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWView.h; sourceTree = "<group>"; };
@@ -584,6 +587,8 @@
 				D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */,
 				D46BE7351E02404C00DE5FF2 /* JWWavesAnimationView.h */,
 				D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */,
+				D42925A81E481C0E009C64DF /* JWSameDirectionWavesAnimationView.h */,
+				D42925A91E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m */,
 			);
 			path = WavesAnimationDemo;
 			sourceTree = "<group>";
@@ -1234,6 +1239,7 @@
 				D4A89C2C1CA292D200E10D22 /* MyToolBar.m in Sources */,
 				D4A89C2B1CA292D200E10D22 /* DateUtil.m in Sources */,
 				D4A89C1C1CA2928C00E10D22 /* UIColor+Hex.m in Sources */,
+				D42925AA1E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m in Sources */,
 				D437EE741D3DBA63001F5C5B /* JWView.m in Sources */,
 				D4E3186D1DF9303700CAA0CA /* JWWatchModel.m in Sources */,
 				D4A89C1B1CA2928C00E10D22 /* UIButton+EX.m in Sources */,

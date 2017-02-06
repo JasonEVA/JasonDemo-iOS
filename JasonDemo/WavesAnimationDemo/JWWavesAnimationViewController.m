@@ -9,7 +9,11 @@
 #import "JWWavesAnimationViewController.h"
 #import "JWWavesAnimationView.h"
 #import <Masonry/Masonry.h>
+#import "JWSameDirectionWavesAnimationView.h"
+
 @interface JWWavesAnimationViewController ()
+@property (nonatomic, strong) JWSameDirectionWavesAnimationView *sameWave;
+@property (nonatomic, strong) JWWavesAnimationView *waveView;
 
 @end
 
@@ -17,14 +21,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor lightGrayColor]];
-    JWWavesAnimationView *waveView = [JWWavesAnimationView new];
-    [waveView.layer setCornerRadius:50];
-    [waveView setClipsToBounds:YES];
-
-    [self.view addSubview:waveView];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    [waveView mas_makeConstraints:^(MASConstraintMaker *make) {
+    
+    self.sameWave = [JWSameDirectionWavesAnimationView new];
+    
+    [self.view addSubview:_sameWave];
+    
+    [_sameWave mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    
+    self.waveView = [JWWavesAnimationView new];
+    [_waveView.layer setCornerRadius:50];
+    [_waveView setClipsToBounds:YES];
+    
+    [self.view addSubview:_waveView];
+    
+    [_waveView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
         make.width.height.equalTo(@100);
     }];
@@ -32,8 +46,15 @@
     [self.view layoutIfNeeded];
     [self.view setNeedsLayout];
     
-    [waveView setUp];
+    [_waveView setUp];
+    [_sameWave setUp];
+    
     // Do any additional setup after loading the view.
+}
+
+- (void)dealloc {
+    [self.sameWave toDealloc];
+    [self.waveView toDealloc];
 }
 
 - (void)didReceiveMemoryWarning {
