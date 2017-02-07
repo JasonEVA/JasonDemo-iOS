@@ -1009,7 +1009,8 @@
 				TargetAttributes = {
 					D43ACDE51C8EA2D500C2BD84 = {
 						CreatedOnToolsVersion = 7.2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 849HMFZQCM;
+						ProvisioningStyle = Automatic;
 					};
 					D43ACDFE1C8EA2D600C2BD84 = {
 						CreatedOnToolsVersion = 7.2;
@@ -1435,7 +1436,8 @@
 			baseConfigurationReference = A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 849HMFZQCM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1457,7 +1459,8 @@
 			baseConfigurationReference = 55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 849HMFZQCM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

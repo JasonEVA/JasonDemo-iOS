@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    
+    self.title = @"波浪";
     
     self.sameWave = [JWSameDirectionWavesAnimationView new];
     

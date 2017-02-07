@@ -17,6 +17,7 @@ C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏�
 
 
 #import "JWWavesAnimationView.h"
+#import "UIColor+Hex.h"
 
 @interface JWWavesAnimationView ()
 @property (nonatomic, strong) CADisplayLink *waveDisplaylink;
@@ -47,7 +48,7 @@ C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏�
     //设置波浪的宽度
     self.waterWaveWidth = self.bounds.size.width;
     //设置波浪的颜色
-    self.firstWaveColor = [UIColor colorWithWhite:0.6 alpha:0.2];
+    self.firstWaveColor = [UIColor colorWithR:30 g:144 b:250 alpha:0.3];
     //设置波浪的速度
     self.waveSpeed = 0.4/M_PI;
     //初始化layer
@@ -104,41 +105,39 @@ C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏�
 -(void)setCurrentFirstWaveLayerPath
 {
     //创建一个路径
-    CGMutablePathRef path = CGPathCreateMutable();
+    UIBezierPath *path = [UIBezierPath new];
     CGFloat y = self.currentK;
     //将点移动到 x=0,y=currentK的位置
-    CGPathMoveToPoint(path, nil, 0, y);
+    [path moveToPoint:CGPointMake(0, y)];
     for (NSInteger x = 0.0f; x<=self.waterWaveWidth; x++) {
         //正玄波浪公式
         y = self.waveA * sin(self.waveW * x + self.offsetX)+self.currentK;
         //将点连成线
-        CGPathAddLineToPoint(path, nil, x, y);
+        [path addLineToPoint:CGPointMake(x, y)];
     }
-    CGPathAddLineToPoint(path, nil, self.waterWaveWidth, self.frame.size.height);
-    CGPathAddLineToPoint(path, nil, 0, self.frame.size.height);
-    CGPathCloseSubpath(path);
-    _firstWaveLayer.path = path;
-    CGPathRelease(path);
+    [path addLineToPoint:CGPointMake(self.waterWaveWidth, self.frame.size.height)];
+    [path addLineToPoint:CGPointMake(0, self.frame.size.height)];
+    self.firstWaveLayer.path = path.CGPath;
+   
 }
 
 -(void)setCurrentSecondWaveLayerPath
 {
     //创建一个路径
-    CGMutablePathRef path = CGPathCreateMutable();
+    UIBezierPath *path = [UIBezierPath new];
     CGFloat y = self.currentK;
     //将点移动到 x=0,y=currentK的位置
-    CGPathMoveToPoint(path, nil, 0, y);
+    [path moveToPoint:CGPointMake(0, y)];
     for (NSInteger x = 0.0f; x<=self.waterWaveWidth; x++) {
         //正玄波浪公式
         y = (self.waveA+2) * sin((self.waveW) * x - self.offsetX + 10)+self.currentK;
         //将点连成线
-        CGPathAddLineToPoint(path, nil, x, y);
+        [path addLineToPoint:CGPointMake(x, y)];
     }
-    CGPathAddLineToPoint(path, nil, self.waterWaveWidth, self.frame.size.height);
-    CGPathAddLineToPoint(path, nil, 0, self.frame.size.height);
-    CGPathCloseSubpath(path);
-    self.secondWaveLayer.path = path;
-    CGPathRelease(path);
+    [path addLineToPoint:CGPointMake(self.waterWaveWidth, self.frame.size.height)];
+    [path addLineToPoint:CGPointMake(0, self.frame.size.height)];
+    self.secondWaveLayer.path = path.CGPath;
+    
 }
 
 - (void)toDealloc

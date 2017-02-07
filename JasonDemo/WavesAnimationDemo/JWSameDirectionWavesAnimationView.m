@@ -6,9 +6,10 @@
 //  Copyright © 2017年 jasonwang. All rights reserved.
 //
 
-#define WATERCOLOR   [UIColor colorWithWhite:0.6 alpha:0.3]
+#define WATERCOLOR   [UIColor colorWithR:135 g:206 b:250 alpha:0.3]
 
 #import "JWSameDirectionWavesAnimationView.h"
+#import "UIColor+Hex.h"
 
 @interface JWSameDirectionWavesAnimationView ()
 @property (nonatomic, strong) CADisplayLink *waveDisplaylink;
@@ -74,11 +75,11 @@
     //设置周期
     self.waveW = 1/40.0;
     //设置波浪纵向位置
-    self.currentK = 76;
+    self.currentK = 75;
     //启动定时器
     self.waveDisplaylink = [CADisplayLink displayLinkWithTarget:self selector:@selector(getCurrentWave:)];
     //慢动作
-    //    self.waveDisplaylink.frameInterval = 10;
+//    self.waveDisplaylink.frameInterval = 10;
     [self.waveDisplaylink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     
 }
@@ -96,12 +97,14 @@
         if (self.waveA <= 8) {
             //张开速度
             self.waveA += 0.2;
+            self.currentK += 0.2;
         }
     }
     else {
         if (self.waveA >= 5) {
             //闭合速度
             self.waveA -= 0.5;
+            self.currentK -= 0.5;
         }
     }
     [self setCurrentFirstWaveLayerPath];
@@ -111,41 +114,37 @@
 -(void)setCurrentFirstWaveLayerPath
 {
     //创建一个路径
-    CGMutablePathRef path = CGPathCreateMutable();
+    UIBezierPath *path = [UIBezierPath new];
     CGFloat y = self.currentK;
     //将点移动到 x=0,y=currentK的位置
-    CGPathMoveToPoint(path, nil, 0, y);
+    [path moveToPoint:CGPointMake(0, y)];
     for (NSInteger x = 0.0f; x<=self.waterWaveWidth; x++) {
         //正玄波浪公式
         y = self.waveA * sin(self.waveW * x + self.offsetX)+self.currentK;
         //将点连成线
-        CGPathAddLineToPoint(path, nil, x, y);
+        [path addLineToPoint:CGPointMake(x, y)];
     }
-    CGPathAddLineToPoint(path, nil, self.waterWaveWidth, self.frame.size.height);
-    CGPathAddLineToPoint(path, nil, 0, self.frame.size.height);
-    CGPathCloseSubpath(path);
-    _firstWaveLayer.path = path;
-    CGPathRelease(path);
+    [path addLineToPoint:CGPointMake(self.waterWaveWidth, self.frame.size.height)];
+    [path addLineToPoint:CGPointMake(0, self.frame.size.height)];
+    self.firstWaveLayer.path = path.CGPath;
 }
 
 -(void)setCurrentSecondWaveLayerPath
 {
     //创建一个路径
-    CGMutablePathRef path = CGPathCreateMutable();
+    UIBezierPath *path = [UIBezierPath new];
     CGFloat y = self.currentK;
     //将点移动到 x=0,y=currentK的位置
-    CGPathMoveToPoint(path, nil, 0, y);
+    [path moveToPoint:CGPointMake(0, y)];
     for (NSInteger x = 0.0f; x<=self.waterWaveWidth; x++) {
         //正玄波浪公式
         y = (self.waveA) * sin((self.waveW) * x + self.offsetX + M_PI)+self.currentK;
         //将点连成线
-        CGPathAddLineToPoint(path, nil, x, y);
+        [path addLineToPoint:CGPointMake(x, y)];
     }
-    CGPathAddLineToPoint(path, nil, self.waterWaveWidth, self.frame.size.height);
-    CGPathAddLineToPoint(path, nil, 0, self.frame.size.height);
-    CGPathCloseSubpath(path);
-    self.secondWaveLayer.path = path;
-    CGPathRelease(path);
+    [path addLineToPoint:CGPointMake(self.waterWaveWidth, self.frame.size.height)];
+    [path addLineToPoint:CGPointMake(0, self.frame.size.height)];
+    self.secondWaveLayer.path = path.CGPath;
 }
 
 - (void)toDealloc
