@@ -79,9 +79,9 @@ C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏�
         [self.layer addSublayer:self.secondWaveLayer];
     }
     //设置波浪流动速度
-    self.waveSpeed = 0.08;
+    self.waveSpeed = 0.5;
     //设置振幅
-    self.waveA = 5;
+    self.waveA = 2;
     //设置周期
     self.waveW = 1/20.0;
     //设置波浪纵向位置
@@ -98,6 +98,12 @@ C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏�
 {
     //实时的位移
     self.offsetX += self.waveSpeed;
+    if (self.currentK > 0) {
+        self.currentK --;
+    }
+    else {
+        self.currentK = self.frame.size.height;
+    }
     [self setCurrentFirstWaveLayerPath];
     [self setCurrentSecondWaveLayerPath];
 }

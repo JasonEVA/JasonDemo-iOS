@@ -32,6 +32,8 @@
         make.edges.equalTo(self.view);
     }];
     
+    
+    
     self.waveView = [JWWavesAnimationView new];
     [_waveView.layer setCornerRadius:50];
     [_waveView setClipsToBounds:YES];
@@ -46,6 +48,12 @@
     [self.view layoutIfNeeded];
     [self.view setNeedsLayout];
     
+    //mask 蒙版
+    CALayer *maskLayer = [CALayer layer];
+    [maskLayer setFrame:self.waveView.bounds];
+    maskLayer.contents = (id)[UIImage imageNamed:@"TwitterLogo_white"].CGImage;
+    self.waveView.layer.mask = maskLayer;
+
     [_waveView setUp];
     [_sameWave setUp];
     
