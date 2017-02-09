@@ -31,6 +31,52 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     ViewController *VC = [[ViewController alloc] init];
     UINavigationController *navVC  =[[UINavigationController alloc] initWithRootViewController:VC];
     
+    UIView *whiteView = [[UIView alloc] initWithFrame:navVC.view.bounds];
+    [whiteView setBackgroundColor:[UIColor whiteColor]];
+    [navVC.view addSubview:whiteView];
+    
+    //mask 蒙版
+    CALayer *maskLayer = [CALayer layer];
+    [maskLayer setFrame:CGRectMake(0, 0, 200, 120)];
+    maskLayer.contents = (id)[UIImage imageNamed:@"111111"].CGImage;
+    navVC.view.layer.mask = maskLayer;
+    maskLayer.position = navVC.view.center;
+    CAKeyframeAnimation *transAnimation = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
+    transAnimation.duration = 1;
+    transAnimation.beginTime = CACurrentMediaTime() + 1;
+    CGRect firstBounds = navVC.view.layer.mask.bounds;
+    CGRect secondBounds = CGRectMake(0, 0, 400, 240);
+    CGRect finalBounds = CGRectMake(0, 0, 20000, 20000);
+
+    [transAnimation setValues:@[[NSValue valueWithCGRect:firstBounds],[NSValue valueWithCGRect:secondBounds],[NSValue valueWithCGRect:finalBounds]]];
+    
+    transAnimation.keyTimes = @[@0,@0.5,@1];
+    transAnimation.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
+    transAnimation.removedOnCompletion = NO;
+    transAnimation.fillMode = kCAFillModeForwards;
+    
+    [navVC.view.layer.mask addAnimation:transAnimation forKey:@"maskAnimation"];
+    
+    
+    CAKeyframeAnimation *viewTransAnimation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
+
+    viewTransAnimation.duration = 0.6;
+    viewTransAnimation.keyTimes = @[@0,@0.5,@1];
+    viewTransAnimation.beginTime = CACurrentMediaTime() + 1.1;
+    [viewTransAnimation setValues:@[[NSValue valueWithCATransform3D:CATransform3DIdentity],[NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 1.1, 1.1, 1)],[NSValue valueWithCATransform3D:CATransform3DIdentity]]];
+    
+    [navVC.view.layer addAnimation:viewTransAnimation forKey:@"viewAnimation"];
+    navVC.view.layer.transform = CATransform3DIdentity;
+    
+    
+    [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        whiteView.alpha = 0;
+    } completion:^(BOOL finished) {
+        [whiteView removeFromSuperview];
+        navVC.view.layer.mask = nil;
+    }];
+    
+    
     [self.window setRootViewController:navVC];
     [self IMDemoNeedMethod];
     

@@ -42,7 +42,8 @@
     
     [_waveView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
-        make.width.height.equalTo(@100);
+        make.height.equalTo(@120);
+        make.width.equalTo(@200);
     }];
     
     [self.view layoutIfNeeded];
@@ -51,7 +52,7 @@
     //mask 蒙版
     CALayer *maskLayer = [CALayer layer];
     [maskLayer setFrame:self.waveView.bounds];
-    maskLayer.contents = (id)[UIImage imageNamed:@"TwitterLogo_white"].CGImage;
+    maskLayer.contents = (id)[UIImage imageNamed:@"111111"].CGImage;
     self.waveView.layer.mask = maskLayer;
 
     [_waveView setUp];
