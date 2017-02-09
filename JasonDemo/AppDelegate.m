@@ -31,11 +31,7 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     ViewController *VC = [[ViewController alloc] init];
     UINavigationController *navVC  =[[UINavigationController alloc] initWithRootViewController:VC];
     
-    UIView *whiteView = [[UIView alloc] initWithFrame:navVC.view.bounds];
-    [whiteView setBackgroundColor:[UIColor whiteColor]];
-    [navVC.view addSubview:whiteView];
-    
-    //mask 蒙版
+    //  第一步 设置 mask 蒙版 和动画
     CALayer *maskLayer = [CALayer layer];
     [maskLayer setFrame:CGRectMake(0, 0, 200, 120)];
     maskLayer.contents = (id)[UIImage imageNamed:@"111111"].CGImage;
@@ -56,8 +52,7 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     transAnimation.fillMode = kCAFillModeForwards;
     
     [navVC.view.layer.mask addAnimation:transAnimation forKey:@"maskAnimation"];
-    
-    
+   //   第二步 设置 NavigationController的view的形变动画
     CAKeyframeAnimation *viewTransAnimation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
 
     viewTransAnimation.duration = 0.6;
@@ -67,7 +62,10 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     
     [navVC.view.layer addAnimation:viewTransAnimation forKey:@"viewAnimation"];
     navVC.view.layer.transform = CATransform3DIdentity;
-    
+    //  第三步 添加白色遮罩
+    UIView *whiteView = [[UIView alloc] initWithFrame:navVC.view.bounds];
+    [whiteView setBackgroundColor:[UIColor whiteColor]];
+    [navVC.view addSubview:whiteView];
     
     [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         whiteView.alpha = 0;
