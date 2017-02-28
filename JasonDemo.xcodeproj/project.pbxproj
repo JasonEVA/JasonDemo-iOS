@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */; };
+		D40C2F481E651B6200F5328B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C2F471E651B6200F5328B /* NotificationCenter.framework */; };
+		D40C2F4C1E651B6200F5328B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C2F4B1E651B6200F5328B /* TodayViewController.m */; };
+		D40C2F531E651B6200F5328B /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D41E32A41D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */; };
 		D41E32A51D61ABE10076EC51 /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */; };
 		D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
@@ -130,6 +133,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D40C2F511E651B6200F5328B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43ACDDE1C8EA2D500C2BD84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40C2F451E651B6200F5328B;
+			remoteInfo = JasonDemoWidget;
+		};
 		D43ACE001C8EA2D600C2BD84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D43ACDDE1C8EA2D500C2BD84 /* Project object */;
@@ -160,10 +170,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D40C2F571E651B6200F5328B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D40C2F531E651B6200F5328B /* JasonDemoWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JasonDemoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40C2F471E651B6200F5328B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D40C2F4A1E651B6200F5328B /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		D40C2F4B1E651B6200F5328B /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		D40C2F501E651B6200F5328B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40C2F581E651F8600F5328B /* JasonDemoWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JasonDemoWidget.entitlements; sourceTree = "<group>"; };
 		D41E32A21D61ABE10076EC51 /* WebViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDemoViewController.h; sourceTree = "<group>"; };
 		D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoViewController.m; sourceTree = "<group>"; };
 		D42798E81CA2318C00840090 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
@@ -346,6 +376,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D40C2F431E651B6200F5328B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40C2F481E651B6200F5328B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D43ACDE31C8EA2D500C2BD84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,8 +444,20 @@
 				D4BF086C1CB4EC310055D152 /* libz.tbd */,
 				D4BF086A1CB4EC230055D152 /* libc++.tbd */,
 				62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */,
+				D40C2F471E651B6200F5328B /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40C2F491E651B6200F5328B /* JasonDemoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D40C2F581E651F8600F5328B /* JasonDemoWidget.entitlements */,
+				D40C2F4A1E651B6200F5328B /* TodayViewController.h */,
+				D40C2F4B1E651B6200F5328B /* TodayViewController.m */,
+				D40C2F501E651B6200F5328B /* Info.plist */,
+			);
+			path = JasonDemoWidget;
 			sourceTree = "<group>";
 		};
 		D41E32A11D61ABA80076EC51 /* WebViewDemo */ = {
@@ -481,6 +531,7 @@
 				D43ACDE81C8EA2D500C2BD84 /* JasonDemo */,
 				D43ACE021C8EA2D600C2BD84 /* JasonDemoTests */,
 				D43ACE0D1C8EA2D600C2BD84 /* JasonDemoUITests */,
+				D40C2F491E651B6200F5328B /* JasonDemoWidget */,
 				D43ACDE71C8EA2D500C2BD84 /* Products */,
 				DF3C00511D6714DCDF6D1588 /* Pods */,
 				3759ABA0DA2AB12516BCC972 /* Frameworks */,
@@ -496,6 +547,7 @@
 				D4FCC6F31D472E2100D83118 /* test.app */,
 				D4FCC70B1D472E2100D83118 /* testTests.xctest */,
 				D4FCC7161D472E2100D83118 /* testUITests.xctest */,
+				D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -889,6 +941,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D40C2F451E651B6200F5328B /* JasonDemoWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40C2F561E651B6200F5328B /* Build configuration list for PBXNativeTarget "JasonDemoWidget" */;
+			buildPhases = (
+				D40C2F421E651B6200F5328B /* Sources */,
+				D40C2F431E651B6200F5328B /* Frameworks */,
+				D40C2F441E651B6200F5328B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasonDemoWidget;
+			productName = JasonDemoWidget;
+			productReference = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D43ACDE51C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43ACE131C8EA2D600C2BD84 /* Build configuration list for PBXNativeTarget "JasonDemo" */;
@@ -899,10 +968,12 @@
 				D43ACDE41C8EA2D500C2BD84 /* Resources */,
 				95CB32837FFBE7750558ABEC /* Copy Pods Resources */,
 				E7B25EA66F2C1701087877C7 /* Embed Pods Frameworks */,
+				D40C2F571E651B6200F5328B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D40C2F521E651B6200F5328B /* PBXTargetDependency */,
 			);
 			name = JasonDemo;
 			productName = JasonDemo;
@@ -1007,6 +1078,16 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jasonwang;
 				TargetAttributes = {
+					D40C2F451E651B6200F5328B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 849HMFZQCM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					D43ACDE51C8EA2D500C2BD84 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 849HMFZQCM;
@@ -1052,11 +1133,19 @@
 				D4FCC6F21D472E2100D83118 /* test */,
 				D4FCC70A1D472E2100D83118 /* testTests */,
 				D4FCC7151D472E2100D83118 /* testUITests */,
+				D40C2F451E651B6200F5328B /* JasonDemoWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D40C2F441E651B6200F5328B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D43ACDE41C8EA2D500C2BD84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1180,6 +1269,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D40C2F421E651B6200F5328B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40C2F4C1E651B6200F5328B /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D43ACDE21C8EA2D500C2BD84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1307,6 +1404,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D40C2F521E651B6200F5328B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40C2F451E651B6200F5328B /* JasonDemoWidget */;
+			targetProxy = D40C2F511E651B6200F5328B /* PBXContainerItemProxy */;
+		};
 		D43ACE011C8EA2D600C2BD84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D43ACDE51C8EA2D500C2BD84 /* JasonDemo */;
@@ -1349,6 +1451,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D40C2F541E651B6200F5328B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = JasonDemoWidget/JasonDemoWidget.entitlements;
+				DEVELOPMENT_TEAM = 849HMFZQCM;
+				INFOPLIST_FILE = JasonDemoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo.JasonDemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D40C2F551E651B6200F5328B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = JasonDemoWidget/JasonDemoWidget.entitlements;
+				DEVELOPMENT_TEAM = 849HMFZQCM;
+				INFOPLIST_FILE = JasonDemoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo.JasonDemoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D43ACE111C8EA2D600C2BD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1620,6 +1758,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D40C2F561E651B6200F5328B /* Build configuration list for PBXNativeTarget "JasonDemoWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40C2F541E651B6200F5328B /* Debug */,
+				D40C2F551E651B6200F5328B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D43ACDE11C8EA2D500C2BD84 /* Build configuration list for PBXProject "JasonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

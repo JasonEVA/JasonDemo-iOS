@@ -10,6 +10,8 @@
 #import "ViewController.h"
 #import <MintcodeIM/MintcodeIM.h>
 #import <UserNotifications/UserNotifications.h>
+#import "TTTDemoViewController.h"
+
 NSString *const im_task_uid     = @"PWP16jQLLjFEZXLe@APP";
 NSString *const im_approval_uid = @"ADWpPoQw85ULjnQk@APP";
 NSString *const im_schedule_uid = @"l6b3YdE9LzTnmrl7@APP";
@@ -150,5 +152,14 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     [[NSNotificationCenter defaultCenter] postNotification:notification];
     NSLog(@"点我干嘛");
     
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    if ([url.host isEqualToString:@"TTT"])
+    {
+        TTTDemoViewController *VC = [[TTTDemoViewController alloc] init];
+        [(UINavigationController *)self.window.rootViewController pushViewController:VC animated:YES];
+    }
+    return YES;
 }
 @end
