@@ -1461,7 +1461,7 @@
 				CODE_SIGN_ENTITLEMENTS = JasonDemoWidget/JasonDemoWidget.entitlements;
 				DEVELOPMENT_TEAM = 849HMFZQCM;
 				INFOPLIST_FILE = JasonDemoWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo.JasonDemoWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1479,7 +1479,7 @@
 				CODE_SIGN_ENTITLEMENTS = JasonDemoWidget/JasonDemoWidget.entitlements;
 				DEVELOPMENT_TEAM = 849HMFZQCM;
 				INFOPLIST_FILE = JasonDemoWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo.JasonDemoWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1765,6 +1765,7 @@
 				D40C2F551E651B6200F5328B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D43ACDE11C8EA2D500C2BD84 /* Build configuration list for PBXProject "JasonDemo" */ = {
 			isa = XCConfigurationList;
