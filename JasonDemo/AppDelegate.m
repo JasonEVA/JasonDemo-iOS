@@ -11,6 +11,8 @@
 #import <MintcodeIM/MintcodeIM.h>
 #import <UserNotifications/UserNotifications.h>
 #import "TTTDemoViewController.h"
+#import "HMPersonSpaceNavigationController.h"
+#import "JWNavAnimationViewController.h"
 
 NSString *const im_task_uid     = @"PWP16jQLLjFEZXLe@APP";
 NSString *const im_approval_uid = @"ADWpPoQw85ULjnQk@APP";
@@ -30,19 +32,29 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UITabBarController *tabVC = [[UITabBarController alloc] init];
     ViewController *VC = [[ViewController alloc] init];
     UINavigationController *navVC  =[[UINavigationController alloc] initWithRootViewController:VC];
+    [navVC.tabBarItem setTitle:@"主页"];
+
+    JWNavAnimationViewController *meVC = [JWNavAnimationViewController new];
+
+    HMPersonSpaceNavigationController *meNav = [[HMPersonSpaceNavigationController alloc] initWithRootViewController:meVC];
+    [meNav.tabBarItem setTitle:@"我的"];
+    [tabVC setViewControllers:@[navVC,meNav]];
     
+    [self.window setRootViewController:tabVC];
+
     //  第一步 设置 mask 蒙版 和动画
     CALayer *maskLayer = [CALayer layer];
     [maskLayer setFrame:CGRectMake(0, 0, 200, 120)];
     maskLayer.contents = (id)[UIImage imageNamed:@"111111"].CGImage;
-    navVC.view.layer.mask = maskLayer;
-    maskLayer.position = navVC.view.center;
+    tabVC.view.layer.mask = maskLayer;
+    maskLayer.position = tabVC.view.center;
     CAKeyframeAnimation *transAnimation = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
     transAnimation.duration = 1;
     transAnimation.beginTime = CACurrentMediaTime() + 1;
-    CGRect firstBounds = navVC.view.layer.mask.bounds;
+    CGRect firstBounds = tabVC.view.layer.mask.bounds;
     CGRect secondBounds = CGRectMake(0, 0, 400, 240);
     CGRect finalBounds = CGRectMake(0, 0, 20000, 20000);
 
@@ -53,7 +65,7 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     transAnimation.removedOnCompletion = NO;
     transAnimation.fillMode = kCAFillModeForwards;
     
-    [navVC.view.layer.mask addAnimation:transAnimation forKey:@"maskAnimation"];
+    [tabVC.view.layer.mask addAnimation:transAnimation forKey:@"maskAnimation"];
      // 第二步 设置 NavigationController的view的形变动画
     CAKeyframeAnimation *viewTransAnimation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
 
@@ -62,22 +74,23 @@ typedef NS_ENUM(NSUInteger, IM_Applicaion_Type) {
     viewTransAnimation.beginTime = CACurrentMediaTime() + 1.1;
     [viewTransAnimation setValues:@[[NSValue valueWithCATransform3D:CATransform3DIdentity],[NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 1.1, 1.1, 1)],[NSValue valueWithCATransform3D:CATransform3DIdentity]]];
     
-    [navVC.view.layer addAnimation:viewTransAnimation forKey:@"viewAnimation"];
-    navVC.view.layer.transform = CATransform3DIdentity;
+    [tabVC.view.layer addAnimation:viewTransAnimation forKey:@"viewAnimation"];
+    tabVC.view.layer.transform = CATransform3DIdentity;
     //  第三步 添加白色遮罩
-    UIView *whiteView = [[UIView alloc] initWithFrame:navVC.view.bounds];
+    UIView *whiteView = [[UIView alloc] initWithFrame:tabVC.view.bounds];
     [whiteView setBackgroundColor:[UIColor whiteColor]];
-    [navVC.view addSubview:whiteView];
+    [tabVC.view addSubview:whiteView];
     
     [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         whiteView.alpha = 0;
     } completion:^(BOOL finished) {
         [whiteView removeFromSuperview];
-        navVC.view.layer.mask = nil;
+        tabVC.view.layer.mask = nil;
     }];
     
     
-    [self.window setRootViewController:navVC];
+    
+    
     [self IMDemoNeedMethod];
     
     //注册本地通知

@@ -129,6 +129,12 @@
 		D4EBEEFC1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
 		D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
 		D4F64AA41D488A52000FB112 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
+		D4F68AA31E97790A00A72182 /* JWNavAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA21E97790A00A72182 /* JWNavAnimationViewController.m */; };
+		D4F68AA61E97797500A72182 /* UINavigationBar+JWGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA51E97797500A72182 /* UINavigationBar+JWGradient.m */; };
+		D4F68AA91E977A5500A72182 /* UIView+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA81E977A5500A72182 /* UIView+EX.m */; };
+		D4F68AAC1E977ADA00A72182 /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAB1E977ADA00A72182 /* UIColor+HexExtension.m */; };
+		D4F68AAF1E977FEA00A72182 /* HMPersonSpaceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */; };
+		D4F68AB21E97800F00A72182 /* UIBarButtonItem+BackExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */; };
 		D4FAA0AA1E01206100CB919D /* NSObject+CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */; };
 		D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */; };
 /* End PBXBuildFile section */
@@ -369,6 +375,18 @@
 		D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MintmedicalDiseaseGuidelinesKit.framework; sourceTree = "<group>"; };
 		D4F64AA11D488A52000FB112 /* CoordinationFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinationFilterView.h; sourceTree = "<group>"; };
 		D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinationFilterView.m; sourceTree = "<group>"; };
+		D4F68AA11E97790A00A72182 /* JWNavAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNavAnimationViewController.h; sourceTree = "<group>"; };
+		D4F68AA21E97790A00A72182 /* JWNavAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNavAnimationViewController.m; sourceTree = "<group>"; };
+		D4F68AA41E97797500A72182 /* UINavigationBar+JWGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JWGradient.h"; sourceTree = "<group>"; };
+		D4F68AA51E97797500A72182 /* UINavigationBar+JWGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JWGradient.m"; sourceTree = "<group>"; };
+		D4F68AA71E977A5500A72182 /* UIView+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EX.h"; sourceTree = "<group>"; };
+		D4F68AA81E977A5500A72182 /* UIView+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EX.m"; sourceTree = "<group>"; };
+		D4F68AAA1E977ADA00A72182 /* UIColor+HexExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexExtension.h"; sourceTree = "<group>"; };
+		D4F68AAB1E977ADA00A72182 /* UIColor+HexExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexExtension.m"; sourceTree = "<group>"; };
+		D4F68AAD1E977FEA00A72182 /* HMPersonSpaceNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPersonSpaceNavigationController.h; sourceTree = "<group>"; };
+		D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPersonSpaceNavigationController.m; sourceTree = "<group>"; };
+		D4F68AB01E97800F00A72182 /* UIBarButtonItem+BackExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BackExtension.h"; sourceTree = "<group>"; };
+		D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BackExtension.m"; sourceTree = "<group>"; };
 		D4FAA0A81E01206100CB919D /* NSObject+CalculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CalculatorManager.h"; sourceTree = "<group>"; };
 		D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CalculatorManager.m"; sourceTree = "<group>"; };
 		D4FAA0AB1E0121B300CB919D /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
@@ -558,6 +576,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4F68AA01E97787000A72182 /* UINavigationBarAnimationDemo */,
 				D4972E491E7BAE870041AF75 /* RequestTestDemo */,
 				D46BE7311E023F3300DE5FF2 /* WavesAnimationDemo */,
 				D4FAA0A41E011FA500CB919D /* CalculatorDemo */,
@@ -689,6 +708,10 @@
 				D4A89C0E1CA2928C00E10D22 /* UIColor+Hex.m */,
 				D4A89C0F1CA2928C00E10D22 /* UIFont+EX.h */,
 				D4A89C101CA2928C00E10D22 /* UIFont+EX.m */,
+				D4F68AA71E977A5500A72182 /* UIView+EX.h */,
+				D4F68AA81E977A5500A72182 /* UIView+EX.m */,
+				D4F68AAA1E977ADA00A72182 /* UIColor+HexExtension.h */,
+				D4F68AAB1E977ADA00A72182 /* UIColor+HexExtension.m */,
 				D4A89C111CA2928C00E10D22 /* UIImage+EX.h */,
 				D4A89C121CA2928C00E10D22 /* UIImage+EX.m */,
 				D4A89C131CA2928C00E10D22 /* UILabel+EX.h */,
@@ -697,6 +720,8 @@
 				D4A89C161CA2928C00E10D22 /* UITextField+EX.m */,
 				D437EE7C1D3E222E001F5C5B /* UIViewController+BackButtonHandler.h */,
 				D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */,
+				D4F68AB01E97800F00A72182 /* UIBarButtonItem+BackExtension.h */,
+				D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */,
 			);
 			name = Category;
 			path = JasonDemo/Category;
@@ -929,6 +954,19 @@
 				D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */,
 			);
 			path = MDS;
+			sourceTree = "<group>";
+		};
+		D4F68AA01E97787000A72182 /* UINavigationBarAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4F68AA11E97790A00A72182 /* JWNavAnimationViewController.h */,
+				D4F68AA21E97790A00A72182 /* JWNavAnimationViewController.m */,
+				D4F68AA41E97797500A72182 /* UINavigationBar+JWGradient.h */,
+				D4F68AA51E97797500A72182 /* UINavigationBar+JWGradient.m */,
+				D4F68AAD1E977FEA00A72182 /* HMPersonSpaceNavigationController.h */,
+				D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */,
+			);
+			name = UINavigationBarAnimationDemo;
 			sourceTree = "<group>";
 		};
 		D4FAA0A41E011FA500CB919D /* CalculatorDemo */ = {
@@ -1302,10 +1340,12 @@
 				D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */,
 				D4972E4C1E7BAEB20041AF75 /* RequestTestViewController.m in Sources */,
 				D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */,
+				D4F68AA31E97790A00A72182 /* JWNavAnimationViewController.m in Sources */,
 				D4A89C2D1CA292D200E10D22 /* RowButtonGroup.m in Sources */,
 				D43AB3BB1D62E697001BCC8B /* MedicalFormulaJSModel.m in Sources */,
 				D4A89C201CA2928C00E10D22 /* UITextField+EX.m in Sources */,
 				D4CA5CE71CD0A49D00E8856B /* UnifiedCoreDataManager.m in Sources */,
+				D4F68AA91E977A5500A72182 /* UIView+EX.m in Sources */,
 				D4CA5CEF1CD0A7EF00E8856B /* ImagePickerVC.m in Sources */,
 				D4CA5CE91CD0A49D00E8856B /* UnifiedFilePathManager.m in Sources */,
 				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
@@ -1323,6 +1363,7 @@
 				D46BE7341E023FB400DE5FF2 /* JWWavesAnimationViewController.m in Sources */,
 				D43ACE1E1C8EABED00C2BD84 /* CABasicAnimationViewController.m in Sources */,
 				D43ACDF11C8EA2D500C2BD84 /* ViewController.m in Sources */,
+				D4F68AAC1E977ADA00A72182 /* UIColor+HexExtension.m in Sources */,
 				D4CA5CE81CD0A49D00E8856B /* UnifiedEggHuntManager.m in Sources */,
 				D4A89C1A1CA2928C00E10D22 /* NSString+Manager.m in Sources */,
 				D4AEC3F81D6E8B0B00BF3094 /* ICONFONTViewController.m in Sources */,
@@ -1334,11 +1375,13 @@
 				D4B91C9F1DAA353500DC0570 /* NotificationViewController.m in Sources */,
 				D4CA5CDC1CD0A49D00E8856B /* JSONKitUtil.m in Sources */,
 				D4CA5C7F1CD0A0BB00E8856B /* WZPhotoAlbumTableViewCell.m in Sources */,
+				D4F68AB21E97800F00A72182 /* UIBarButtonItem+BackExtension.m in Sources */,
 				D45AEBEA1CB638C000B6A4EB /* RMAudioManager.m in Sources */,
 				D4CA5C801CD0A0BB00E8856B /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
 				D4CFFE631CB7810400F05E2F /* IMMessageListViewController.m in Sources */,
 				D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */,
 				D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */,
+				D4F68AA61E97797500A72182 /* UINavigationBar+JWGradient.m in Sources */,
 				D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
@@ -1361,6 +1404,7 @@
 				D4CA5CDF1CD0A49D00E8856B /* NSDate+CalendarTool.m in Sources */,
 				D4CA5CDD1CD0A49D00E8856B /* MyLableWithAlignmentTop.m in Sources */,
 				D4A89C1D1CA2928C00E10D22 /* UIFont+EX.m in Sources */,
+				D4F68AAF1E977FEA00A72182 /* HMPersonSpaceNavigationController.m in Sources */,
 				D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
 				D4CA5CE51CD0A49D00E8856B /* UIImage+Manager.m in Sources */,
 				D4CA5CE61CD0A49D00E8856B /* NSString+Unified.m in Sources */,
