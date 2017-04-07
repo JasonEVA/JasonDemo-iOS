@@ -49,6 +49,7 @@
 		D46BE7341E023FB400DE5FF2 /* JWWavesAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */; };
 		D46BE7371E02404C00DE5FF2 /* JWWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */; };
 		D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
+		D4972E4C1E7BAEB20041AF75 /* RequestTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4972E4B1E7BAEB20041AF75 /* RequestTestViewController.m */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
 		D4A89C191CA2928C00E10D22 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
 		D4A89C1A1CA2928C00E10D22 /* NSString+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0A1CA2928C00E10D22 /* NSString+Manager.m */; };
@@ -253,6 +254,8 @@
 		D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWavesAnimationView.m; sourceTree = "<group>"; };
 		D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWVisualEffectViewVC.h; sourceTree = "<group>"; };
 		D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWVisualEffectViewVC.m; sourceTree = "<group>"; };
+		D4972E4A1E7BAEB20041AF75 /* RequestTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTestViewController.h; sourceTree = "<group>"; };
+		D4972E4B1E7BAEB20041AF75 /* RequestTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTestViewController.m; sourceTree = "<group>"; };
 		D4A89C031CA291FA00E10D22 /* VideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoProgressView.h; sourceTree = "<group>"; };
 		D4A89C041CA291FA00E10D22 /* VideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoProgressView.m; sourceTree = "<group>"; };
 		D4A89C071CA2928C00E10D22 /* NSDictionary+SafeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeManager.h"; sourceTree = "<group>"; };
@@ -555,6 +558,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4972E491E7BAE870041AF75 /* RequestTestDemo */,
 				D46BE7311E023F3300DE5FF2 /* WavesAnimationDemo */,
 				D4FAA0A41E011FA500CB919D /* CalculatorDemo */,
 				D430E4A91DFF958600005394 /* IteratorDemo */,
@@ -661,6 +665,15 @@
 				D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */,
 			);
 			name = VisualEffectView;
+			sourceTree = "<group>";
+		};
+		D4972E491E7BAE870041AF75 /* RequestTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4972E4A1E7BAEB20041AF75 /* RequestTestViewController.h */,
+				D4972E4B1E7BAEB20041AF75 /* RequestTestViewController.m */,
+			);
+			name = RequestTestDemo;
 			sourceTree = "<group>";
 		};
 		D4A89C061CA2928C00E10D22 /* Category */ = {
@@ -1287,6 +1300,7 @@
 				D4CA5C871CD0A1AE00E8856B /* UIView+Util.m in Sources */,
 				D4AEC4151D6E96B800BF3094 /* JWIconImageView.m in Sources */,
 				D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */,
+				D4972E4C1E7BAEB20041AF75 /* RequestTestViewController.m in Sources */,
 				D42818071CA8CC5600E98027 /* BreakpointResumeRequest.m in Sources */,
 				D4A89C2D1CA292D200E10D22 /* RowButtonGroup.m in Sources */,
 				D43AB3BB1D62E697001BCC8B /* MedicalFormulaJSModel.m in Sources */,

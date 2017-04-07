@@ -81,7 +81,7 @@
     //慢动作
 //    self.waveDisplaylink.frameInterval = 10;
     [self.waveDisplaylink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
-    
+
 }
 
 -(void)getCurrentWave:(CADisplayLink *)displayLink
