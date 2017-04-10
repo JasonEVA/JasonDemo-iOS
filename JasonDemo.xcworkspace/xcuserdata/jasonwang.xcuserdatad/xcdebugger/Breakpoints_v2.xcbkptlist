@@ -74,7 +74,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "512718791.213942"
+                  timestampString = "513484637.425921"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -89,7 +89,7 @@
                   moduleName = "JasonDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonwang/Documents/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/JasonDemo-iOS/JasonDemo/IMDemoViewController.m"
-                  timestampString = "512718791.218826"
+                  timestampString = "513484637.4293"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
@@ -160,7 +160,7 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "-drawBackground:inRect:context:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -394,6 +394,22 @@
             startingLineNumber = "40"
             endingLineNumber = "40"
             landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JasonDemo/JWOneClickAwayViewController.m"
+            timestampString = "513484628.785115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-dealloc"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

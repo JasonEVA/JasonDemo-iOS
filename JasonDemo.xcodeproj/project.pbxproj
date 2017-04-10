@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */; };
+		699211F4E8A7F0FBB3F8C7E3 /* libPods-JasonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */; };
 		D40C2F481E651B6200F5328B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C2F471E651B6200F5328B /* NotificationCenter.framework */; };
 		D40C2F4C1E651B6200F5328B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C2F4B1E651B6200F5328B /* TodayViewController.m */; };
 		D40C2F531E651B6200F5328B /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -48,6 +48,11 @@
 		D46B3F781D4F4A7800D56D56 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
 		D46BE7341E023FB400DE5FF2 /* JWWavesAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */; };
 		D46BE7371E02404C00DE5FF2 /* JWWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */; };
+		D4790B0C1E9B17E900B1C376 /* id_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B071E9B17E900B1C376 /* id_1.png */; };
+		D4790B0D1E9B17E900B1C376 /* id_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B081E9B17E900B1C376 /* id_2.png */; };
+		D4790B0E1E9B17E900B1C376 /* id_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B091E9B17E900B1C376 /* id_3.png */; };
+		D4790B0F1E9B17E900B1C376 /* id_4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B0A1E9B17E900B1C376 /* id_4.png */; };
+		D4790B101E9B17E900B1C376 /* id_5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B0B1E9B17E900B1C376 /* id_5.png */; };
 		D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
 		D4972E4C1E7BAEB20041AF75 /* RequestTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4972E4B1E7BAEB20041AF75 /* RequestTestViewController.m */; };
 		D4A89C051CA291FA00E10D22 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
@@ -135,8 +140,16 @@
 		D4F68AAC1E977ADA00A72182 /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAB1E977ADA00A72182 /* UIColor+HexExtension.m */; };
 		D4F68AAF1E977FEA00A72182 /* HMPersonSpaceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */; };
 		D4F68AB21E97800F00A72182 /* UIBarButtonItem+BackExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */; };
+		D4F68ABD1E978CE000A72182 /* AZMetaBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB61E978CE000A72182 /* AZMetaBall.m */; };
+		D4F68ABE1E978CE000A72182 /* AZMetaBallCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB81E978CE000A72182 /* AZMetaBallCanvas.m */; };
+		D4F68ABF1E978CE000A72182 /* AZMetaBallItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68ABA1E978CE000A72182 /* AZMetaBallItem.m */; };
+		D4F68AC01E978CE000A72182 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68ABC1E978CE000A72182 /* Circle.m */; };
+		D4F68AC31E978DF700A72182 /* PointUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AC21E978DF700A72182 /* PointUtils.m */; };
+		D4F68AC61E9794D300A72182 /* JWOneClickAwayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AC51E9794D300A72182 /* JWOneClickAwayViewController.m */; };
 		D4FAA0AA1E01206100CB919D /* NSObject+CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */; };
 		D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */; };
+		F5D19D74C9632F303B4D98DB /* libPods-JasonDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7796BCF338BBE022540C4EDC /* libPods-JasonDemoUITests.a */; };
+		FDBE2141524DE940C2F3BCB4 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,9 +205,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		54E7D30158F616B39ED82F0F /* Pods-JasonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7796BCF338BBE022540C4EDC /* libPods-JasonDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JasonDemoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40C2F471E651B6200F5328B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		D40C2F4A1E651B6200F5328B /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -258,6 +275,11 @@
 		D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWavesAnimationViewController.m; sourceTree = "<group>"; };
 		D46BE7351E02404C00DE5FF2 /* JWWavesAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWWavesAnimationView.h; sourceTree = "<group>"; };
 		D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWWavesAnimationView.m; sourceTree = "<group>"; };
+		D4790B071E9B17E900B1C376 /* id_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_1.png; sourceTree = "<group>"; };
+		D4790B081E9B17E900B1C376 /* id_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_2.png; sourceTree = "<group>"; };
+		D4790B091E9B17E900B1C376 /* id_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_3.png; sourceTree = "<group>"; };
+		D4790B0A1E9B17E900B1C376 /* id_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_4.png; sourceTree = "<group>"; };
+		D4790B0B1E9B17E900B1C376 /* id_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_5.png; sourceTree = "<group>"; };
 		D48F8B451D45E5E600ADB12C /* JWVisualEffectViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWVisualEffectViewVC.h; sourceTree = "<group>"; };
 		D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWVisualEffectViewVC.m; sourceTree = "<group>"; };
 		D4972E4A1E7BAEB20041AF75 /* RequestTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTestViewController.h; sourceTree = "<group>"; };
@@ -387,6 +409,18 @@
 		D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPersonSpaceNavigationController.m; sourceTree = "<group>"; };
 		D4F68AB01E97800F00A72182 /* UIBarButtonItem+BackExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BackExtension.h"; sourceTree = "<group>"; };
 		D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BackExtension.m"; sourceTree = "<group>"; };
+		D4F68AB51E978CE000A72182 /* AZMetaBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMetaBall.h; sourceTree = "<group>"; };
+		D4F68AB61E978CE000A72182 /* AZMetaBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMetaBall.m; sourceTree = "<group>"; };
+		D4F68AB71E978CE000A72182 /* AZMetaBallCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMetaBallCanvas.h; sourceTree = "<group>"; };
+		D4F68AB81E978CE000A72182 /* AZMetaBallCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMetaBallCanvas.m; sourceTree = "<group>"; };
+		D4F68AB91E978CE000A72182 /* AZMetaBallItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMetaBallItem.h; sourceTree = "<group>"; };
+		D4F68ABA1E978CE000A72182 /* AZMetaBallItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMetaBallItem.m; sourceTree = "<group>"; };
+		D4F68ABB1E978CE000A72182 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D4F68ABC1E978CE000A72182 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D4F68AC11E978DF700A72182 /* PointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointUtils.h; sourceTree = "<group>"; };
+		D4F68AC21E978DF700A72182 /* PointUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointUtils.m; sourceTree = "<group>"; };
+		D4F68AC41E9794D300A72182 /* JWOneClickAwayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWOneClickAwayViewController.h; sourceTree = "<group>"; };
+		D4F68AC51E9794D300A72182 /* JWOneClickAwayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWOneClickAwayViewController.m; sourceTree = "<group>"; };
 		D4FAA0A81E01206100CB919D /* NSObject+CalculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CalculatorManager.h"; sourceTree = "<group>"; };
 		D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CalculatorManager.m"; sourceTree = "<group>"; };
 		D4FAA0AB1E0121B300CB919D /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
@@ -394,6 +428,8 @@
 		D4FCC6F31D472E2100D83118 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCC70B1D472E2100D83118 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCC7161D472E2100D83118 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D537921058B45EC691CF15EA /* Pods-JasonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8D9E7BC28F612BC993F5A7 /* Pods-JasonDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,7 +450,7 @@
 				D46B3F731D4F49C700D56D56 /* MintmedicalDrugStore.framework in Frameworks */,
 				D4EBEEFB1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */,
 				D4BF08711CB4EDBE0055D152 /* MintcodeIM.framework in Frameworks */,
-				B980719D5BA9C39D4087E519 /* libPods-JasonDemo.a in Frameworks */,
+				FDBE2141524DE940C2F3BCB4 /* libPods-JasonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +458,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699211F4E8A7F0FBB3F8C7E3 /* libPods-JasonDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +466,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D19D74C9632F303B4D98DB /* libPods-JasonDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,10 +502,25 @@
 				D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */,
 				D4BF086C1CB4EC310055D152 /* libz.tbd */,
 				D4BF086A1CB4EC230055D152 /* libc++.tbd */,
-				62FE97A6EE5A99533175B1C2 /* libPods-JasonDemo.a */,
 				D40C2F471E651B6200F5328B /* NotificationCenter.framework */,
+				8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */,
+				A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */,
+				7796BCF338BBE022540C4EDC /* libPods-JasonDemoUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		648C99DECF87F692BD09F4B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */,
+				9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */,
+				D537921058B45EC691CF15EA /* Pods-JasonDemoTests.debug.xcconfig */,
+				54E7D30158F616B39ED82F0F /* Pods-JasonDemoTests.release.xcconfig */,
+				FF8D9E7BC28F612BC993F5A7 /* Pods-JasonDemoUITests.debug.xcconfig */,
+				C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D40C2F491E651B6200F5328B /* JasonDemoWidget */ = {
@@ -554,8 +607,8 @@
 				D43ACE0D1C8EA2D600C2BD84 /* JasonDemoUITests */,
 				D40C2F491E651B6200F5328B /* JasonDemoWidget */,
 				D43ACDE71C8EA2D500C2BD84 /* Products */,
-				DF3C00511D6714DCDF6D1588 /* Pods */,
 				3759ABA0DA2AB12516BCC972 /* Frameworks */,
+				648C99DECF87F692BD09F4B6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -576,6 +629,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4F68AB31E978CA900A72182 /* OneClickAwayDemo */,
 				D4F68AA01E97787000A72182 /* UINavigationBarAnimationDemo */,
 				D4972E491E7BAE870041AF75 /* RequestTestDemo */,
 				D46BE7311E023F3300DE5FF2 /* WavesAnimationDemo */,
@@ -611,6 +665,7 @@
 		D43ACDE91C8EA2D500C2BD84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4790B061E9B17CD00B1C376 /* ExplosionImages */,
 				D4B91CA01DAA3BEE00DC0570 /* 123456.png */,
 				D4AEC3FD1D6E8FF800BF3094 /* ux_1472091060_3204622 */,
 				D43ACDEA1C8EA2D500C2BD84 /* main.m */,
@@ -666,6 +721,18 @@
 				D42925A91E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m */,
 			);
 			path = WavesAnimationDemo;
+			sourceTree = "<group>";
+		};
+		D4790B061E9B17CD00B1C376 /* ExplosionImages */ = {
+			isa = PBXGroup;
+			children = (
+				D4790B071E9B17E900B1C376 /* id_1.png */,
+				D4790B081E9B17E900B1C376 /* id_2.png */,
+				D4790B091E9B17E900B1C376 /* id_3.png */,
+				D4790B0A1E9B17E900B1C376 /* id_4.png */,
+				D4790B0B1E9B17E900B1C376 /* id_5.png */,
+			);
+			name = ExplosionImages;
 			sourceTree = "<group>";
 		};
 		D47DD8301D4EEB9100303C36 /* SDKTest */ = {
@@ -969,6 +1036,33 @@
 			name = UINavigationBarAnimationDemo;
 			sourceTree = "<group>";
 		};
+		D4F68AB31E978CA900A72182 /* OneClickAwayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4F68AB41E978CE000A72182 /* MetaBall */,
+				D4F68AC41E9794D300A72182 /* JWOneClickAwayViewController.h */,
+				D4F68AC51E9794D300A72182 /* JWOneClickAwayViewController.m */,
+			);
+			name = OneClickAwayDemo;
+			sourceTree = "<group>";
+		};
+		D4F68AB41E978CE000A72182 /* MetaBall */ = {
+			isa = PBXGroup;
+			children = (
+				D4F68AB51E978CE000A72182 /* AZMetaBall.h */,
+				D4F68AB61E978CE000A72182 /* AZMetaBall.m */,
+				D4F68AB71E978CE000A72182 /* AZMetaBallCanvas.h */,
+				D4F68AB81E978CE000A72182 /* AZMetaBallCanvas.m */,
+				D4F68AB91E978CE000A72182 /* AZMetaBallItem.h */,
+				D4F68ABA1E978CE000A72182 /* AZMetaBallItem.m */,
+				D4F68ABB1E978CE000A72182 /* Circle.h */,
+				D4F68ABC1E978CE000A72182 /* Circle.m */,
+				D4F68AC11E978DF700A72182 /* PointUtils.h */,
+				D4F68AC21E978DF700A72182 /* PointUtils.m */,
+			);
+			path = MetaBall;
+			sourceTree = "<group>";
+		};
 		D4FAA0A41E011FA500CB919D /* CalculatorDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -978,15 +1072,6 @@
 				D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */,
 			);
 			path = CalculatorDemo;
-			sourceTree = "<group>";
-		};
-		DF3C00511D6714DCDF6D1588 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */,
-				55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1013,13 +1098,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43ACE131C8EA2D600C2BD84 /* Build configuration list for PBXNativeTarget "JasonDemo" */;
 			buildPhases = (
-				B8D1843D7A132CE21B5A95B7 /* Check Pods Manifest.lock */,
+				0EC432A583DA4CA5CC6F7B79 /* [CP] Check Pods Manifest.lock */,
 				D43ACDE21C8EA2D500C2BD84 /* Sources */,
 				D43ACDE31C8EA2D500C2BD84 /* Frameworks */,
 				D43ACDE41C8EA2D500C2BD84 /* Resources */,
-				95CB32837FFBE7750558ABEC /* Copy Pods Resources */,
-				E7B25EA66F2C1701087877C7 /* Embed Pods Frameworks */,
 				D40C2F571E651B6200F5328B /* Embed App Extensions */,
+				6411DC1619F43BC8757E2B99 /* [CP] Embed Pods Frameworks */,
+				4140EB6F1D7FF1089B647578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1035,9 +1120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43ACE161C8EA2D600C2BD84 /* Build configuration list for PBXNativeTarget "JasonDemoTests" */;
 			buildPhases = (
+				6E8B33BEBDD11D6DE2D354B2 /* [CP] Check Pods Manifest.lock */,
 				D43ACDFB1C8EA2D600C2BD84 /* Sources */,
 				D43ACDFC1C8EA2D600C2BD84 /* Frameworks */,
 				D43ACDFD1C8EA2D600C2BD84 /* Resources */,
+				3492B15DC56667B30B93F9D6 /* [CP] Embed Pods Frameworks */,
+				3C6598A6BD39DA4F2B75A549 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1053,9 +1141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43ACE191C8EA2D600C2BD84 /* Build configuration list for PBXNativeTarget "JasonDemoUITests" */;
 			buildPhases = (
+				8661FF7BACAFB34C318D664B /* [CP] Check Pods Manifest.lock */,
 				D43ACE061C8EA2D600C2BD84 /* Sources */,
 				D43ACE071C8EA2D600C2BD84 /* Frameworks */,
 				D43ACE081C8EA2D600C2BD84 /* Resources */,
+				F69248C7040C496DB68CD5E1 /* [CP] Embed Pods Frameworks */,
+				485D33B016DAEBC9C5FE9F12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1201,8 +1292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4790B101E9B17E900B1C376 /* id_5.png in Resources */,
 				D45AEBED1CB638C000B6A4EB /* voice_record_1@2x.png in Resources */,
 				D45AEBF21CB638C000B6A4EB /* voice_record_3@3x.png in Resources */,
+				D4790B0E1E9B17E900B1C376 /* id_3.png in Resources */,
+				D4790B0C1E9B17E900B1C376 /* id_1.png in Resources */,
 				D4B91CA11DAA3BEE00DC0570 /* 123456.png in Resources */,
 				D45AEBF01CB638C000B6A4EB /* voice_record_2@3x.png in Resources */,
 				D4AEC40B1D6E8FF800BF3094 /* iconfont.eot in Resources */,
@@ -1210,10 +1304,12 @@
 				D45AEBF11CB638C000B6A4EB /* voice_record_3@2x.png in Resources */,
 				D4AEC4071D6E8FF800BF3094 /* demo.html in Resources */,
 				D43ACDF91C8EA2D500C2BD84 /* LaunchScreen.storyboard in Resources */,
+				D4790B0F1E9B17E900B1C376 /* id_4.png in Resources */,
 				D45AEBEE1CB638C000B6A4EB /* voice_record_1@3x.png in Resources */,
 				D4EBEEE51D4F231800D64AB3 /* MDSImage.bundle in Resources */,
 				D4AEC40D1D6E8FF800BF3094 /* iconfont.svg in Resources */,
 				D45AEBEB1CB638C000B6A4EB /* voice_record_0@2x.png in Resources */,
+				D4790B0D1E9B17E900B1C376 /* id_2.png in Resources */,
 				D43ACDF61C8EA2D500C2BD84 /* Assets.xcassets in Resources */,
 				D45AEBEC1CB638C000B6A4EB /* voice_record_0@3x.png in Resources */,
 				D43ACDF41C8EA2D500C2BD84 /* Main.storyboard in Resources */,
@@ -1272,14 +1368,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		95CB32837FFBE7750558ABEC /* Copy Pods Resources */ = {
+		0EC432A583DA4CA5CC6F7B79 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3492B15DC56667B30B93F9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6598A6BD39DA4F2B75A549 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4140EB6F1D7FF1089B647578 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1287,34 +1428,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8D1843D7A132CE21B5A95B7 /* Check Pods Manifest.lock */ = {
+		485D33B016DAEBC9C5FE9F12 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7B25EA66F2C1701087877C7 /* Embed Pods Frameworks */ = {
+		6411DC1619F43BC8757E2B99 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8B33BEBDD11D6DE2D354B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8661FF7BACAFB34C318D664B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F69248C7040C496DB68CD5E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1370,10 +1556,12 @@
 				D4CA5CF51CD0AB0000E8856B /* ApplicationAttachmentModel.m in Sources */,
 				D4CA5CEA1CD0A49D00E8856B /* UnifiedLoginManager.m in Sources */,
 				D43ACDEE1C8EA2D500C2BD84 /* AppDelegate.m in Sources */,
+				D4F68ABE1E978CE000A72182 /* AZMetaBallCanvas.m in Sources */,
 				D43ACDEB1C8EA2D500C2BD84 /* main.m in Sources */,
 				D4CA5C821CD0A0BB00E8856B /* WZPhotoPickerController.m in Sources */,
 				D4B91C9F1DAA353500DC0570 /* NotificationViewController.m in Sources */,
 				D4CA5CDC1CD0A49D00E8856B /* JSONKitUtil.m in Sources */,
+				D4F68ABF1E978CE000A72182 /* AZMetaBallItem.m in Sources */,
 				D4CA5C7F1CD0A0BB00E8856B /* WZPhotoAlbumTableViewCell.m in Sources */,
 				D4F68AB21E97800F00A72182 /* UIBarButtonItem+BackExtension.m in Sources */,
 				D45AEBEA1CB638C000B6A4EB /* RMAudioManager.m in Sources */,
@@ -1382,8 +1570,10 @@
 				D48F8B471D45E5E600ADB12C /* JWVisualEffectViewVC.m in Sources */,
 				D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */,
 				D4F68AA61E97797500A72182 /* UINavigationBar+JWGradient.m in Sources */,
+				D4F68AC31E978DF700A72182 /* PointUtils.m in Sources */,
 				D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
+				D4F68ABD1E978CE000A72182 /* AZMetaBall.m in Sources */,
 				D4CA5CE01CD0A49D00E8856B /* NSDate+String.m in Sources */,
 				D4CA5CE11CD0A49D00E8856B /* NSDictionary+SafeManager.m in Sources */,
 				D4CF64801DD569820003113B /* FilpAnimationViewController.m in Sources */,
@@ -1399,6 +1589,7 @@
 				D4E3186D1DF9303700CAA0CA /* JWWatchModel.m in Sources */,
 				D4A89C1B1CA2928C00E10D22 /* UIButton+EX.m in Sources */,
 				D42798EA1CA2318C00840090 /* PlayerViewController.m in Sources */,
+				D4F68AC61E9794D300A72182 /* JWOneClickAwayViewController.m in Sources */,
 				D4CA5CEC1CD0A49D00E8856B /* UnifiedUserInfoManager.m in Sources */,
 				D4CA5C811CD0A0BB00E8856B /* WZPhotoAlbumController.m in Sources */,
 				D4CA5CDF1CD0A49D00E8856B /* NSDate+CalendarTool.m in Sources */,
@@ -1406,6 +1597,7 @@
 				D4A89C1D1CA2928C00E10D22 /* UIFont+EX.m in Sources */,
 				D4F68AAF1E977FEA00A72182 /* HMPersonSpaceNavigationController.m in Sources */,
 				D46B3F771D4F4A7800D56D56 /* BottomLineButton.m in Sources */,
+				D4F68AC01E978CE000A72182 /* Circle.m in Sources */,
 				D4CA5CE51CD0A49D00E8856B /* UIImage+Manager.m in Sources */,
 				D4CA5CE61CD0A49D00E8856B /* NSString+Unified.m in Sources */,
 				D4B1FE451D717E4A0007302E /* TwoTableViewViewController.m in Sources */,
@@ -1629,7 +1821,7 @@
 		};
 		D43ACE141C8EA2D600C2BD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51659A751789CB5091059E3 /* Pods-JasonDemo.debug.xcconfig */;
+			baseConfigurationReference = BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1652,7 +1844,7 @@
 		};
 		D43ACE151C8EA2D600C2BD84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55BC6F55821D9A5E87EC0437 /* Pods-JasonDemo.release.xcconfig */;
+			baseConfigurationReference = 9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1675,6 +1867,7 @@
 		};
 		D43ACE171C8EA2D600C2BD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D537921058B45EC691CF15EA /* Pods-JasonDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JasonDemoTests/Info.plist;
@@ -1687,6 +1880,7 @@
 		};
 		D43ACE181C8EA2D600C2BD84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E7D30158F616B39ED82F0F /* Pods-JasonDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JasonDemoTests/Info.plist;
@@ -1699,6 +1893,7 @@
 		};
 		D43ACE1A1C8EA2D600C2BD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8D9E7BC28F612BC993F5A7 /* Pods-JasonDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JasonDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1711,6 +1906,7 @@
 		};
 		D43ACE1B1C8EA2D600C2BD84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JasonDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
