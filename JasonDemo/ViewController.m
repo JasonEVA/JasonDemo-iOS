@@ -28,6 +28,18 @@
 #import "RequestTestViewController.h"
 #import "JWOneClickAwayViewController.h"
 
+#if defined (JW_TESTMARK)
+
+//测试环境
+#define JWTITEL @"Jason Demo Test"
+
+#else
+
+//正式环境
+#define JWTITEL @"Jason Demo"
+
+#endif
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *titelArr;
@@ -38,7 +50,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
-    [self.navigationItem setTitle:@"Jason Demo"];
+    [self.navigationItem setTitle:JWTITEL];
     self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo",@"波浪动画Demo",@"网络请求测试",@"一键退朝Demo"];
     
     //递归

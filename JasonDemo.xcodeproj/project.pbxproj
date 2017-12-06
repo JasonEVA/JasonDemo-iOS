@@ -8,6 +8,123 @@
 
 /* Begin PBXBuildFile section */
 		699211F4E8A7F0FBB3F8C7E3 /* libPods-JasonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */; };
+		BFB814B81FD7BA86003FE562 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CBE1CD0A49D00E8856B /* NSData+AES256.m */; };
+		BFB814B91FD7BA86003FE562 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC81CD0A49D00E8856B /* UIColor+Hex.m */; };
+		BFB814BA1FD7BA86003FE562 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
+		BFB814BB1FD7BA86003FE562 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C861CD0A1AE00E8856B /* UIView+Util.m */; };
+		BFB814BC1FD7BA86003FE562 /* JWIconImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEC4141D6E96B800BF3094 /* JWIconImageView.m */; };
+		BFB814BD1FD7BA86003FE562 /* VideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C041CA291FA00E10D22 /* VideoProgressView.m */; };
+		BFB814BE1FD7BA86003FE562 /* RequestTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4972E4B1E7BAEB20041AF75 /* RequestTestViewController.m */; };
+		BFB814BF1FD7BA86003FE562 /* BreakpointResumeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D42818061CA8CC5600E98027 /* BreakpointResumeRequest.m */; };
+		BFB814C01FD7BA86003FE562 /* JWNavAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA21E97790A00A72182 /* JWNavAnimationViewController.m */; };
+		BFB814C11FD7BA86003FE562 /* RowButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C281CA292D200E10D22 /* RowButtonGroup.m */; };
+		BFB814C21FD7BA86003FE562 /* MedicalFormulaJSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D43AB3BA1D62E697001BCC8B /* MedicalFormulaJSModel.m */; };
+		BFB814C31FD7BA86003FE562 /* UITextField+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C161CA2928C00E10D22 /* UITextField+EX.m */; };
+		BFB814C41FD7BA86003FE562 /* UnifiedCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CD11CD0A49D00E8856B /* UnifiedCoreDataManager.m */; };
+		BFB814C51FD7BA86003FE562 /* UIView+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA81E977A5500A72182 /* UIView+EX.m */; };
+		BFB814C61FD7BA86003FE562 /* ImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CEE1CD0A7EF00E8856B /* ImagePickerVC.m */; };
+		BFB814C71FD7BA86003FE562 /* UnifiedFilePathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CD51CD0A49D00E8856B /* UnifiedFilePathManager.m */; };
+		BFB814C81FD7BA86003FE562 /* IMDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF08741CB4EF5A0055D152 /* IMDemoViewController.m */; };
+		BFB814C91FD7BA86003FE562 /* JWIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D430E4AB1DFF95AB00005394 /* JWIterator.m */; };
+		BFB814CA1FD7BA86003FE562 /* WZPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C7E1CD0A0BB00E8856B /* WZPhotosViewController.m */; };
+		BFB814CB1FD7BA86003FE562 /* RMAudioHud.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AEBDE1CB638C000B6A4EB /* RMAudioHud.m */; };
+		BFB814CC1FD7BA86003FE562 /* NSObject+CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0A91E01206100CB919D /* NSObject+CalculatorManager.m */; };
+		BFB814CD1FD7BA86003FE562 /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E32A31D61ABE10076EC51 /* WebViewDemoViewController.m */; };
+		BFB814CE1FD7BA86003FE562 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE7D1D3E222E001F5C5B /* UIViewController+BackButtonHandler.m */; };
+		BFB814CF1FD7BA86003FE562 /* UILabel+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C141CA2928C00E10D22 /* UILabel+EX.m */; };
+		BFB814D01FD7BA86003FE562 /* DesignModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E318691DF9302100CAA0CA /* DesignModeViewController.m */; };
+		BFB814D11FD7BA86003FE562 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C081CA2928C00E10D22 /* NSDictionary+SafeManager.m */; };
+		BFB814D21FD7BA86003FE562 /* JWWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7361E02404C00DE5FF2 /* JWWavesAnimationView.m */; };
+		BFB814D31FD7BA86003FE562 /* ApplicationAttachmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF11CD0AA9C00E8856B /* ApplicationAttachmentTableViewCell.m */; };
+		BFB814D41FD7BA86003FE562 /* JWWavesAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BE7331E023FB400DE5FF2 /* JWWavesAnimationViewController.m */; };
+		BFB814D51FD7BA86003FE562 /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACE1D1C8EABED00C2BD84 /* CABasicAnimationViewController.m */; };
+		BFB814D61FD7BA86003FE562 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDF01C8EA2D500C2BD84 /* ViewController.m */; };
+		BFB814D71FD7BA86003FE562 /* UIColor+HexExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAB1E977ADA00A72182 /* UIColor+HexExtension.m */; };
+		BFB814D81FD7BA86003FE562 /* UnifiedEggHuntManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CD31CD0A49D00E8856B /* UnifiedEggHuntManager.m */; };
+		BFB814D91FD7BA86003FE562 /* NSString+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0A1CA2928C00E10D22 /* NSString+Manager.m */; };
+		BFB814DA1FD7BA86003FE562 /* ICONFONTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEC3F71D6E8B0B00BF3094 /* ICONFONTViewController.m */; };
+		BFB814DB1FD7BA86003FE562 /* ApplicationAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CF41CD0AB0000E8856B /* ApplicationAttachmentModel.m */; };
+		BFB814DC1FD7BA86003FE562 /* UnifiedLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CD71CD0A49D00E8856B /* UnifiedLoginManager.m */; };
+		BFB814DD1FD7BA86003FE562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDED1C8EA2D500C2BD84 /* AppDelegate.m */; };
+		BFB814DE1FD7BA86003FE562 /* AZMetaBallCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB81E978CE000A72182 /* AZMetaBallCanvas.m */; };
+		BFB814DF1FD7BA86003FE562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ACDEA1C8EA2D500C2BD84 /* main.m */; };
+		BFB814E01FD7BA86003FE562 /* WZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C7C1CD0A0BB00E8856B /* WZPhotoPickerController.m */; };
+		BFB814E11FD7BA86003FE562 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B91C9E1DAA353500DC0570 /* NotificationViewController.m */; };
+		BFB814E21FD7BA86003FE562 /* JSONKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CBA1CD0A49D00E8856B /* JSONKitUtil.m */; };
+		BFB814E31FD7BA86003FE562 /* AZMetaBallItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68ABA1E978CE000A72182 /* AZMetaBallItem.m */; };
+		BFB814E41FD7BA86003FE562 /* WZPhotoAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C761CD0A0BB00E8856B /* WZPhotoAlbumTableViewCell.m */; };
+		BFB814E51FD7BA86003FE562 /* UIBarButtonItem+BackExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB11E97800F00A72182 /* UIBarButtonItem+BackExtension.m */; };
+		BFB814E61FD7BA86003FE562 /* RMAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AEBE01CB638C000B6A4EB /* RMAudioManager.m */; };
+		BFB814E71FD7BA86003FE562 /* WZPhotoThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C781CD0A0BB00E8856B /* WZPhotoThumbnailCollectionViewCell.m */; };
+		BFB814E81FD7BA86003FE562 /* IMMessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFE621CB7810400F05E2F /* IMMessageListViewController.m */; };
+		BFB814E91FD7BA86003FE562 /* JWVisualEffectViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D48F8B461D45E5E600ADB12C /* JWVisualEffectViewVC.m */; };
+		BFB814EA1FD7BA86003FE562 /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FAA0AC1E0121B300CB919D /* CaculatorMaker.m */; };
+		BFB814EB1FD7BA86003FE562 /* UINavigationBar+JWGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AA51E97797500A72182 /* UINavigationBar+JWGradient.m */; };
+		BFB814EC1FD7BA86003FE562 /* PointUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AC21E978DF700A72182 /* PointUtils.m */; };
+		BFB814ED1FD7BA86003FE562 /* MyTTTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA22531D5C2A9B006DD19C /* MyTTTLabel.m */; };
+		BFB814EE1FD7BA86003FE562 /* CoordinationFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */; };
+		BFB814EF1FD7BA86003FE562 /* AZMetaBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AB61E978CE000A72182 /* AZMetaBall.m */; };
+		BFB814F01FD7BA86003FE562 /* NSDate+String.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC21CD0A49D00E8856B /* NSDate+String.m */; };
+		BFB814F11FD7BA86003FE562 /* NSDictionary+SafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC41CD0A49D00E8856B /* NSDictionary+SafeManager.m */; };
+		BFB814F21FD7BA86003FE562 /* FilpAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF647F1DD569820003113B /* FilpAnimationViewController.m */; };
+		BFB814F31FD7BA86003FE562 /* UIFont+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CCA1CD0A49D00E8856B /* UIFont+Util.m */; };
+		BFB814F41FD7BA86003FE562 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798EE1CA2642300840090 /* PlayView.m */; };
+		BFB814F51FD7BA86003FE562 /* VolumeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D45612D21CA3C7EE0023E099 /* VolumeProgressView.m */; };
+		BFB814F61FD7BA86003FE562 /* UIImage+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C121CA2928C00E10D22 /* UIImage+EX.m */; };
+		BFB814F71FD7BA86003FE562 /* MyToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C261CA292D200E10D22 /* MyToolBar.m */; };
+		BFB814F81FD7BA86003FE562 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C241CA292D200E10D22 /* DateUtil.m */; };
+		BFB814F91FD7BA86003FE562 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0E1CA2928C00E10D22 /* UIColor+Hex.m */; };
+		BFB814FA1FD7BA86003FE562 /* JWSameDirectionWavesAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42925A91E481C0E009C64DF /* JWSameDirectionWavesAnimationView.m */; };
+		BFB814FB1FD7BA86003FE562 /* JWView.m in Sources */ = {isa = PBXBuildFile; fileRef = D437EE731D3DBA63001F5C5B /* JWView.m */; };
+		BFB814FC1FD7BA86003FE562 /* JWWatchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3186C1DF9303700CAA0CA /* JWWatchModel.m */; };
+		BFB814FD1FD7BA86003FE562 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C0C1CA2928C00E10D22 /* UIButton+EX.m */; };
+		BFB814FE1FD7BA86003FE562 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42798E91CA2318C00840090 /* PlayerViewController.m */; };
+		BFB814FF1FD7BA86003FE562 /* JWOneClickAwayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AC51E9794D300A72182 /* JWOneClickAwayViewController.m */; };
+		BFB815001FD7BA86003FE562 /* UnifiedUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CDB1CD0A49D00E8856B /* UnifiedUserInfoManager.m */; };
+		BFB815011FD7BA86003FE562 /* WZPhotoAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5C7A1CD0A0BB00E8856B /* WZPhotoAlbumController.m */; };
+		BFB815021FD7BA86003FE562 /* NSDate+CalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC01CD0A49D00E8856B /* NSDate+CalendarTool.m */; };
+		BFB815031FD7BA86003FE562 /* MyLableWithAlignmentTop.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CBC1CD0A49D00E8856B /* MyLableWithAlignmentTop.m */; };
+		BFB815041FD7BA86003FE562 /* UIFont+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A89C101CA2928C00E10D22 /* UIFont+EX.m */; };
+		BFB815051FD7BA86003FE562 /* HMPersonSpaceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68AAE1E977FEA00A72182 /* HMPersonSpaceNavigationController.m */; };
+		BFB815061FD7BA86003FE562 /* BottomLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B3F761D4F4A7800D56D56 /* BottomLineButton.m */; };
+		BFB815071FD7BA86003FE562 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F68ABC1E978CE000A72182 /* Circle.m */; };
+		BFB815081FD7BA86003FE562 /* UIImage+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CCC1CD0A49D00E8856B /* UIImage+Manager.m */; };
+		BFB815091FD7BA86003FE562 /* NSString+Unified.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CCF1CD0A49D00E8856B /* NSString+Unified.m */; };
+		BFB8150A1FD7BA86003FE562 /* TwoTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B1FE441D717E4A0007302E /* TwoTableViewViewController.m */; };
+		BFB8150B1FD7BA86003FE562 /* NSMutableArray+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC61CD0A49D00E8856B /* NSMutableArray+Manager.m */; };
+		BFB8150D1FD7BA86003FE562 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086A1CB4EC230055D152 /* libc++.tbd */; };
+		BFB8150E1FD7BA86003FE562 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF086C1CB4EC310055D152 /* libz.tbd */; };
+		BFB8150F1FD7BA86003FE562 /* MintmedicalDrugStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */; };
+		BFB815101FD7BA86003FE562 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
+		BFB815111FD7BA86003FE562 /* MintcodeIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */; };
+		BFB815121FD7BA86003FE562 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */; };
+		BFB815141FD7BA86003FE562 /* id_5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B0B1E9B17E900B1C376 /* id_5.png */; };
+		BFB815151FD7BA86003FE562 /* voice_record_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE31CB638C000B6A4EB /* voice_record_1@2x.png */; };
+		BFB815161FD7BA86003FE562 /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */; };
+		BFB815171FD7BA86003FE562 /* id_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B091E9B17E900B1C376 /* id_3.png */; };
+		BFB815181FD7BA86003FE562 /* id_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B071E9B17E900B1C376 /* id_1.png */; };
+		BFB815191FD7BA86003FE562 /* 123456.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B91CA01DAA3BEE00DC0570 /* 123456.png */; };
+		BFB8151A1FD7BA86003FE562 /* voice_record_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE61CB638C000B6A4EB /* voice_record_2@3x.png */; };
+		BFB8151B1FD7BA86003FE562 /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4011D6E8FF800BF3094 /* iconfont.eot */; };
+		BFB8151C1FD7BA86003FE562 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4001D6E8FF800BF3094 /* iconfont.css */; };
+		BFB8151D1FD7BA86003FE562 /* voice_record_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE71CB638C000B6A4EB /* voice_record_3@2x.png */; };
+		BFB8151E1FD7BA86003FE562 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC3FF1D6E8FF800BF3094 /* demo.html */; };
+		BFB8151F1FD7BA86003FE562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43ACDF71C8EA2D500C2BD84 /* LaunchScreen.storyboard */; };
+		BFB815201FD7BA86003FE562 /* id_4.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B0A1E9B17E900B1C376 /* id_4.png */; };
+		BFB815211FD7BA86003FE562 /* voice_record_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE41CB638C000B6A4EB /* voice_record_1@3x.png */; };
+		BFB815221FD7BA86003FE562 /* MDSImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEEE31D4F231800D64AB3 /* MDSImage.bundle */; };
+		BFB815231FD7BA86003FE562 /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4021D6E8FF800BF3094 /* iconfont.svg */; };
+		BFB815241FD7BA86003FE562 /* voice_record_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE11CB638C000B6A4EB /* voice_record_0@2x.png */; };
+		BFB815251FD7BA86003FE562 /* id_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B081E9B17E900B1C376 /* id_2.png */; };
+		BFB815261FD7BA86003FE562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43ACDF51C8EA2D500C2BD84 /* Assets.xcassets */; };
+		BFB815271FD7BA86003FE562 /* voice_record_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE21CB638C000B6A4EB /* voice_record_0@3x.png */; };
+		BFB815281FD7BA86003FE562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43ACDF21C8EA2D500C2BD84 /* Main.storyboard */; };
+		BFB815291FD7BA86003FE562 /* MDGImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4EBEED51D4F223C00D64AB3 /* MDGImage.bundle */; };
+		BFB8152A1FD7BA86003FE562 /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC3FE1D6E8FF800BF3094 /* demo.css */; };
+		BFB8152B1FD7BA86003FE562 /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4041D6E8FF800BF3094 /* iconfont.woff */; };
+		BFB8152C1FD7BA86003FE562 /* voice_record_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE51CB638C000B6A4EB /* voice_record_2@2x.png */; };
+		BFB8152D1FD7BA86003FE562 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4031D6E8FF800BF3094 /* iconfont.ttf */; };
+		BFB8152F1FD7BA86003FE562 /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D40C2F481E651B6200F5328B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C2F471E651B6200F5328B /* NotificationCenter.framework */; };
 		D40C2F4C1E651B6200F5328B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C2F4B1E651B6200F5328B /* TodayViewController.m */; };
 		D40C2F531E651B6200F5328B /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -153,6 +270,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BFB814B51FD7BA86003FE562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43ACDDE1C8EA2D500C2BD84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40C2F451E651B6200F5328B;
+			remoteInfo = JasonDemoWidget;
+		};
 		D40C2F511E651B6200F5328B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D43ACDDE1C8EA2D500C2BD84 /* Project object */;
@@ -191,6 +315,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BFB8152E1FD7BA86003FE562 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFB8152F1FD7BA86003FE562 /* JasonDemoWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D40C2F571E651B6200F5328B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +346,8 @@
 		9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB814B21FD7BA41003FE562 /* Info-测试环境.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-测试环境.plist"; path = "/Users/wangzhe/Documents/我的项目/JasonDemo-iOS/Info-测试环境.plist"; sourceTree = "<absolute>"; };
+		BFB815351FD7BA86003FE562 /* JasonDemo-测试环境.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JasonDemo-测试环境.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JasonDemoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40C2F471E651B6200F5328B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
@@ -433,6 +570,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BFB8150C1FD7BA86003FE562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8150D1FD7BA86003FE562 /* libc++.tbd in Frameworks */,
+				BFB8150E1FD7BA86003FE562 /* libz.tbd in Frameworks */,
+				BFB8150F1FD7BA86003FE562 /* MintmedicalDrugStore.framework in Frameworks */,
+				BFB815101FD7BA86003FE562 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */,
+				BFB815111FD7BA86003FE562 /* MintcodeIM.framework in Frameworks */,
+				BFB815121FD7BA86003FE562 /* libPods-JasonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D40C2F431E651B6200F5328B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,6 +759,7 @@
 				D43ACDE71C8EA2D500C2BD84 /* Products */,
 				3759ABA0DA2AB12516BCC972 /* Frameworks */,
 				648C99DECF87F692BD09F4B6 /* Pods */,
+				BFB814B21FD7BA41003FE562 /* Info-测试环境.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -622,6 +773,7 @@
 				D4FCC70B1D472E2100D83118 /* testTests.xctest */,
 				D4FCC7161D472E2100D83118 /* testUITests.xctest */,
 				D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */,
+				BFB815351FD7BA86003FE562 /* JasonDemo-测试环境.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1077,6 +1229,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BFB814B31FD7BA86003FE562 /* JasonDemo-测试环境 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB815321FD7BA86003FE562 /* Build configuration list for PBXNativeTarget "JasonDemo-测试环境" */;
+			buildPhases = (
+				BFB814B61FD7BA86003FE562 /* [CP] Check Pods Manifest.lock */,
+				BFB814B71FD7BA86003FE562 /* Sources */,
+				BFB8150C1FD7BA86003FE562 /* Frameworks */,
+				BFB815131FD7BA86003FE562 /* Resources */,
+				BFB8152E1FD7BA86003FE562 /* Embed App Extensions */,
+				BFB815301FD7BA86003FE562 /* [CP] Embed Pods Frameworks */,
+				BFB815311FD7BA86003FE562 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB814B41FD7BA86003FE562 /* PBXTargetDependency */,
+			);
+			name = "JasonDemo-测试环境";
+			productName = JasonDemo;
+			productReference = BFB815351FD7BA86003FE562 /* JasonDemo-测试环境.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D40C2F451E651B6200F5328B /* JasonDemoWidget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40C2F561E651B6200F5328B /* Build configuration list for PBXNativeTarget "JasonDemoWidget" */;
@@ -1220,6 +1394,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jasonwang;
 				TargetAttributes = {
+					BFB814B31FD7BA86003FE562 = {
+						DevelopmentTeam = 849HMFZQCM;
+					};
 					D40C2F451E651B6200F5328B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 849HMFZQCM;
@@ -1270,6 +1447,7 @@
 			projectRoot = "";
 			targets = (
 				D43ACDE51C8EA2D500C2BD84 /* JasonDemo */,
+				BFB814B31FD7BA86003FE562 /* JasonDemo-测试环境 */,
 				D43ACDFE1C8EA2D600C2BD84 /* JasonDemoTests */,
 				D43ACE091C8EA2D600C2BD84 /* JasonDemoUITests */,
 				D4FCC6F21D472E2100D83118 /* test */,
@@ -1281,6 +1459,39 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BFB815131FD7BA86003FE562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB815141FD7BA86003FE562 /* id_5.png in Resources */,
+				BFB815151FD7BA86003FE562 /* voice_record_1@2x.png in Resources */,
+				BFB815161FD7BA86003FE562 /* voice_record_3@3x.png in Resources */,
+				BFB815171FD7BA86003FE562 /* id_3.png in Resources */,
+				BFB815181FD7BA86003FE562 /* id_1.png in Resources */,
+				BFB815191FD7BA86003FE562 /* 123456.png in Resources */,
+				BFB8151A1FD7BA86003FE562 /* voice_record_2@3x.png in Resources */,
+				BFB8151B1FD7BA86003FE562 /* iconfont.eot in Resources */,
+				BFB8151C1FD7BA86003FE562 /* iconfont.css in Resources */,
+				BFB8151D1FD7BA86003FE562 /* voice_record_3@2x.png in Resources */,
+				BFB8151E1FD7BA86003FE562 /* demo.html in Resources */,
+				BFB8151F1FD7BA86003FE562 /* LaunchScreen.storyboard in Resources */,
+				BFB815201FD7BA86003FE562 /* id_4.png in Resources */,
+				BFB815211FD7BA86003FE562 /* voice_record_1@3x.png in Resources */,
+				BFB815221FD7BA86003FE562 /* MDSImage.bundle in Resources */,
+				BFB815231FD7BA86003FE562 /* iconfont.svg in Resources */,
+				BFB815241FD7BA86003FE562 /* voice_record_0@2x.png in Resources */,
+				BFB815251FD7BA86003FE562 /* id_2.png in Resources */,
+				BFB815261FD7BA86003FE562 /* Assets.xcassets in Resources */,
+				BFB815271FD7BA86003FE562 /* voice_record_0@3x.png in Resources */,
+				BFB815281FD7BA86003FE562 /* Main.storyboard in Resources */,
+				BFB815291FD7BA86003FE562 /* MDGImage.bundle in Resources */,
+				BFB8152A1FD7BA86003FE562 /* demo.css in Resources */,
+				BFB8152B1FD7BA86003FE562 /* iconfont.woff in Resources */,
+				BFB8152C1FD7BA86003FE562 /* voice_record_2@2x.png in Resources */,
+				BFB8152D1FD7BA86003FE562 /* iconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D40C2F441E651B6200F5328B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1488,6 +1699,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		BFB814B61FD7BA86003FE562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB815301FD7BA86003FE562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB815311FD7BA86003FE562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F69248C7040C496DB68CD5E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1506,6 +1762,97 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BFB814B71FD7BA86003FE562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB814B81FD7BA86003FE562 /* NSData+AES256.m in Sources */,
+				BFB814B91FD7BA86003FE562 /* UIColor+Hex.m in Sources */,
+				BFB814BA1FD7BA86003FE562 /* TTTDemoViewController.m in Sources */,
+				BFB814BB1FD7BA86003FE562 /* UIView+Util.m in Sources */,
+				BFB814BC1FD7BA86003FE562 /* JWIconImageView.m in Sources */,
+				BFB814BD1FD7BA86003FE562 /* VideoProgressView.m in Sources */,
+				BFB814BE1FD7BA86003FE562 /* RequestTestViewController.m in Sources */,
+				BFB814BF1FD7BA86003FE562 /* BreakpointResumeRequest.m in Sources */,
+				BFB814C01FD7BA86003FE562 /* JWNavAnimationViewController.m in Sources */,
+				BFB814C11FD7BA86003FE562 /* RowButtonGroup.m in Sources */,
+				BFB814C21FD7BA86003FE562 /* MedicalFormulaJSModel.m in Sources */,
+				BFB814C31FD7BA86003FE562 /* UITextField+EX.m in Sources */,
+				BFB814C41FD7BA86003FE562 /* UnifiedCoreDataManager.m in Sources */,
+				BFB814C51FD7BA86003FE562 /* UIView+EX.m in Sources */,
+				BFB814C61FD7BA86003FE562 /* ImagePickerVC.m in Sources */,
+				BFB814C71FD7BA86003FE562 /* UnifiedFilePathManager.m in Sources */,
+				BFB814C81FD7BA86003FE562 /* IMDemoViewController.m in Sources */,
+				BFB814C91FD7BA86003FE562 /* JWIterator.m in Sources */,
+				BFB814CA1FD7BA86003FE562 /* WZPhotosViewController.m in Sources */,
+				BFB814CB1FD7BA86003FE562 /* RMAudioHud.m in Sources */,
+				BFB814CC1FD7BA86003FE562 /* NSObject+CalculatorManager.m in Sources */,
+				BFB814CD1FD7BA86003FE562 /* WebViewDemoViewController.m in Sources */,
+				BFB814CE1FD7BA86003FE562 /* UIViewController+BackButtonHandler.m in Sources */,
+				BFB814CF1FD7BA86003FE562 /* UILabel+EX.m in Sources */,
+				BFB814D01FD7BA86003FE562 /* DesignModeViewController.m in Sources */,
+				BFB814D11FD7BA86003FE562 /* NSDictionary+SafeManager.m in Sources */,
+				BFB814D21FD7BA86003FE562 /* JWWavesAnimationView.m in Sources */,
+				BFB814D31FD7BA86003FE562 /* ApplicationAttachmentTableViewCell.m in Sources */,
+				BFB814D41FD7BA86003FE562 /* JWWavesAnimationViewController.m in Sources */,
+				BFB814D51FD7BA86003FE562 /* CABasicAnimationViewController.m in Sources */,
+				BFB814D61FD7BA86003FE562 /* ViewController.m in Sources */,
+				BFB814D71FD7BA86003FE562 /* UIColor+HexExtension.m in Sources */,
+				BFB814D81FD7BA86003FE562 /* UnifiedEggHuntManager.m in Sources */,
+				BFB814D91FD7BA86003FE562 /* NSString+Manager.m in Sources */,
+				BFB814DA1FD7BA86003FE562 /* ICONFONTViewController.m in Sources */,
+				BFB814DB1FD7BA86003FE562 /* ApplicationAttachmentModel.m in Sources */,
+				BFB814DC1FD7BA86003FE562 /* UnifiedLoginManager.m in Sources */,
+				BFB814DD1FD7BA86003FE562 /* AppDelegate.m in Sources */,
+				BFB814DE1FD7BA86003FE562 /* AZMetaBallCanvas.m in Sources */,
+				BFB814DF1FD7BA86003FE562 /* main.m in Sources */,
+				BFB814E01FD7BA86003FE562 /* WZPhotoPickerController.m in Sources */,
+				BFB814E11FD7BA86003FE562 /* NotificationViewController.m in Sources */,
+				BFB814E21FD7BA86003FE562 /* JSONKitUtil.m in Sources */,
+				BFB814E31FD7BA86003FE562 /* AZMetaBallItem.m in Sources */,
+				BFB814E41FD7BA86003FE562 /* WZPhotoAlbumTableViewCell.m in Sources */,
+				BFB814E51FD7BA86003FE562 /* UIBarButtonItem+BackExtension.m in Sources */,
+				BFB814E61FD7BA86003FE562 /* RMAudioManager.m in Sources */,
+				BFB814E71FD7BA86003FE562 /* WZPhotoThumbnailCollectionViewCell.m in Sources */,
+				BFB814E81FD7BA86003FE562 /* IMMessageListViewController.m in Sources */,
+				BFB814E91FD7BA86003FE562 /* JWVisualEffectViewVC.m in Sources */,
+				BFB814EA1FD7BA86003FE562 /* CaculatorMaker.m in Sources */,
+				BFB814EB1FD7BA86003FE562 /* UINavigationBar+JWGradient.m in Sources */,
+				BFB814EC1FD7BA86003FE562 /* PointUtils.m in Sources */,
+				BFB814ED1FD7BA86003FE562 /* MyTTTLabel.m in Sources */,
+				BFB814EE1FD7BA86003FE562 /* CoordinationFilterView.m in Sources */,
+				BFB814EF1FD7BA86003FE562 /* AZMetaBall.m in Sources */,
+				BFB814F01FD7BA86003FE562 /* NSDate+String.m in Sources */,
+				BFB814F11FD7BA86003FE562 /* NSDictionary+SafeManager.m in Sources */,
+				BFB814F21FD7BA86003FE562 /* FilpAnimationViewController.m in Sources */,
+				BFB814F31FD7BA86003FE562 /* UIFont+Util.m in Sources */,
+				BFB814F41FD7BA86003FE562 /* PlayView.m in Sources */,
+				BFB814F51FD7BA86003FE562 /* VolumeProgressView.m in Sources */,
+				BFB814F61FD7BA86003FE562 /* UIImage+EX.m in Sources */,
+				BFB814F71FD7BA86003FE562 /* MyToolBar.m in Sources */,
+				BFB814F81FD7BA86003FE562 /* DateUtil.m in Sources */,
+				BFB814F91FD7BA86003FE562 /* UIColor+Hex.m in Sources */,
+				BFB814FA1FD7BA86003FE562 /* JWSameDirectionWavesAnimationView.m in Sources */,
+				BFB814FB1FD7BA86003FE562 /* JWView.m in Sources */,
+				BFB814FC1FD7BA86003FE562 /* JWWatchModel.m in Sources */,
+				BFB814FD1FD7BA86003FE562 /* UIButton+EX.m in Sources */,
+				BFB814FE1FD7BA86003FE562 /* PlayerViewController.m in Sources */,
+				BFB814FF1FD7BA86003FE562 /* JWOneClickAwayViewController.m in Sources */,
+				BFB815001FD7BA86003FE562 /* UnifiedUserInfoManager.m in Sources */,
+				BFB815011FD7BA86003FE562 /* WZPhotoAlbumController.m in Sources */,
+				BFB815021FD7BA86003FE562 /* NSDate+CalendarTool.m in Sources */,
+				BFB815031FD7BA86003FE562 /* MyLableWithAlignmentTop.m in Sources */,
+				BFB815041FD7BA86003FE562 /* UIFont+EX.m in Sources */,
+				BFB815051FD7BA86003FE562 /* HMPersonSpaceNavigationController.m in Sources */,
+				BFB815061FD7BA86003FE562 /* BottomLineButton.m in Sources */,
+				BFB815071FD7BA86003FE562 /* Circle.m in Sources */,
+				BFB815081FD7BA86003FE562 /* UIImage+Manager.m in Sources */,
+				BFB815091FD7BA86003FE562 /* NSString+Unified.m in Sources */,
+				BFB8150A1FD7BA86003FE562 /* TwoTableViewViewController.m in Sources */,
+				BFB8150B1FD7BA86003FE562 /* NSMutableArray+Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D40C2F421E651B6200F5328B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1654,6 +2001,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BFB814B41FD7BA86003FE562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40C2F451E651B6200F5328B /* JasonDemoWidget */;
+			targetProxy = BFB814B51FD7BA86003FE562 /* PBXContainerItemProxy */;
+		};
 		D40C2F521E651B6200F5328B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D40C2F451E651B6200F5328B /* JasonDemoWidget */;
@@ -1701,6 +2053,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BFB815331FD7BA86003FE562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 849HMFZQCM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					JW_TESTMARK,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info-测试环境.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFB815341FD7BA86003FE562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 849HMFZQCM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDG",
+					"$(PROJECT_DIR)/JasonDemo/SDKTest/MDS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					JW_TESTMARK,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info-测试环境.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.JasonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D40C2F541E651B6200F5328B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2012,6 +2420,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BFB815321FD7BA86003FE562 /* Build configuration list for PBXNativeTarget "JasonDemo-测试环境" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB815331FD7BA86003FE562 /* Debug */,
+				BFB815341FD7BA86003FE562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D40C2F561E651B6200F5328B /* Build configuration list for PBXNativeTarget "JasonDemoWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
