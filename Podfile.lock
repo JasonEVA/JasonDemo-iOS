@@ -27,6 +27,12 @@ PODS:
   - MJRefresh (3.1.12)
   - pop (1.0.9)
   - Reachability (3.2)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -44,6 +50,7 @@ DEPENDENCIES:
   - MJRefresh
   - pop (~> 1.0)
   - Reachability (~> 3.2)
+  - ReactiveCocoa (~> 2.1.8)
   - SDWebImage
   - SocketRocket (~> 0.4.2)
   - TTTAttributedLabel (~> 1.13.4)
@@ -59,10 +66,11 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
 
-PODFILE CHECKSUM: a4f2646a7d2a985730ff6a2f89d82e109bee1231
+PODFILE CHECKSUM: fa8d5de825ffbc60fdfc2457e38db736650518a7
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.3.1

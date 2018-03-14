@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D19277BCECD17E2E5DE478 /* libPods-JasonDemo-测试环境.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6F14E5AA9C73FBC27A74E4 /* libPods-JasonDemo-测试环境.a */; };
 		699211F4E8A7F0FBB3F8C7E3 /* libPods-JasonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */; };
+		BF5F67ED1FD931C200CFB7CB /* JWRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F67EC1FD931C200CFB7CB /* JWRACViewController.m */; };
+		BF5F67EE1FD931C200CFB7CB /* JWRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F67EC1FD931C200CFB7CB /* JWRACViewController.m */; };
 		BFB814B81FD7BA86003FE562 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CBE1CD0A49D00E8856B /* NSData+AES256.m */; };
 		BFB814B91FD7BA86003FE562 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CA5CC81CD0A49D00E8856B /* UIColor+Hex.m */; };
 		BFB814BA1FD7BA86003FE562 /* TTTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AEEF7A1D5B098200A4A7D4 /* TTTDemoViewController.m */; };
@@ -97,7 +100,6 @@
 		BFB8150F1FD7BA86003FE562 /* MintmedicalDrugStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46B3F721D4F49C700D56D56 /* MintmedicalDrugStore.framework */; };
 		BFB815101FD7BA86003FE562 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEEFA1D4F2E1000D64AB3 /* MintmedicalDiseaseGuidelinesKit.framework */; };
 		BFB815111FD7BA86003FE562 /* MintcodeIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF08701CB4EDBE0055D152 /* MintcodeIM.framework */; };
-		BFB815121FD7BA86003FE562 /* libPods-JasonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */; };
 		BFB815141FD7BA86003FE562 /* id_5.png in Resources */ = {isa = PBXBuildFile; fileRef = D4790B0B1E9B17E900B1C376 /* id_5.png */; };
 		BFB815151FD7BA86003FE562 /* voice_record_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE31CB638C000B6A4EB /* voice_record_1@2x.png */; };
 		BFB815161FD7BA86003FE562 /* voice_record_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE81CB638C000B6A4EB /* voice_record_3@3x.png */; };
@@ -125,6 +127,12 @@
 		BFB8152C1FD7BA86003FE562 /* voice_record_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45AEBE51CB638C000B6A4EB /* voice_record_2@2x.png */; };
 		BFB8152D1FD7BA86003FE562 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC4031D6E8FF800BF3094 /* iconfont.ttf */; };
 		BFB8152F1FD7BA86003FE562 /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFB9915F1FECD59C00E34CB8 /* JWRACTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9915E1FECD59C00E34CB8 /* JWRACTwoViewController.m */; };
+		BFB991601FECD59C00E34CB8 /* JWRACTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9915E1FECD59C00E34CB8 /* JWRACTwoViewController.m */; };
+		BFB991631FECD6D900E34CB8 /* ATSModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB991621FECD6D900E34CB8 /* ATSModuleInteractor.m */; };
+		BFB991641FECD6D900E34CB8 /* ATSModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB991621FECD6D900E34CB8 /* ATSModuleInteractor.m */; };
+		BFE97A811FE22AAF00325935 /* JWRACViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE97A801FE22AAF00325935 /* JWRACViewModel.m */; };
+		BFE97A821FE22AAF00325935 /* JWRACViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE97A801FE22AAF00325935 /* JWRACViewModel.m */; };
 		D40C2F481E651B6200F5328B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40C2F471E651B6200F5328B /* NotificationCenter.framework */; };
 		D40C2F4C1E651B6200F5328B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C2F4B1E651B6200F5328B /* TodayViewController.m */; };
 		D40C2F531E651B6200F5328B /* JasonDemoWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -340,14 +348,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		23B5A15499ECD31B77FFBCAC /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		352F68FD77E9A1586B6CBDB8 /* Pods-JasonDemo-测试环境.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo-测试环境.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo-测试环境/Pods-JasonDemo-测试环境.release.xcconfig"; sourceTree = "<group>"; };
 		54E7D30158F616B39ED82F0F /* Pods-JasonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		7796BCF338BBE022540C4EDC /* libPods-JasonDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD25E63C742B74D776D1D09 /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A74D66AB64B869D3C2670BED /* Pods-JasonDemo-测试环境.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo-测试环境.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo-测试环境/Pods-JasonDemo-测试环境.debug.xcconfig"; sourceTree = "<group>"; };
 		A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1476301FE11E8C004E017E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF5F67EB1FD931C200CFB7CB /* JWRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWRACViewController.h; sourceTree = "<group>"; };
+		BF5F67EC1FD931C200CFB7CB /* JWRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWRACViewController.m; sourceTree = "<group>"; };
 		BFB814B21FD7BA41003FE562 /* Info-测试环境.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-测试环境.plist"; path = "/Users/wangzhe/Documents/我的项目/JasonDemo-iOS/Info-测试环境.plist"; sourceTree = "<absolute>"; };
 		BFB815351FD7BA86003FE562 /* JasonDemo-测试环境.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JasonDemo-测试环境.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB9915D1FECD59C00E34CB8 /* JWRACTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWRACTwoViewController.h; sourceTree = "<group>"; };
+		BFB9915E1FECD59C00E34CB8 /* JWRACTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWRACTwoViewController.m; sourceTree = "<group>"; };
+		BFB991611FECD6D900E34CB8 /* ATSModuleInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSModuleInteractor.h; sourceTree = "<group>"; };
+		BFB991621FECD6D900E34CB8 /* ATSModuleInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSModuleInteractor.m; sourceTree = "<group>"; };
+		BFE97A7F1FE22AAF00325935 /* JWRACViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWRACViewModel.h; sourceTree = "<group>"; };
+		BFE97A801FE22AAF00325935 /* JWRACViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWRACViewModel.m; sourceTree = "<group>"; };
 		C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D40C2F461E651B6200F5328B /* JasonDemoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JasonDemoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40C2F471E651B6200F5328B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
@@ -566,6 +585,7 @@
 		D4FCC70B1D472E2100D83118 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FCC7161D472E2100D83118 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D537921058B45EC691CF15EA /* Pods-JasonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6F14E5AA9C73FBC27A74E4 /* libPods-JasonDemo-测试环境.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JasonDemo-测试环境.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8D9E7BC28F612BC993F5A7 /* Pods-JasonDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JasonDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -579,7 +599,7 @@
 				BFB8150F1FD7BA86003FE562 /* MintmedicalDrugStore.framework in Frameworks */,
 				BFB815101FD7BA86003FE562 /* MintmedicalDiseaseGuidelinesKit.framework in Frameworks */,
 				BFB815111FD7BA86003FE562 /* MintcodeIM.framework in Frameworks */,
-				BFB815121FD7BA86003FE562 /* libPods-JasonDemo.a in Frameworks */,
+				28D19277BCECD17E2E5DE478 /* libPods-JasonDemo-测试环境.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +676,7 @@
 				8A7505A851B0B2F7C797E451 /* libPods-JasonDemo.a */,
 				A947D648B73B321BD92BC768 /* libPods-JasonDemoTests.a */,
 				7796BCF338BBE022540C4EDC /* libPods-JasonDemoUITests.a */,
+				DE6F14E5AA9C73FBC27A74E4 /* libPods-JasonDemo-测试环境.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -663,14 +684,29 @@
 		648C99DECF87F692BD09F4B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */,
-				9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */,
 				D537921058B45EC691CF15EA /* Pods-JasonDemoTests.debug.xcconfig */,
 				54E7D30158F616B39ED82F0F /* Pods-JasonDemoTests.release.xcconfig */,
 				FF8D9E7BC28F612BC993F5A7 /* Pods-JasonDemoUITests.debug.xcconfig */,
 				C354CAE1D43C2EE3C07AC29A /* Pods-JasonDemoUITests.release.xcconfig */,
+				7AD25E63C742B74D776D1D09 /* Pods-JasonDemo.debug.xcconfig */,
+				23B5A15499ECD31B77FFBCAC /* Pods-JasonDemo.release.xcconfig */,
+				A74D66AB64B869D3C2670BED /* Pods-JasonDemo-测试环境.debug.xcconfig */,
+				352F68FD77E9A1586B6CBDB8 /* Pods-JasonDemo-测试环境.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF5F67EA1FD9319E00CFB7CB /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				BF5F67EB1FD931C200CFB7CB /* JWRACViewController.h */,
+				BF5F67EC1FD931C200CFB7CB /* JWRACViewController.m */,
+				BFB9915D1FECD59C00E34CB8 /* JWRACTwoViewController.h */,
+				BFB9915E1FECD59C00E34CB8 /* JWRACTwoViewController.m */,
+				BFE97A7F1FE22AAF00325935 /* JWRACViewModel.h */,
+				BFE97A801FE22AAF00325935 /* JWRACViewModel.m */,
+			);
+			path = RAC;
 			sourceTree = "<group>";
 		};
 		D40C2F491E651B6200F5328B /* JasonDemoWidget */ = {
@@ -781,6 +817,7 @@
 		D43ACDE81C8EA2D500C2BD84 /* JasonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF5F67EA1FD9319E00CFB7CB /* RAC */,
 				D4F68AB31E978CA900A72182 /* OneClickAwayDemo */,
 				D4F68AA01E97787000A72182 /* UINavigationBarAnimationDemo */,
 				D4972E491E7BAE870041AF75 /* RequestTestDemo */,
@@ -821,6 +858,7 @@
 				D4B91CA01DAA3BEE00DC0570 /* 123456.png */,
 				D4AEC3FD1D6E8FF800BF3094 /* ux_1472091060_3204622 */,
 				D43ACDEA1C8EA2D500C2BD84 /* main.m */,
+				BF1476301FE11E8C004E017E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -963,6 +1001,8 @@
 				D4F64AA21D488A52000FB112 /* CoordinationFilterView.m */,
 				D4AEC4131D6E96B800BF3094 /* JWIconImageView.h */,
 				D4AEC4141D6E96B800BF3094 /* JWIconImageView.m */,
+				BFB991611FECD6D900E34CB8 /* ATSModuleInteractor.h */,
+				BFB991621FECD6D900E34CB8 /* ATSModuleInteractor.m */,
 			);
 			name = Utility;
 			path = JasonDemo/Utility;
@@ -1233,13 +1273,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFB815321FD7BA86003FE562 /* Build configuration list for PBXNativeTarget "JasonDemo-测试环境" */;
 			buildPhases = (
-				BFB814B61FD7BA86003FE562 /* [CP] Check Pods Manifest.lock */,
+				B07C155A5EE2670B4472A7E8 /* [CP] Check Pods Manifest.lock */,
 				BFB814B71FD7BA86003FE562 /* Sources */,
 				BFB8150C1FD7BA86003FE562 /* Frameworks */,
 				BFB815131FD7BA86003FE562 /* Resources */,
 				BFB8152E1FD7BA86003FE562 /* Embed App Extensions */,
-				BFB815301FD7BA86003FE562 /* [CP] Embed Pods Frameworks */,
-				BFB815311FD7BA86003FE562 /* [CP] Copy Pods Resources */,
+				19251C53F2930FCCBEAC49AE /* [CP] Embed Pods Frameworks */,
+				C0425FD7AF4817D210D61673 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1585,13 +1625,31 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JasonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19251C53F2930FCCBEAC49AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo-测试环境/Pods-JasonDemo-测试环境-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3492B15DC56667B30B93F9D6 /* [CP] Embed Pods Frameworks */ = {
@@ -1615,9 +1673,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoTests/Pods-JasonDemoTests-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1630,9 +1692,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1645,9 +1711,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemoUITests/Pods-JasonDemoUITests-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1675,13 +1745,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JasonDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8661FF7BACAFB34C318D664B /* [CP] Check Pods Manifest.lock */ = {
@@ -1690,58 +1763,53 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JasonDemoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFB814B61FD7BA86003FE562 /* [CP] Check Pods Manifest.lock */ = {
+		B07C155A5EE2670B4472A7E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JasonDemo-测试环境-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFB815301FD7BA86003FE562 /* [CP] Embed Pods Frameworks */ = {
+		C0425FD7AF4817D210D61673 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFB815311FD7BA86003FE562 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo-测试环境/Pods-JasonDemo-测试环境-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo/Pods-JasonDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JasonDemo-测试环境/Pods-JasonDemo-测试环境-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F69248C7040C496DB68CD5E1 /* [CP] Embed Pods Frameworks */ = {
@@ -1767,6 +1835,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB814B81FD7BA86003FE562 /* NSData+AES256.m in Sources */,
+				BFB991641FECD6D900E34CB8 /* ATSModuleInteractor.m in Sources */,
 				BFB814B91FD7BA86003FE562 /* UIColor+Hex.m in Sources */,
 				BFB814BA1FD7BA86003FE562 /* TTTDemoViewController.m in Sources */,
 				BFB814BB1FD7BA86003FE562 /* UIView+Util.m in Sources */,
@@ -1782,8 +1851,10 @@
 				BFB814C51FD7BA86003FE562 /* UIView+EX.m in Sources */,
 				BFB814C61FD7BA86003FE562 /* ImagePickerVC.m in Sources */,
 				BFB814C71FD7BA86003FE562 /* UnifiedFilePathManager.m in Sources */,
+				BFE97A821FE22AAF00325935 /* JWRACViewModel.m in Sources */,
 				BFB814C81FD7BA86003FE562 /* IMDemoViewController.m in Sources */,
 				BFB814C91FD7BA86003FE562 /* JWIterator.m in Sources */,
+				BF5F67EE1FD931C200CFB7CB /* JWRACViewController.m in Sources */,
 				BFB814CA1FD7BA86003FE562 /* WZPhotosViewController.m in Sources */,
 				BFB814CB1FD7BA86003FE562 /* RMAudioHud.m in Sources */,
 				BFB814CC1FD7BA86003FE562 /* NSObject+CalculatorManager.m in Sources */,
@@ -1819,6 +1890,7 @@
 				BFB814EA1FD7BA86003FE562 /* CaculatorMaker.m in Sources */,
 				BFB814EB1FD7BA86003FE562 /* UINavigationBar+JWGradient.m in Sources */,
 				BFB814EC1FD7BA86003FE562 /* PointUtils.m in Sources */,
+				BFB991601FECD59C00E34CB8 /* JWRACTwoViewController.m in Sources */,
 				BFB814ED1FD7BA86003FE562 /* MyTTTLabel.m in Sources */,
 				BFB814EE1FD7BA86003FE562 /* CoordinationFilterView.m in Sources */,
 				BFB814EF1FD7BA86003FE562 /* AZMetaBall.m in Sources */,
@@ -1866,6 +1938,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4CA5CDE1CD0A49D00E8856B /* NSData+AES256.m in Sources */,
+				BFB991631FECD6D900E34CB8 /* ATSModuleInteractor.m in Sources */,
 				D4CA5CE31CD0A49D00E8856B /* UIColor+Hex.m in Sources */,
 				D4AEEF7B1D5B098200A4A7D4 /* TTTDemoViewController.m in Sources */,
 				D4CA5C871CD0A1AE00E8856B /* UIView+Util.m in Sources */,
@@ -1881,8 +1954,10 @@
 				D4F68AA91E977A5500A72182 /* UIView+EX.m in Sources */,
 				D4CA5CEF1CD0A7EF00E8856B /* ImagePickerVC.m in Sources */,
 				D4CA5CE91CD0A49D00E8856B /* UnifiedFilePathManager.m in Sources */,
+				BFE97A811FE22AAF00325935 /* JWRACViewModel.m in Sources */,
 				D4BF08751CB4EF5A0055D152 /* IMDemoViewController.m in Sources */,
 				D430E4AC1DFF95AB00005394 /* JWIterator.m in Sources */,
+				BF5F67ED1FD931C200CFB7CB /* JWRACViewController.m in Sources */,
 				D4CA5C831CD0A0BB00E8856B /* WZPhotosViewController.m in Sources */,
 				D45AEBE91CB638C000B6A4EB /* RMAudioHud.m in Sources */,
 				D4FAA0AA1E01206100CB919D /* NSObject+CalculatorManager.m in Sources */,
@@ -1918,6 +1993,7 @@
 				D4FAA0AD1E0121B300CB919D /* CaculatorMaker.m in Sources */,
 				D4F68AA61E97797500A72182 /* UINavigationBar+JWGradient.m in Sources */,
 				D4F68AC31E978DF700A72182 /* PointUtils.m in Sources */,
+				BFB9915F1FECD59C00E34CB8 /* JWRACTwoViewController.m in Sources */,
 				D4EA22541D5C2A9B006DD19C /* MyTTTLabel.m in Sources */,
 				D4F64AA31D488A52000FB112 /* CoordinationFilterView.m in Sources */,
 				D4F68ABD1E978CE000A72182 /* AZMetaBall.m in Sources */,
@@ -2055,7 +2131,7 @@
 /* Begin XCBuildConfiguration section */
 		BFB815331FD7BA86003FE562 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */;
+			baseConfigurationReference = A74D66AB64B869D3C2670BED /* Pods-JasonDemo-测试环境.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2083,7 +2159,7 @@
 		};
 		BFB815341FD7BA86003FE562 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */;
+			baseConfigurationReference = 352F68FD77E9A1586B6CBDB8 /* Pods-JasonDemo-测试环境.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2229,7 +2305,7 @@
 		};
 		D43ACE141C8EA2D600C2BD84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9C441826D6116271009FDE /* Pods-JasonDemo.debug.xcconfig */;
+			baseConfigurationReference = 7AD25E63C742B74D776D1D09 /* Pods-JasonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -2252,7 +2328,7 @@
 		};
 		D43ACE151C8EA2D600C2BD84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9FD0D37E61B1919AFB3A03 /* Pods-JasonDemo.release.xcconfig */;
+			baseConfigurationReference = 23B5A15499ECD31B77FFBCAC /* Pods-JasonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

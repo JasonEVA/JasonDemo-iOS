@@ -27,6 +27,7 @@
 #import "JWWavesAnimationViewController.h"
 #import "RequestTestViewController.h"
 #import "JWOneClickAwayViewController.h"
+#import "JWRACViewController.h"
 
 #if defined (JW_TESTMARK)
 
@@ -51,7 +52,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
     [self.navigationItem setTitle:JWTITEL];
-    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo",@"波浪动画Demo",@"网络请求测试",@"一键退朝Demo"];
+    self.titelArr = @[@"横向柱状图动画Demo",@"AVPlayer Demo",@"IM Demo",@"同时选择多张图片Demo",@"毛玻璃效果",@"MDGSDKTest",@"MDSSDKTest",@"TTTDemo",@"webViewDemo",@"IconFontDemo",@"左右联动tableView",@"推送Demo",@"翻转动画",@"设计模式Demo",@"波浪动画Demo",@"网络请求测试",@"一键退朝Demo",@"RAC Demo"];
     
     //递归
     JWIterator *iteration = [JWIterator new];
@@ -144,6 +145,9 @@
     }
     else if (indexPath.row == 16) {
         VC = [[JWOneClickAwayViewController alloc] init];
+    }
+    else if (indexPath.row == 17) {
+        VC = [[JWRACViewController alloc] init];
     }
     [self.navigationController pushViewController:VC animated:YES];
 }
